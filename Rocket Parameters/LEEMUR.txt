@@ -1,0 +1,43 @@
+# Parámetros del cohete de ensayo LEEMUR
+
+MOTOR:
+    thrust_source = Fr_Vulkan.eng
+    dry_mass = 5.00 kg
+    dry_inertia = (0.5, 0.5, 0.005)   (No confirmado)
+    nozzle_radius = 30/1000         (No confirmado)
+    grain_numer = 1
+    gran_density = 1841
+    grain_outer_radius = 1841
+    grain_initial_inner_radius = 36/2000
+    gran_initial_height = 200 / 1000
+    grain_separation = 15/1000
+    centro de masas del grano = 451.75    (No confirmado)
+    centro de masas en seco = 502/1000
+    nozzle_position =0
+    throat_radius = 18/2000
+    orientacion = "nozzle_to_combustion_chamber"
+
+COHETE:
+    radio = 0.065
+    masa = 5.144
+    inercia= (0.5, 0.5, 0.005)
+    off drag y on drag = CD_new.csv   (hay que hacer una tabla nueva pero por ahora esta nos vale)
+    orientacion = nose_to_tail
+
+/Añadir motor en la posicion 1.74
+NARIZ CÓNICA:
+    longitud = 0.33
+    ogival
+    position = 0
+
+ALETAS:
+    numero_aletas = 4
+    root_chord = 0.20
+    tip_chord = 0.07
+    span = 0.20
+    position = 1.53
+
+VUELO: 
+    longitud_rail = 6m
+    inclinacion = 84º
+    
