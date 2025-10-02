@@ -1,7 +1,7 @@
 # Parámetros del cohete de ensayo LEEMUR
 
 MOTOR:
-    thrust_source = Fr_Vulkan.eng
+    thrust_source = Fr_Vulkan.eng (Dentro de la carpeta de recursos)
     dry_mass = 5.00 kg
     dry_inertia = (0.5, 0.5, 0.005)   (No confirmado)
     nozzle_radius = 30/1000         (No confirmado)
@@ -40,4 +40,4 @@ ALETAS:
 VUELO: 
     longitud_rail = 6m
     inclinacion = 84º
-    
+
