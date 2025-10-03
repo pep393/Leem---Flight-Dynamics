@@ -21,6 +21,7 @@ COHETE:
     radio = 0.065
     masa = 5.144
     inercia= (0.5, 0.5, 0.005)
+    centro de masas sin motor = 0.716
     off drag y on drag = CD_new.csv   (hay que hacer una tabla nueva pero por ahora esta nos vale)
     orientacion = nose_to_tail
 
