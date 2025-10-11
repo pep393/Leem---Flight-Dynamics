@@ -1,0 +1,48 @@
+# Parámetros del cohete de ensayo LEEMUR
+
+GENERIC MOTOR:
+    thrust_source = Es la variable que tenemos que encontrar
+    burn_time = Es la variable que tenemos que encontrar
+
+    dry_mass = 6.44  
+    propellant_initial_mass = 8.673 kg
+
+    chamber_radius = 0.05  # [m]
+    chamber_height = 0.841
+    chamber_position = 0.7  # Estimación más menos
+
+    dry_inertia = (0.5, 0.5, 0.005)  # Estimacion no nos importa para el programa
+
+
+COHETE:
+    radio = 0.079
+    masa = 12       # Sin motor
+    inercia= (0.5, 0.5, 0.005)
+    centro de masas sin motor = 1.16
+    off drag y on drag = CD_new.csv  
+    orientacion = nose_to_tail
+    extra: longitud = 2.27
+    posicion del motor = 2.27
+
+/Añadir motor en la posicion 1.74
+NARIZ CÓNICA:
+    longitud = 0.35
+    ogival
+    position = 0
+
+ALETAS:     # No he encontrado info sobre las aletas, 
+            no deberían dar problemas porque no afectan para la aceleración / velocidad,
+            si la simulación falla comprobar la estabilidad y hacer las aletas más grandes si es eso. 
+    numero_aletas = 4
+    root_chord = 0.20
+    tip_chord = 0.07
+    span = 0.20
+    position = longitud
+
+VUELO: 
+    longitud_rail = 6m
+    inclinacion = 84º
+
+
+DATOS TELEMETRIA:
+ - En un instante t desconocido: (313 m/s^2 aceleración  /  28Gs)
