@@ -22,7 +22,7 @@ env.set_atmospheric_model(type="forecast", file="GFS")   # Se pueden cambiar a o
 
 
 motor_teorico = GenericMotor(
-        thrust_source = "TUTORIALES ROCKETPY/RECURSOS/FR_Vulkan.eng",
+        thrust_source = "RECURSOS/FR_Vulkan.eng",
         burn_time=None,                     # El rocketpy me obliga a definir esto pero lo pongo en None porque ya tenemos 
 
         chamber_height=0.7,
@@ -45,8 +45,8 @@ COHETE = Rocket(
     radius=0.065,
     mass=5.144,
     inertia=(0.5, 0.5, 0.005),
-    power_off_drag="TUTORIALES ROCKETPY/RECURSOS/CD_new.csv",
-    power_on_drag="TUTORIALES ROCKETPY/RECURSOS/CD_new.csv",
+    power_off_drag="RECURSOS/CD_new.csv",
+    power_on_drag="RECURSOS/CD_new.csv",
     center_of_mass_without_motor= 0.716,
     coordinate_system_orientation= "nose_to_tail"
     )
@@ -98,7 +98,7 @@ def Apogeo_Impacto(azimut, direccion): # con el formato [(0 - 90º), (0 - 360º)
 ################### GRÁFICA #####################
 fig, ax = plt.subplots(subplot_kw={"projection": "3d"})
 
-N = 15
+N = 3
 X = np.linspace(70, 90, N)
 Y = np.linspace(0, 360, N)
 X, Y = np.meshgrid(X, Y)
@@ -125,7 +125,8 @@ Z = apogeos
 # Plot the surface.
 surf = ax.plot_surface(X, Y, Z, facecolors=colores,
                        linewidth=0, antialiased=False, shade=False)
-
+print(apogeos)
+print(Z)
 ax.set_xlabel('Azimut (º)')
 ax.set_ylabel('Dirección (º)')
 ax.set_zlabel('Apogeo (m)')
