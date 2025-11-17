@@ -47,7 +47,7 @@ for impulso in impulsos_totales:
 
         ASPID = Rocket(
             radius=RADIO_ASPID,
-            mass=12.0,                         # Masa sin motor
+            mass=13.121,                         # Masa sin motor
             inertia=(0.5, 0.5, 0.005),          # Inercias siguen mal que mieo
             power_off_drag="RECURSOS/CD_new.csv",        
             power_on_drag="RECURSOS/CD_new.csv",
