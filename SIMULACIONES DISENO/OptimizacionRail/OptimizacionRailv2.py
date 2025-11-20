@@ -13,7 +13,7 @@ LONGITUD = 1.74
 # env = Environment()     # ISA
 
 env = Environment(
-    date=(2025, 11, 1, 16),          # Año, Mes, Día, Hora
+    date=(2025, 11, 20, 16),          # Año, Mes, Día, Hora
     latitude=40.44552575443143,
     longitude= -3.7302877778310006,
     )
@@ -88,8 +88,8 @@ def Apogeo_Impacto(elevacion, direccion): # con el formato [(0 - 90º), (0 - 360
 ################### GRÁFICA #####################
 fig, ax = plt.subplots(subplot_kw={"projection": "3d"})
 
-N_elevaciones = 11
-N_direcciones = 73
+N_elevaciones = 5
+N_direcciones = 6
 elevaciones = np.linspace(70, 90, N_elevaciones)
 direcciones = np.linspace(0, 360, N_direcciones)
 X, Y = np.meshgrid(elevaciones, direcciones)

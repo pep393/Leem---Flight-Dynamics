@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-LONGITUD = 1.74
+LONGITUD = 2.83
 
 env = Environment(
 
@@ -21,11 +21,12 @@ env = Environment(
 
 
 MOTOR = SolidMotor(
-    thrust_source=r"RECURSOS/FR_Vulkan.eng",
+    thrust_source=r"RECURSOS/motorA_WCS.eng",
+    reshape_thrust_curve=[4, 9000],    # Escala el thrust para que de un impulso total quemando durante x tiempo
     dry_mass=5.00,                              # CHECK
     dry_inertia=(3.081, 3.081, 0.02569),
     nozzle_radius=30 / 1000,                        
-    grain_number=1,                             # CHECK
+    grain_number=4,                             # CHECK
     grain_density=1841,                         # CHECK
     grain_outer_radius=91 / 2000,               # CHECK
     grain_initial_inner_radius=36 / 2000,       # CHECK
@@ -41,7 +42,7 @@ MOTOR = SolidMotor(
 
 COHETE = Rocket(
     radius=0.065,
-    mass=5.144,
+    mass=13,
     inertia=(0.5, 0.5, 0.005),
     power_off_drag=r"RECURSOS/CD_new.csv",
     power_on_drag=r"RECURSOS/CD_new.csv",
@@ -72,7 +73,7 @@ flight = Flight(
 
 
 
-print(flight.apogee)
+flight.mach_number()
 
 """
 

@@ -8,8 +8,8 @@ RADIO_ASPID = 0.065
 LONGITUD_ASPID = 2830 / 1000  # Dimensiones cohete
 SEPAR_TOBERA = 0.04765        
 
-impulsos_totales = np.linspace(8750, 11500, num=12) 
-masas = np.linspace(5, 10, num=10)                  
+impulsos_totales = np.linspace(9000, 10500, num=7) 
+masas = np.linspace(10, 20, num=10)          
 
 env = Environment()         # Entorno según la ISA
 apogeos_auxiliar = []
@@ -17,7 +17,7 @@ apogeos = []
 
 max_g_auxiliar = []
 max_g = []
-
+    
 max_mach_auxiliar = []
 max_mach = []
                             
@@ -38,19 +38,19 @@ for impulso in impulsos_totales:
         nozzle_radius=30 / 1000,                # Anchura de tobera ASPID
 
         propellant_initial_mass=8.08,
-        dry_mass=masa,                      # Masa del motor en seco
+        dry_mass=5,                      # Masa del motor en seco
 
         dry_inertia=(1.206, 1.205, 0.023) ,     # Las inercias están mal pero para este analisis no importan
         coordinate_system_orientation="combustion_chamber_to_nozzle"
-        )
+        )   
 
 
         ASPID = Rocket(
             radius=RADIO_ASPID,
-            mass=13.121,                         # Masa sin motor
+            mass=masa,                         # Masa sin motor
             inertia=(0.5, 0.5, 0.005),          # Inercias siguen mal que mieo
-            power_off_drag="RECURSOS/CD_new.csv",        
-            power_on_drag="RECURSOS/CD_new.csv",
+            power_off_drag="RECURSOS/CD_OFF_ASPID.csv",        
+            power_on_drag="RECURSOS/CD_ON_ASPID.csv",
             center_of_mass_without_motor= 0.812, 
             coordinate_system_orientation= "nose_to_tail")
         ASPID.add_motor(motor_teorico, position=LONGITUD_ASPID)
@@ -89,9 +89,9 @@ for impulso in impulsos_totales:
 ### PLOT APOGEO ###
 for i in range(len(impulsos_totales)):
     plt.plot(masas, apogeos[i - 1], label=f"{impulsos_totales[i - 1]} Ns")
-plt.xlabel('Masa Seca Motor[kg]')
+plt.xlabel('Masa Seca Cohete (sin contar motor, fijo a 5 kg)')
 plt.ylabel('Apogeo [m]')
-plt.title('Apogeo vs Masa Seca del Motor',fontweight='bold')
+plt.title('Apogeo vs Masa Seca',fontweight='bold')
 plt.legend()
 plt.grid(True, linestyle='--', linewidth=0.5)
 plt.minorticks_on()
@@ -101,9 +101,9 @@ plt.show()
 ### PLOT MAX G ###
 for i in range(len(impulsos_totales)):
     plt.plot(masas, max_g[i - 1], label=f"{impulsos_totales[i - 1]} Ns")
-plt.xlabel('Masa Seca Motor[kg]')
+plt.xlabel('Masa Seca [kg]')
 plt.ylabel('Max G')
-plt.title('Max G vs Masa Seca Motor',fontweight='bold')
+plt.title('Max G vs Masa Seca',fontweight='bold')
 plt.legend()
 plt.grid(True, linestyle='--', linewidth=0.5)
 plt.minorticks_on()
@@ -113,9 +113,9 @@ plt.show()
 ### PLOT MAX MACH ###
 for i in range(len(impulsos_totales)):
     plt.plot(masas, max_mach[i - 1], label=f"{impulsos_totales[i - 1]} Ns")
-plt.xlabel('Masa Seca Motor[kg]')
+plt.xlabel('Masa Seca[kg]')
 plt.ylabel('Max Mach')
-plt.title('Max Mach vs Masa Seca Motor',fontweight='bold')
+plt.title('Max Mach vs Masa Seca',fontweight='bold')
 plt.legend()
 plt.grid(True, linestyle='--', linewidth=0.5)
 plt.minorticks_on()

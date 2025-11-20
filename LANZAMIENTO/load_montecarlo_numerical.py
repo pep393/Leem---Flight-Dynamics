@@ -6,7 +6,7 @@ filename = "pruebaMonteCarlo.outputs.txt"
 flight_data = []
 auxiliar = []
 
-to_look_for_data = ["max_dynamic_pressure"]        # Poner aquí todos los valores que queramos sacar
+to_look_for_data = ["acceleration"]        # Poner aquí todos los valores que queramos sacar
 
 dispersion_output_file = open(str(filename), "r+")
 

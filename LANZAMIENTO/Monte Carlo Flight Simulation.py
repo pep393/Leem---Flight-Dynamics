@@ -9,16 +9,14 @@ LONGITUD = 1.74                 #Longitud [m]
 RADIO = 0.065                   # Radio [m]
 
 SIMULATION_TIME =300
-"""
+
 env =Environment()
-"""
-"""
+
 stochastic_environment = StochasticEnvironment(
     environment=env
 )
 """
-
-env = Environment(latitude=40.408791961195256, longitude=-3.705674484412314)
+env = Environment(latitude=40.0, longitude=-3.0)
 env.set_elevation(elevation="Open-Elevation")
 env.set_date((2025, 11, 1, 15))
 env.set_atmospheric_model(type="Ensemble", file="GEFS")
@@ -27,7 +25,7 @@ stochastic_environment = StochasticEnvironment(
     environment=env,
     ensemble_member=list(range(env.num_ensemble_members))
 )
-
+"""
 env.all_info()
 stochastic_environment.visualize_attributes()
 MOTOR = SolidMotor(
@@ -236,7 +234,7 @@ test_dispersion = MonteCarlo(
 
 
 test_dispersion.simulate(
-    number_of_simulations = 10,
+    number_of_simulations = 50,
 )
 
 test_dispersion.plots.ellipses()

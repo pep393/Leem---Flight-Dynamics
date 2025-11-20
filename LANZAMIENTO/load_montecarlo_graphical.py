@@ -4,7 +4,7 @@ import numpy as np
 filename = "pruebaMonteCarlo.outputs.txt"
 dispersion_output_file = open(str(filename), "r+")
 
-dato = "velocity"
+dato = "trajectory"
 
 flights_data = []
 for line in dispersion_output_file:
