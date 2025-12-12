@@ -44,8 +44,8 @@ COHETE = Rocket(
     radius=0.065,
     mass=13,
     inertia=(0.5, 0.5, 0.005),
-    power_off_drag=r"RECURSOS/CD_new.csv",
-    power_on_drag=r"RECURSOS/CD_new.csv",
+    power_off_drag=r"RECURSOS/CD_OFF.csv",
+    power_on_drag=r"RECURSOS/CD_ON.csv",
     center_of_mass_without_motor= 0.716,
     coordinate_system_orientation= "nose_to_tail"
     )
@@ -73,7 +73,7 @@ flight = Flight(
 
 
 
-flight.mach_number()
+print(COHETE.area)
 
 """
 
