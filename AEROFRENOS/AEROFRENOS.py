@@ -5,7 +5,7 @@ import numpy as np
 from numba import njit
 
 LONGITUD = 2.83
-TARGET_APOGEE = 2000  # Apogeo objetivo en metros (ajusta según tu competencia)
+TARGET_APOGEE = 2800  # Apogeo objetivo en metros (ajusta según tu competencia)
 
 env = Environment()
 
@@ -13,8 +13,7 @@ airbrakes_deployment_history = []
 apogee_prediction_history = []
 
 MOTOR = SolidMotor(
-    thrust_source=r"RECURSOS/motorA_WCS.eng",
-    reshape_thrust_curve=[4, 6000],
+    thrust_source=r"RECURSOS/Predicted_thrust.csv",
     dry_mass=5.00,
     dry_inertia=(3.081, 3.081, 0.02569),
     nozzle_radius=30 / 1000,
@@ -69,8 +68,8 @@ def simulate_trajectory_numba(altitude, vz, u_controls, mass, radius,
     v = vz
     dt = 0.1
     area = np.pi * radius ** 2
-    cd_base = 0.5
-    cd_max = 1.5
+    cd_base = 0.42
+    cd_max = 0.55
     
     # Fase 1: Aplicar controles propuestos
     for deployment in u_controls:
