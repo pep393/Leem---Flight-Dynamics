@@ -234,7 +234,7 @@ test_dispersion = MonteCarlo(
 
 
 test_dispersion.simulate(
-    number_of_simulations = 50,
+    number_of_simulations = 10,
 )
 
 test_dispersion.plots.ellipses()

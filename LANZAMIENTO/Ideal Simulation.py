@@ -8,13 +8,13 @@ LONGITUD = 2.462
 
 env = Environment()
 
-
 MOTOR = GenericMotor(
     thrust_source="RECURSOS/Predicted_thrust.csv",
-    burn_time=3.55,
+    reshape_thrust_curve=[3.4, 7000],
+    burn_time=3.4,
     chamber_radius = 0.065,
     chamber_height = 0.7,   
-    chamber_position=0,
+    chamber_position=0.51,
     dry_mass=7.02,
     propellant_initial_mass=7.98,
     dry_inertia=(0.5, 0.5, 0.005),
@@ -26,16 +26,16 @@ MOTOR = GenericMotor(
 COHETE = Rocket(
     radius=0.065,
     mass=11.7,
-    inertia=(0.5, 0.5, 0.005),
+    inertia=(3.613, 3.613, 0.041),
     power_off_drag=r"RECURSOS/CD_OFF_ASPID.csv",
     power_on_drag=r"RECURSOS/CD_ON_ASPID.csv",
-    center_of_mass_without_motor= 0.8,
+    center_of_mass_without_motor= 1.1575,
     coordinate_system_orientation= "nose_to_tail"
     )
 
 COHETE.add_motor(MOTOR, position=LONGITUD)      # MOTOR
 
-COHETE.add_nose(length=0.442, kind="ogive", position=0)
+COHETE.add_nose(length=0.6, kind="ogive", position=0)
 
 COHETE.add_trapezoidal_fins(
             n=4,
@@ -44,7 +44,6 @@ COHETE.add_trapezoidal_fins(
             span=0.20,
             position=LONGITUD - 0.2
         )
-
 
 def controller_function(time, sampling_rate, state, state_history, observed_variables, aerofreno):
     """
@@ -69,11 +68,11 @@ def controller_function(time, sampling_rate, state, state_history, observed_vari
     mach_number = free_stream_speed / env.speed_of_sound(altitude_ASL)
     
     # No desplegar a altas velocidades (limitación estructural)
-    if mach_number > 0.6:
+    if mach_number >= 0.8:
         aerofreno.deployment_level = 0
         return aerofreno.deployment_level
     
-    aerofreno.deployment_level = 0
+    aerofreno.deployment_level = 1
     ######################################################################
 
 
@@ -87,8 +86,9 @@ flight = Flight(
     environment=env,
     rocket=COHETE,
     rail_length=6,
-    inclination=90.0,
+    inclination=86.0,
     heading=0
 )
+
 
 print(flight.apogee)

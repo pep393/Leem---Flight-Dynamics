@@ -5,7 +5,7 @@ import numpy as np
 from numba import njit
 
 LONGITUD = 2.83
-TARGET_APOGEE = 2800  # Apogeo objetivo en metros (ajusta según tu competencia)
+TARGET_APOGEE = 2900  # Apogeo objetivo en metros (ajusta según tu competencia)
 
 env = Environment()
 

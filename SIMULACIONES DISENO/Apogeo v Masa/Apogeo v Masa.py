@@ -5,10 +5,10 @@ import matplotlib.pyplot as plt
 
 chamber_height = 0.7          # Altura de la camara (sin tobera, sacada de otra simulación)
 RADIO_ASPID = 0.065      
-LONGITUD_ASPID = 2830 / 1000  # Dimensiones cohete
+LONGITUD_ASPID = 2462 / 1000  # Dimensiones cohete
 SEPAR_TOBERA = 0.04765        
 
-impulsos_totales = np.linspace(9000, 10500, num=7) 
+impulsos_totales = np.linspace(5000, 10500, num=10) 
 masas = np.linspace(10, 20, num=10)          
 
 env = Environment()         # Entorno según la ISA
