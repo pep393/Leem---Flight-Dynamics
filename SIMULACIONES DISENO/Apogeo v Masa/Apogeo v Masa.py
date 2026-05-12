@@ -1,124 +1,139 @@
-from rocketpy import Environment, GenericMotor, Rocket, Flight
+from rocketpy import Environment, SolidMotor, Rocket, Flight
 import numpy as np
 import matplotlib.pyplot as plt
+import os
 
+# ==========================================
+# PARÁMETROS GEOMÉTRICOS Y GLOBALES
+# ==========================================
+chamber_height = 0.988
+RADIO_ASPID = 0.065
+LONGITUD_ASPID = 2.54     
 
-chamber_height = 0.7          # Altura de la camara (sin tobera, sacada de otra simulación)
-RADIO_ASPID = 0.065      
-LONGITUD_ASPID = 2462 / 1000  # Dimensiones cohete
-SEPAR_TOBERA = 0.04765        
+CARPETA_BASE = "Resultados_Simulacion_ASPID"
 
-impulsos_totales = np.linspace(5000, 10500, num=10) 
-masas = np.linspace(10, 20, num=10)          
+# ==========================================
+# ESPACIO DE VARIABLES (LINSPACE)
+# ==========================================
+impulsos_totales = np.linspace(1000, 2000, num=10) # Ns
+tiempos_quema = np.linspace(2,6, num=4)           # s
+masas_motor_secas = np.linspace(2, 10, num=8)     # kg (Masa seca del motor)
 
-env = Environment()         # Entorno según la ISA
-apogeos_auxiliar = []
-apogeos = []
+env = Environment() 
 
-max_g_auxiliar = []
-max_g = []
-    
-max_mach_auxiliar = []
-max_mach = []
-                            
+metricas = ['apogeo', 'max_g', 'v_rail', 'max_q', 'max_mach']
+resultados = {m: {t: {imp: [] for imp in impulsos_totales} for t in tiempos_quema} for m in metricas}
 
-for impulso in impulsos_totales:
-    for masa in masas:
+# ==========================================
+# BUCLE DE SIMULACIÓN CON PROGRESO
+# ==========================================
+total_simulaciones = len(tiempos_quema) * len(impulsos_totales) * len(masas_motor_secas)
+sim_actual = 0
 
-        motor_teorico = GenericMotor(
-        thrust_source ="RECURSOS/motorA_WCS.eng",
-        reshape_thrust_curve=[4, impulso],    # Escala el thrust para que de un impulso total quemando durante x tiempo
-        burn_time=None,             # El rocketpy me obliga a definir esto pero lo pongo en None porque ya tenemos 
+print(f"Iniciando {total_simulaciones} simulaciones (Perfil Rectangular)...")
 
-        chamber_height=chamber_height,
-        chamber_radius=RADIO_ASPID,
+for t_quema in tiempos_quema:
+    for impulso in impulsos_totales:
         
-        chamber_position=0.35,    # Posicion de coordenadas del motor sin tobera
+        # Cálculo del empuje constante (Rectángulo)
+        fuerza_empuje = impulso / t_quema
+        
+        for masa_motor in masas_motor_secas:
+            
+            sim_actual += 1
+            print(f"\rProgreso: [{sim_actual}/{total_simulaciones}] | T.Quema: {t_quema:.1f}s | F: {fuerza_empuje:.1f}N | Masa: {masa_motor:.1f}kg", end="", flush=True)
+            
+            # 1. Configurar Motor (Empuje y Tiempo por separado)
+            aspid_engine = SolidMotor(
+                thrust_source=fuerza_empuje, # Valor constante
+                burn_time=t_quema,           # Duración de la fuerza
+                dry_mass=masa_motor,
+                dry_inertia=(1.206, 1.205, 0.023),
+                nozzle_radius=0.065,
+                grain_number=4,
+                grain_density=1730,
+                grain_outer_radius=49 / 1000,
+                grain_initial_inner_radius=32.5 / 2000,
+                grain_initial_height=170 / 1000,
+                grain_separation=15 / 1000,
+                grains_center_of_mass_position=0.433,
+                center_of_dry_mass_position=0.481,
+                nozzle_position=chamber_height,
+                throat_radius=12.5 / 1000,
+                coordinate_system_orientation="combustion_chamber_to_nozzle",
+            )
 
-        nozzle_radius=30 / 1000,                # Anchura de tobera ASPID
+            # 2. Configurar Cohete
+            ASPID = Rocket(
+                radius=RADIO_ASPID,
+                mass=11.7,
+                inertia=(3.613, 3.613, 0.041),
+                power_off_drag=r"RECURSOS\CD_OFF_ASPID.csv",
+                power_on_drag=r"RECURSOS\CD_ON_ASPID.csv",
+                center_of_mass_without_motor=1.1575,
+                coordinate_system_orientation="nose_to_tail"
+            )
 
-        propellant_initial_mass=8.08,
-        dry_mass=5,                      # Masa del motor en seco
+            ASPID.add_motor(aspid_engine, position=LONGITUD_ASPID - chamber_height)
+            ASPID.add_nose(length=0.42, kind="ogive", position=0)
+            ASPID.add_trapezoidal_fins(
+                n=4, root_chord=0.144, tip_chord=0.072,
+                span=0.103, position=LONGITUD_ASPID - 0.144 - 0.05
+            )
 
-        dry_inertia=(1.206, 1.205, 0.023) ,     # Las inercias están mal pero para este analisis no importan
-        coordinate_system_orientation="combustion_chamber_to_nozzle"
-        )   
+            # 3. Simular Vuelo
+            test_flight = Flight(
+                environment=env,
+                rocket=ASPID,
+                rail_length=12,
+                inclination=84.0,
+                terminate_on_apogee=True 
+            )
+            
+            # 4. Guardar resultados
+            resultados['apogeo'][t_quema][impulso].append(test_flight.apogee)
+            resultados['max_g'][t_quema][impulso].append(test_flight.max_acceleration / 9.81)
+            resultados['v_rail'][t_quema][impulso].append(test_flight.out_of_rail_velocity)
+            resultados['max_q'][t_quema][impulso].append(test_flight.max_dynamic_pressure)
+            resultados['max_mach'][t_quema][impulso].append(test_flight.max_mach_number)
 
+print("\n¡Simulaciones terminadas! Guardando archivos...")
 
-        ASPID = Rocket(
-            radius=RADIO_ASPID,
-            mass=masa,                         # Masa sin motor
-            inertia=(0.5, 0.5, 0.005),          # Inercias siguen mal que mieo
-            power_off_drag="RECURSOS/CD_OFF_ASPID.csv",        
-            power_on_drag="RECURSOS/CD_ON_ASPID.csv",
-            center_of_mass_without_motor= 0.812, 
-            coordinate_system_orientation= "nose_to_tail")
-        ASPID.add_motor(motor_teorico, position=LONGITUD_ASPID)
+# ==========================================
+# FUNCIÓN DE GUARDADO (IMÁGENES INDIVIDUALES)
+# ==========================================
+def save_metric_plot(metric_key, title, ylabel):
+    ruta_subcarpeta = os.path.join(CARPETA_BASE, metric_key)
+    os.makedirs(ruta_subcarpeta, exist_ok=True)
+    
+    for t_quema in tiempos_quema:
+        fig, ax = plt.subplots(figsize=(8, 6))
+        
+        for impulso in impulsos_totales:
+            y_data = resultados[metric_key][t_quema][impulso]
+            ax.plot(masas_motor_secas, y_data, marker='o', markersize=4, label=f'I Total: {impulso:.0f} Ns')
+        
+        ax.set_title(f"{title}\n(Perfil Rectangular - Tiempo de Quema: {t_quema:.1f} s)", fontweight='bold')
+        ax.set_xlabel('Masa Seca Motor [kg]')
+        ax.set_ylabel(ylabel)
+        ax.grid(True, linestyle='--', alpha=0.7)
+        ax.legend()
 
-        nose_cone = ASPID.add_nose(
-            length=0.33, kind="ogive", position=0
-        )
+        nombre_archivo = f"{metric_key}_tquema_{t_quema:.1f}s.png"
+        ruta_completa = os.path.join(ruta_subcarpeta, nombre_archivo)
+        
+        plt.savefig(ruta_completa, dpi=300, bbox_inches='tight')
+        plt.close(fig)
+        
+    print(f"Hecho: {metric_key}")
 
-        fin_set = ASPID.add_trapezoidal_fins(   # Aletas ASPID
-            n=4,
-            root_chord=0.2,
-            tip_chord=0.1,
-            span=0.2,
-            position=LONGITUD_ASPID - 0.2,
-        )
+# ==========================================
+# EJECUTAR EXPORTACIÓN
+# ==========================================
+save_metric_plot('apogeo', 'Apogeo vs Masa Seca', 'Apogeo [m]')
+save_metric_plot('max_g', 'Aceleración Máxima vs Masa Seca', 'Max G [g]')
+save_metric_plot('v_rail', 'Velocidad de Salida del Rail vs Masa Seca', 'Velocidad [m/s]')
+save_metric_plot('max_q', 'Presión Dinámica Máxima (Max Q) vs Masa Seca', 'Max Q [Pa]')
+save_metric_plot('max_mach', 'Número de Mach Máximo vs Masa Seca', 'Mach')
 
-        test_flight = Flight(
-            environment=env,
-            rocket=ASPID,
-            rail_length=12,
-            inclination=84.0
-        )
-        apogeos_auxiliar.append(test_flight.apogee)
-        max_g_auxiliar.append(test_flight.max_acceleration/9.81)
-        max_mach_auxiliar.append(test_flight.max_mach_number)
- 
-    apogeos.append(apogeos_auxiliar.copy())
-    apogeos_auxiliar.clear()                  
-    max_g.append(max_g_auxiliar.copy())
-    max_g_auxiliar.clear()
-    max_mach.append(max_mach_auxiliar.copy())
-    max_mach_auxiliar.clear()
-
-
-
-### PLOT APOGEO ###
-for i in range(len(impulsos_totales)):
-    plt.plot(masas, apogeos[i - 1], label=f"{impulsos_totales[i - 1]} Ns")
-plt.xlabel('Masa Seca Cohete (sin contar motor, fijo a 5 kg)')
-plt.ylabel('Apogeo [m]')
-plt.title('Apogeo vs Masa Seca',fontweight='bold')
-plt.legend()
-plt.grid(True, linestyle='--', linewidth=0.5)
-plt.minorticks_on()
-plt.grid(which='minor', linestyle=':', linewidth=0.5)
-plt.show()
-
-### PLOT MAX G ###
-for i in range(len(impulsos_totales)):
-    plt.plot(masas, max_g[i - 1], label=f"{impulsos_totales[i - 1]} Ns")
-plt.xlabel('Masa Seca [kg]')
-plt.ylabel('Max G')
-plt.title('Max G vs Masa Seca',fontweight='bold')
-plt.legend()
-plt.grid(True, linestyle='--', linewidth=0.5)
-plt.minorticks_on()
-plt.grid(which='minor', linestyle=':', linewidth=0.5)
-plt.show()
-
-### PLOT MAX MACH ###
-for i in range(len(impulsos_totales)):
-    plt.plot(masas, max_mach[i - 1], label=f"{impulsos_totales[i - 1]} Ns")
-plt.xlabel('Masa Seca[kg]')
-plt.ylabel('Max Mach')
-plt.title('Max Mach vs Masa Seca',fontweight='bold')
-plt.legend()
-plt.grid(True, linestyle='--', linewidth=0.5)
-plt.minorticks_on()
-plt.grid(which='minor', linestyle=':', linewidth=0.5)
-plt.show()
-
+print(f"\nProceso finalizado. Revisa la carpeta: {CARPETA_BASE}")
