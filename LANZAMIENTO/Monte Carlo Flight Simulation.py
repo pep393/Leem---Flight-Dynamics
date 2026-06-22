@@ -46,6 +46,7 @@ MOTOR = SolidMotor(
     coordinate_system_orientation="nozzle_to_combustion_chamber",
 )
 
+print(MOTOR.total_impulse)
 stochastic_motor = StochasticSolidMotor(
     solid_motor=MOTOR,
     total_impulse=80

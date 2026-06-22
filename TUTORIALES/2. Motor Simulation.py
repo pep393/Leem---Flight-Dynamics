@@ -1,6 +1,6 @@
 from rocketpy import SolidMotor, GenericMotor
 ####################### SOLID MOTOR #######################3
-
+"""
 MOTOR = SolidMotor(
     thrust_source="RECURSOS\FR_Vulkan.eng",
     reshape_thrust_curve=[4, 6000],      # Time  / Total Impulse
@@ -45,4 +45,3 @@ motor_teorico = GenericMotor(
 
 
 motor_teorico.all_info()
-"""

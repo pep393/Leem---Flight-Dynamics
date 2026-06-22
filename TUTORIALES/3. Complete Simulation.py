@@ -71,3 +71,4 @@ flight = Flight(
 
 
 flight.all_info()
+flight.z()

@@ -15,7 +15,7 @@ CARPETA_BASE = "Resultados_Simulacion_ASPID"
 # ==========================================
 # ESPACIO DE VARIABLES (LINSPACE)
 # ==========================================
-impulsos_totales = np.linspace(1000, 2000, num=10) # Ns
+impulsos_totales = np.linspace(2000, 10000, num=10) # Ns
 tiempos_quema = np.linspace(2,6, num=4)           # s
 masas_motor_secas = np.linspace(2, 10, num=8)     # kg (Masa seca del motor)
 
