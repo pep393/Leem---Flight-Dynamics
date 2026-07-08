@@ -14,7 +14,7 @@ import re
 import math
 
 # ─── CONFIGURACIÓN ───────────────────────────────────────────────────────────
-INPUT_FILE = "fins.txt"   # <- Cambia aquí el nombre de tu archivo
+INPUT_FILE = "fins copia.txt"   # <- Cambia aquí el nombre de tu archivo
 # ─────────────────────────────────────────────────────────────────────────────
 
 

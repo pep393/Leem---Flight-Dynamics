@@ -1,0 +1,2000 @@
+   0 | Stab MIN  0.729 MAX  2.318 | Flutter SF min:  6.640 | Root: 0.1, Tip: 0.05, Span: 0.1
+   1 | Stab MIN  0.786 MAX  2.347 | Flutter SF min:  6.836 | Root: 0.1, Tip: 0.056, Span: 0.1
+   2 | Stab MIN  0.837 MAX  2.372 | Flutter SF min:  7.032 | Root: 0.1, Tip: 0.061, Span: 0.1
+   3 | Stab MIN  0.881 MAX  2.392 | Flutter SF min:  7.229 | Root: 0.1, Tip: 0.067, Span: 0.1
+   4 | Stab MIN  0.921 MAX  2.409 | Flutter SF min:  7.424 | Root: 0.1, Tip: 0.072, Span: 0.1
+   5 | Stab MIN  0.956 MAX  2.423 | Flutter SF min:  7.619 | Root: 0.1, Tip: 0.078, Span: 0.1
+   6 | Stab MIN  0.986 MAX  2.434 | Flutter SF min:  7.816 | Root: 0.1, Tip: 0.083, Span: 0.1
+   7 | Stab MIN  1.012 MAX  2.443 | Flutter SF min:  8.011 | Root: 0.1, Tip: 0.089, Span: 0.1
+   8 | Stab MIN  1.035 MAX  2.450 | Flutter SF min:  8.203 | Root: 0.1, Tip: 0.094, Span: 0.1
+   9 | Stab MIN  1.054 MAX  2.454 | Flutter SF min:  8.399 | Root: 0.1, Tip: 0.1, Span: 0.1
+  10 | Stab MIN  0.885 MAX  2.353 | Flutter SF min:  5.679 | Root: 0.144, Tip: 0.05, Span: 0.1
+  11 | Stab MIN  0.925 MAX  2.371 | Flutter SF min:  5.814 | Root: 0.144, Tip: 0.056, Span: 0.1
+  12 | Stab MIN  0.961 MAX  2.387 | Flutter SF min:  5.949 | Root: 0.144, Tip: 0.061, Span: 0.1
+  13 | Stab MIN  0.993 MAX  2.400 | Flutter SF min:  6.082 | Root: 0.144, Tip: 0.067, Span: 0.1
+  14 | Stab MIN  1.022 MAX  2.411 | Flutter SF min:  6.217 | Root: 0.144, Tip: 0.072, Span: 0.1
+  15 | Stab MIN  1.047 MAX  2.420 | Flutter SF min:  6.352 | Root: 0.144, Tip: 0.078, Span: 0.1
+  16 | Stab MIN  1.070 MAX  2.427 | Flutter SF min:  6.485 | Root: 0.144, Tip: 0.083, Span: 0.1
+  17 | Stab MIN  1.089 MAX  2.432 | Flutter SF min:  6.620 | Root: 0.144, Tip: 0.089, Span: 0.1
+  18 | Stab MIN  1.106 MAX  2.435 | Flutter SF min:  6.754 | Root: 0.144, Tip: 0.094, Span: 0.1
+  19 | Stab MIN  1.120 MAX  2.437 | Flutter SF min:  6.887 | Root: 0.144, Tip: 0.1, Span: 0.1
+  20 | Stab MIN  0.895 MAX  2.301 | Flutter SF min:  5.165 | Root: 0.189, Tip: 0.05, Span: 0.1
+  21 | Stab MIN  0.927 MAX  2.315 | Flutter SF min:  5.268 | Root: 0.189, Tip: 0.056, Span: 0.1
+  22 | Stab MIN  0.956 MAX  2.326 | Flutter SF min:  5.370 | Root: 0.189, Tip: 0.061, Span: 0.1
+  23 | Stab MIN  0.982 MAX  2.336 | Flutter SF min:  5.472 | Root: 0.189, Tip: 0.067, Span: 0.1
+  24 | Stab MIN  1.005 MAX  2.345 | Flutter SF min:  5.574 | Root: 0.189, Tip: 0.072, Span: 0.1
+  25 | Stab MIN  1.026 MAX  2.351 | Flutter SF min:  5.677 | Root: 0.189, Tip: 0.078, Span: 0.1
+  26 | Stab MIN  1.045 MAX  2.357 | Flutter SF min:  5.778 | Root: 0.189, Tip: 0.083, Span: 0.1
+  27 | Stab MIN  1.061 MAX  2.361 | Flutter SF min:  5.881 | Root: 0.189, Tip: 0.089, Span: 0.1
+  28 | Stab MIN  1.076 MAX  2.363 | Flutter SF min:  5.982 | Root: 0.189, Tip: 0.094, Span: 0.1
+  29 | Stab MIN  1.088 MAX  2.365 | Flutter SF min:  6.084 | Root: 0.189, Tip: 0.1, Span: 0.1
+  30 | Stab MIN  0.839 MAX  2.211 | Flutter SF min:  4.843 | Root: 0.233, Tip: 0.05, Span: 0.1
+  31 | Stab MIN  0.866 MAX  2.222 | Flutter SF min:  4.925 | Root: 0.233, Tip: 0.056, Span: 0.1
+  32 | Stab MIN  0.890 MAX  2.232 | Flutter SF min:  5.008 | Root: 0.233, Tip: 0.061, Span: 0.1
+  33 | Stab MIN  0.912 MAX  2.240 | Flutter SF min:  5.091 | Root: 0.233, Tip: 0.067, Span: 0.1
+  34 | Stab MIN  0.933 MAX  2.247 | Flutter SF min:  5.173 | Root: 0.233, Tip: 0.072, Span: 0.1
+  35 | Stab MIN  0.951 MAX  2.253 | Flutter SF min:  5.255 | Root: 0.233, Tip: 0.078, Span: 0.1
+  36 | Stab MIN  0.968 MAX  2.258 | Flutter SF min:  5.338 | Root: 0.233, Tip: 0.083, Span: 0.1
+  37 | Stab MIN  0.983 MAX  2.261 | Flutter SF min:  5.421 | Root: 0.233, Tip: 0.089, Span: 0.1
+  38 | Stab MIN  0.996 MAX  2.264 | Flutter SF min:  5.503 | Root: 0.233, Tip: 0.094, Span: 0.1
+  39 | Stab MIN  1.007 MAX  2.265 | Flutter SF min:  5.585 | Root: 0.233, Tip: 0.1, Span: 0.1
+  40 | Stab MIN  0.750 MAX  2.103 | Flutter SF min:  4.622 | Root: 0.278, Tip: 0.05, Span: 0.1
+  41 | Stab MIN  0.773 MAX  2.113 | Flutter SF min:  4.691 | Root: 0.278, Tip: 0.056, Span: 0.1
+  42 | Stab MIN  0.795 MAX  2.121 | Flutter SF min:  4.759 | Root: 0.278, Tip: 0.061, Span: 0.1
+  43 | Stab MIN  0.814 MAX  2.129 | Flutter SF min:  4.830 | Root: 0.278, Tip: 0.067, Span: 0.1
+  44 | Stab MIN  0.832 MAX  2.135 | Flutter SF min:  4.899 | Root: 0.278, Tip: 0.072, Span: 0.1
+  45 | Stab MIN  0.849 MAX  2.140 | Flutter SF min:  4.968 | Root: 0.278, Tip: 0.078, Span: 0.1
+  46 | Stab MIN  0.864 MAX  2.144 | Flutter SF min:  5.037 | Root: 0.278, Tip: 0.083, Span: 0.1
+  47 | Stab MIN  0.878 MAX  2.147 | Flutter SF min:  5.106 | Root: 0.278, Tip: 0.089, Span: 0.1
+  48 | Stab MIN  0.890 MAX  2.150 | Flutter SF min:  5.175 | Root: 0.278, Tip: 0.094, Span: 0.1
+  49 | Stab MIN  0.901 MAX  2.152 | Flutter SF min:  5.244 | Root: 0.278, Tip: 0.1, Span: 0.1
+  50 | Stab MIN  0.644 MAX  1.986 | Flutter SF min:  4.462 | Root: 0.322, Tip: 0.05, Span: 0.1
+  51 | Stab MIN  0.664 MAX  1.995 | Flutter SF min:  4.520 | Root: 0.322, Tip: 0.056, Span: 0.1
+  52 | Stab MIN  0.683 MAX  2.002 | Flutter SF min:  4.581 | Root: 0.322, Tip: 0.061, Span: 0.1
+  53 | Stab MIN  0.701 MAX  2.008 | Flutter SF min:  4.640 | Root: 0.322, Tip: 0.067, Span: 0.1
+  54 | Stab MIN  0.718 MAX  2.014 | Flutter SF min:  4.699 | Root: 0.322, Tip: 0.072, Span: 0.1
+  55 | Stab MIN  0.733 MAX  2.019 | Flutter SF min:  4.759 | Root: 0.322, Tip: 0.078, Span: 0.1
+  56 | Stab MIN  0.747 MAX  2.023 | Flutter SF min:  4.818 | Root: 0.322, Tip: 0.083, Span: 0.1
+  57 | Stab MIN  0.759 MAX  2.026 | Flutter SF min:  4.878 | Root: 0.322, Tip: 0.089, Span: 0.1
+  58 | Stab MIN  0.771 MAX  2.028 | Flutter SF min:  4.937 | Root: 0.322, Tip: 0.094, Span: 0.1
+  59 | Stab MIN  0.782 MAX  2.030 | Flutter SF min:  4.996 | Root: 0.322, Tip: 0.1, Span: 0.1
+  60 | Stab MIN  0.528 MAX  1.864 | Flutter SF min:  4.339 | Root: 0.367, Tip: 0.05, Span: 0.1
+  61 | Stab MIN  0.547 MAX  1.871 | Flutter SF min:  4.391 | Root: 0.367, Tip: 0.056, Span: 0.1
+  62 | Stab MIN  0.564 MAX  1.878 | Flutter SF min:  4.443 | Root: 0.367, Tip: 0.061, Span: 0.1
+  63 | Stab MIN  0.580 MAX  1.884 | Flutter SF min:  4.496 | Root: 0.367, Tip: 0.067, Span: 0.1
+  64 | Stab MIN  0.595 MAX  1.889 | Flutter SF min:  4.548 | Root: 0.367, Tip: 0.072, Span: 0.1
+  65 | Stab MIN  0.609 MAX  1.894 | Flutter SF min:  4.600 | Root: 0.367, Tip: 0.078, Span: 0.1
+  66 | Stab MIN  0.622 MAX  1.897 | Flutter SF min:  4.652 | Root: 0.367, Tip: 0.083, Span: 0.1
+  67 | Stab MIN  0.634 MAX  1.900 | Flutter SF min:  4.705 | Root: 0.367, Tip: 0.089, Span: 0.1
+  68 | Stab MIN  0.645 MAX  1.903 | Flutter SF min:  4.757 | Root: 0.367, Tip: 0.094, Span: 0.1
+  69 | Stab MIN  0.655 MAX  1.904 | Flutter SF min:  4.808 | Root: 0.367, Tip: 0.1, Span: 0.1
+  70 | Stab MIN  0.407 MAX  1.738 | Flutter SF min:  4.243 | Root: 0.411, Tip: 0.05, Span: 0.1
+  71 | Stab MIN  0.424 MAX  1.745 | Flutter SF min:  4.289 | Root: 0.411, Tip: 0.056, Span: 0.1
+  72 | Stab MIN  0.440 MAX  1.751 | Flutter SF min:  4.336 | Root: 0.411, Tip: 0.061, Span: 0.1
+  73 | Stab MIN  0.455 MAX  1.757 | Flutter SF min:  4.382 | Root: 0.411, Tip: 0.067, Span: 0.1
+  74 | Stab MIN  0.468 MAX  1.762 | Flutter SF min:  4.429 | Root: 0.411, Tip: 0.072, Span: 0.1
+  75 | Stab MIN  0.481 MAX  1.766 | Flutter SF min:  4.475 | Root: 0.411, Tip: 0.078, Span: 0.1
+  76 | Stab MIN  0.493 MAX  1.769 | Flutter SF min:  4.522 | Root: 0.411, Tip: 0.083, Span: 0.1
+  77 | Stab MIN  0.505 MAX  1.772 | Flutter SF min:  4.569 | Root: 0.411, Tip: 0.089, Span: 0.1
+  78 | Stab MIN  0.515 MAX  1.774 | Flutter SF min:  4.615 | Root: 0.411, Tip: 0.094, Span: 0.1
+  79 | Stab MIN  0.524 MAX  1.776 | Flutter SF min:  4.662 | Root: 0.411, Tip: 0.1, Span: 0.1
+  80 | Stab MIN  0.283 MAX  1.611 | Flutter SF min:  4.165 | Root: 0.456, Tip: 0.05, Span: 0.1
+  81 | Stab MIN  0.299 MAX  1.618 | Flutter SF min:  4.206 | Root: 0.456, Tip: 0.056, Span: 0.1
+  82 | Stab MIN  0.313 MAX  1.623 | Flutter SF min:  4.248 | Root: 0.456, Tip: 0.061, Span: 0.1
+  83 | Stab MIN  0.327 MAX  1.628 | Flutter SF min:  4.291 | Root: 0.456, Tip: 0.067, Span: 0.1
+  84 | Stab MIN  0.340 MAX  1.633 | Flutter SF min:  4.332 | Root: 0.456, Tip: 0.072, Span: 0.1
+  85 | Stab MIN  0.352 MAX  1.637 | Flutter SF min:  4.375 | Root: 0.456, Tip: 0.078, Span: 0.1
+  86 | Stab MIN  0.363 MAX  1.640 | Flutter SF min:  4.416 | Root: 0.456, Tip: 0.083, Span: 0.1
+  87 | Stab MIN  0.373 MAX  1.643 | Flutter SF min:  4.458 | Root: 0.456, Tip: 0.089, Span: 0.1
+  88 | Stab MIN  0.383 MAX  1.645 | Flutter SF min:  4.500 | Root: 0.456, Tip: 0.094, Span: 0.1
+  89 | Stab MIN  0.392 MAX  1.647 | Flutter SF min:  4.543 | Root: 0.456, Tip: 0.1, Span: 0.1
+  90 | Stab MIN  0.157 MAX  1.483 | Flutter SF min:  4.100 | Root: 0.5, Tip: 0.05, Span: 0.1
+  91 | Stab MIN  0.171 MAX  1.489 | Flutter SF min:  4.138 | Root: 0.5, Tip: 0.056, Span: 0.1
+  92 | Stab MIN  0.185 MAX  1.494 | Flutter SF min:  4.177 | Root: 0.5, Tip: 0.061, Span: 0.1
+  93 | Stab MIN  0.197 MAX  1.499 | Flutter SF min:  4.215 | Root: 0.5, Tip: 0.067, Span: 0.1
+  94 | Stab MIN  0.209 MAX  1.503 | Flutter SF min:  4.253 | Root: 0.5, Tip: 0.072, Span: 0.1
+  95 | Stab MIN  0.221 MAX  1.507 | Flutter SF min:  4.292 | Root: 0.5, Tip: 0.078, Span: 0.1
+  96 | Stab MIN  0.231 MAX  1.510 | Flutter SF min:  4.330 | Root: 0.5, Tip: 0.083, Span: 0.1
+  97 | Stab MIN  0.241 MAX  1.512 | Flutter SF min:  4.368 | Root: 0.5, Tip: 0.089, Span: 0.1
+  98 | Stab MIN  0.250 MAX  1.515 | Flutter SF min:  4.406 | Root: 0.5, Tip: 0.094, Span: 0.1
+  99 | Stab MIN  0.259 MAX  1.516 | Flutter SF min:  4.445 | Root: 0.5, Tip: 0.1, Span: 0.1
+ 100 | Stab MIN  0.871 MAX  2.466 | Flutter SF min:  6.420 | Root: 0.1, Tip: 0.05, Span: 0.103
+ 101 | Stab MIN  0.928 MAX  2.494 | Flutter SF min:  6.609 | Root: 0.1, Tip: 0.056, Span: 0.103
+ 102 | Stab MIN  0.979 MAX  2.519 | Flutter SF min:  6.797 | Root: 0.1, Tip: 0.061, Span: 0.103
+ 103 | Stab MIN  1.024 MAX  2.540 | Flutter SF min:  6.986 | Root: 0.1, Tip: 0.067, Span: 0.103
+ 104 | Stab MIN  1.063 MAX  2.557 | Flutter SF min:  7.174 | Root: 0.1, Tip: 0.072, Span: 0.103
+ 105 | Stab MIN  1.098 MAX  2.571 | Flutter SF min:  7.363 | Root: 0.1, Tip: 0.078, Span: 0.103
+ 106 | Stab MIN  1.129 MAX  2.582 | Flutter SF min:  7.551 | Root: 0.1, Tip: 0.083, Span: 0.103
+ 107 | Stab MIN  1.155 MAX  2.591 | Flutter SF min:  7.740 | Root: 0.1, Tip: 0.089, Span: 0.103
+ 108 | Stab MIN  1.178 MAX  2.598 | Flutter SF min:  7.926 | Root: 0.1, Tip: 0.094, Span: 0.103
+ 109 | Stab MIN  1.198 MAX  2.602 | Flutter SF min:  8.115 | Root: 0.1, Tip: 0.1, Span: 0.103
+ 110 | Stab MIN  1.032 MAX  2.503 | Flutter SF min:  5.487 | Root: 0.144, Tip: 0.05, Span: 0.103
+ 111 | Stab MIN  1.072 MAX  2.521 | Flutter SF min:  5.617 | Root: 0.144, Tip: 0.056, Span: 0.103
+ 112 | Stab MIN  1.108 MAX  2.537 | Flutter SF min:  5.747 | Root: 0.144, Tip: 0.061, Span: 0.103
+ 113 | Stab MIN  1.139 MAX  2.550 | Flutter SF min:  5.876 | Root: 0.144, Tip: 0.067, Span: 0.103
+ 114 | Stab MIN  1.168 MAX  2.561 | Flutter SF min:  6.005 | Root: 0.144, Tip: 0.072, Span: 0.103
+ 115 | Stab MIN  1.193 MAX  2.569 | Flutter SF min:  6.134 | Root: 0.144, Tip: 0.078, Span: 0.103
+ 116 | Stab MIN  1.215 MAX  2.576 | Flutter SF min:  6.263 | Root: 0.144, Tip: 0.083, Span: 0.103
+ 117 | Stab MIN  1.235 MAX  2.581 | Flutter SF min:  6.392 | Root: 0.144, Tip: 0.089, Span: 0.103
+ 118 | Stab MIN  1.252 MAX  2.585 | Flutter SF min:  6.521 | Root: 0.144, Tip: 0.094, Span: 0.103
+ 119 | Stab MIN  1.266 MAX  2.587 | Flutter SF min:  6.650 | Root: 0.144, Tip: 0.1, Span: 0.103
+ 120 | Stab MIN  1.046 MAX  2.452 | Flutter SF min:  4.987 | Root: 0.189, Tip: 0.05, Span: 0.103
+ 121 | Stab MIN  1.077 MAX  2.466 | Flutter SF min:  5.086 | Root: 0.189, Tip: 0.056, Span: 0.103
+ 122 | Stab MIN  1.105 MAX  2.477 | Flutter SF min:  5.184 | Root: 0.189, Tip: 0.061, Span: 0.103
+ 123 | Stab MIN  1.131 MAX  2.487 | Flutter SF min:  5.282 | Root: 0.189, Tip: 0.067, Span: 0.103
+ 124 | Stab MIN  1.154 MAX  2.495 | Flutter SF min:  5.380 | Root: 0.189, Tip: 0.072, Span: 0.103
+ 125 | Stab MIN  1.175 MAX  2.502 | Flutter SF min:  5.479 | Root: 0.189, Tip: 0.078, Span: 0.103
+ 126 | Stab MIN  1.193 MAX  2.507 | Flutter SF min:  5.578 | Root: 0.189, Tip: 0.083, Span: 0.103
+ 127 | Stab MIN  1.209 MAX  2.511 | Flutter SF min:  5.676 | Root: 0.189, Tip: 0.089, Span: 0.103
+ 128 | Stab MIN  1.224 MAX  2.513 | Flutter SF min:  5.773 | Root: 0.189, Tip: 0.094, Span: 0.103
+ 129 | Stab MIN  1.236 MAX  2.515 | Flutter SF min:  5.872 | Root: 0.189, Tip: 0.1, Span: 0.103
+ 130 | Stab MIN  0.992 MAX  2.363 | Flutter SF min:  4.674 | Root: 0.233, Tip: 0.05, Span: 0.103
+ 131 | Stab MIN  1.018 MAX  2.374 | Flutter SF min:  4.754 | Root: 0.233, Tip: 0.056, Span: 0.103
+ 132 | Stab MIN  1.042 MAX  2.383 | Flutter SF min:  4.833 | Root: 0.233, Tip: 0.061, Span: 0.103
+ 133 | Stab MIN  1.064 MAX  2.391 | Flutter SF min:  4.912 | Root: 0.233, Tip: 0.067, Span: 0.103
+ 134 | Stab MIN  1.083 MAX  2.398 | Flutter SF min:  4.991 | Root: 0.233, Tip: 0.072, Span: 0.103
+ 135 | Stab MIN  1.101 MAX  2.404 | Flutter SF min:  5.071 | Root: 0.233, Tip: 0.078, Span: 0.103
+ 136 | Stab MIN  1.118 MAX  2.408 | Flutter SF min:  5.151 | Root: 0.233, Tip: 0.083, Span: 0.103
+ 137 | Stab MIN  1.132 MAX  2.412 | Flutter SF min:  5.229 | Root: 0.233, Tip: 0.089, Span: 0.103
+ 138 | Stab MIN  1.145 MAX  2.414 | Flutter SF min:  5.309 | Root: 0.233, Tip: 0.094, Span: 0.103
+ 139 | Stab MIN  1.156 MAX  2.415 | Flutter SF min:  5.388 | Root: 0.233, Tip: 0.1, Span: 0.103
+ 140 | Stab MIN  0.904 MAX  2.255 | Flutter SF min:  4.459 | Root: 0.278, Tip: 0.05, Span: 0.103
+ 141 | Stab MIN  0.926 MAX  2.264 | Flutter SF min:  4.526 | Root: 0.278, Tip: 0.056, Span: 0.103
+ 142 | Stab MIN  0.947 MAX  2.273 | Flutter SF min:  4.593 | Root: 0.278, Tip: 0.061, Span: 0.103
+ 143 | Stab MIN  0.967 MAX  2.280 | Flutter SF min:  4.659 | Root: 0.278, Tip: 0.067, Span: 0.103
+ 144 | Stab MIN  0.984 MAX  2.286 | Flutter SF min:  4.725 | Root: 0.278, Tip: 0.072, Span: 0.103
+ 145 | Stab MIN  1.000 MAX  2.291 | Flutter SF min:  4.791 | Root: 0.278, Tip: 0.078, Span: 0.103
+ 146 | Stab MIN  1.015 MAX  2.295 | Flutter SF min:  4.858 | Root: 0.278, Tip: 0.083, Span: 0.103
+ 147 | Stab MIN  1.028 MAX  2.298 | Flutter SF min:  4.925 | Root: 0.278, Tip: 0.089, Span: 0.103
+ 148 | Stab MIN  1.040 MAX  2.300 | Flutter SF min:  4.992 | Root: 0.278, Tip: 0.094, Span: 0.103
+ 149 | Stab MIN  1.051 MAX  2.301 | Flutter SF min:  5.057 | Root: 0.278, Tip: 0.1, Span: 0.103
+ 150 | Stab MIN  0.798 MAX  2.137 | Flutter SF min:  4.303 | Root: 0.322, Tip: 0.05, Span: 0.103
+ 151 | Stab MIN  0.818 MAX  2.146 | Flutter SF min:  4.361 | Root: 0.322, Tip: 0.056, Span: 0.103
+ 152 | Stab MIN  0.837 MAX  2.153 | Flutter SF min:  4.417 | Root: 0.322, Tip: 0.061, Span: 0.103
+ 153 | Stab MIN  0.854 MAX  2.159 | Flutter SF min:  4.474 | Root: 0.322, Tip: 0.067, Span: 0.103
+ 154 | Stab MIN  0.870 MAX  2.165 | Flutter SF min:  4.532 | Root: 0.322, Tip: 0.072, Span: 0.103
+ 155 | Stab MIN  0.885 MAX  2.169 | Flutter SF min:  4.589 | Root: 0.322, Tip: 0.078, Span: 0.103
+ 156 | Stab MIN  0.898 MAX  2.173 | Flutter SF min:  4.646 | Root: 0.322, Tip: 0.083, Span: 0.103
+ 157 | Stab MIN  0.910 MAX  2.176 | Flutter SF min:  4.703 | Root: 0.322, Tip: 0.089, Span: 0.103
+ 158 | Stab MIN  0.922 MAX  2.178 | Flutter SF min:  4.761 | Root: 0.322, Tip: 0.094, Span: 0.103
+ 159 | Stab MIN  0.932 MAX  2.179 | Flutter SF min:  4.818 | Root: 0.322, Tip: 0.1, Span: 0.103
+ 160 | Stab MIN  0.682 MAX  2.014 | Flutter SF min:  4.185 | Root: 0.367, Tip: 0.05, Span: 0.103
+ 161 | Stab MIN  0.700 MAX  2.022 | Flutter SF min:  4.233 | Root: 0.367, Tip: 0.056, Span: 0.103
+ 162 | Stab MIN  0.717 MAX  2.028 | Flutter SF min:  4.284 | Root: 0.367, Tip: 0.061, Span: 0.103
+ 163 | Stab MIN  0.733 MAX  2.034 | Flutter SF min:  4.335 | Root: 0.367, Tip: 0.067, Span: 0.103
+ 164 | Stab MIN  0.747 MAX  2.039 | Flutter SF min:  4.385 | Root: 0.367, Tip: 0.072, Span: 0.103
+ 165 | Stab MIN  0.761 MAX  2.043 | Flutter SF min:  4.434 | Root: 0.367, Tip: 0.078, Span: 0.103
+ 166 | Stab MIN  0.774 MAX  2.047 | Flutter SF min:  4.485 | Root: 0.367, Tip: 0.083, Span: 0.103
+ 167 | Stab MIN  0.785 MAX  2.049 | Flutter SF min:  4.535 | Root: 0.367, Tip: 0.089, Span: 0.103
+ 168 | Stab MIN  0.796 MAX  2.051 | Flutter SF min:  4.586 | Root: 0.367, Tip: 0.094, Span: 0.103
+ 169 | Stab MIN  0.805 MAX  2.053 | Flutter SF min:  4.635 | Root: 0.367, Tip: 0.1, Span: 0.103
+ 170 | Stab MIN  0.561 MAX  1.888 | Flutter SF min:  4.090 | Root: 0.411, Tip: 0.05, Span: 0.103
+ 171 | Stab MIN  0.577 MAX  1.895 | Flutter SF min:  4.135 | Root: 0.411, Tip: 0.056, Span: 0.103
+ 172 | Stab MIN  0.593 MAX  1.901 | Flutter SF min:  4.180 | Root: 0.411, Tip: 0.061, Span: 0.103
+ 173 | Stab MIN  0.607 MAX  1.906 | Flutter SF min:  4.224 | Root: 0.411, Tip: 0.067, Span: 0.103
+ 174 | Stab MIN  0.620 MAX  1.911 | Flutter SF min:  4.269 | Root: 0.411, Tip: 0.072, Span: 0.103
+ 175 | Stab MIN  0.633 MAX  1.915 | Flutter SF min:  4.313 | Root: 0.411, Tip: 0.078, Span: 0.103
+ 176 | Stab MIN  0.645 MAX  1.918 | Flutter SF min:  4.358 | Root: 0.411, Tip: 0.083, Span: 0.103
+ 177 | Stab MIN  0.655 MAX  1.920 | Flutter SF min:  4.403 | Root: 0.411, Tip: 0.089, Span: 0.103
+ 178 | Stab MIN  0.665 MAX  1.923 | Flutter SF min:  4.448 | Root: 0.411, Tip: 0.094, Span: 0.103
+ 179 | Stab MIN  0.674 MAX  1.924 | Flutter SF min:  4.492 | Root: 0.411, Tip: 0.1, Span: 0.103
+ 180 | Stab MIN  0.436 MAX  1.760 | Flutter SF min:  4.015 | Root: 0.456, Tip: 0.05, Span: 0.103
+ 181 | Stab MIN  0.451 MAX  1.766 | Flutter SF min:  4.055 | Root: 0.456, Tip: 0.056, Span: 0.103
+ 182 | Stab MIN  0.465 MAX  1.772 | Flutter SF min:  4.095 | Root: 0.456, Tip: 0.061, Span: 0.103
+ 183 | Stab MIN  0.479 MAX  1.777 | Flutter SF min:  4.135 | Root: 0.456, Tip: 0.067, Span: 0.103
+ 184 | Stab MIN  0.491 MAX  1.781 | Flutter SF min:  4.176 | Root: 0.456, Tip: 0.072, Span: 0.103
+ 185 | Stab MIN  0.503 MAX  1.784 | Flutter SF min:  4.216 | Root: 0.456, Tip: 0.078, Span: 0.103
+ 186 | Stab MIN  0.513 MAX  1.787 | Flutter SF min:  4.257 | Root: 0.456, Tip: 0.083, Span: 0.103
+ 187 | Stab MIN  0.524 MAX  1.790 | Flutter SF min:  4.297 | Root: 0.456, Tip: 0.089, Span: 0.103
+ 188 | Stab MIN  0.533 MAX  1.792 | Flutter SF min:  4.337 | Root: 0.456, Tip: 0.094, Span: 0.103
+ 189 | Stab MIN  0.542 MAX  1.794 | Flutter SF min:  4.377 | Root: 0.456, Tip: 0.1, Span: 0.103
+ 190 | Stab MIN  0.310 MAX  1.631 | Flutter SF min:  3.952 | Root: 0.5, Tip: 0.05, Span: 0.103
+ 191 | Stab MIN  0.323 MAX  1.637 | Flutter SF min:  3.988 | Root: 0.5, Tip: 0.056, Span: 0.103
+ 192 | Stab MIN  0.336 MAX  1.642 | Flutter SF min:  4.025 | Root: 0.5, Tip: 0.061, Span: 0.103
+ 193 | Stab MIN  0.349 MAX  1.646 | Flutter SF min:  4.062 | Root: 0.5, Tip: 0.067, Span: 0.103
+ 194 | Stab MIN  0.360 MAX  1.650 | Flutter SF min:  4.099 | Root: 0.5, Tip: 0.072, Span: 0.103
+ 195 | Stab MIN  0.371 MAX  1.653 | Flutter SF min:  4.135 | Root: 0.5, Tip: 0.078, Span: 0.103
+ 196 | Stab MIN  0.381 MAX  1.656 | Flutter SF min:  4.172 | Root: 0.5, Tip: 0.083, Span: 0.103
+ 197 | Stab MIN  0.391 MAX  1.659 | Flutter SF min:  4.209 | Root: 0.5, Tip: 0.089, Span: 0.103
+ 198 | Stab MIN  0.399 MAX  1.661 | Flutter SF min:  4.246 | Root: 0.5, Tip: 0.094, Span: 0.103
+ 199 | Stab MIN  0.408 MAX  1.662 | Flutter SF min:  4.282 | Root: 0.5, Tip: 0.1, Span: 0.103
+ 200 | Stab MIN  1.007 MAX  2.605 | Flutter SF min:  6.212 | Root: 0.1, Tip: 0.05, Span: 0.105
+ 201 | Stab MIN  1.064 MAX  2.634 | Flutter SF min:  6.395 | Root: 0.1, Tip: 0.056, Span: 0.105
+ 202 | Stab MIN  1.114 MAX  2.659 | Flutter SF min:  6.577 | Root: 0.1, Tip: 0.061, Span: 0.105
+ 203 | Stab MIN  1.159 MAX  2.680 | Flutter SF min:  6.758 | Root: 0.1, Tip: 0.067, Span: 0.105
+ 204 | Stab MIN  1.199 MAX  2.697 | Flutter SF min:  6.941 | Root: 0.1, Tip: 0.072, Span: 0.105
+ 205 | Stab MIN  1.234 MAX  2.711 | Flutter SF min:  7.122 | Root: 0.1, Tip: 0.078, Span: 0.105
+ 206 | Stab MIN  1.264 MAX  2.723 | Flutter SF min:  7.304 | Root: 0.1, Tip: 0.083, Span: 0.105
+ 207 | Stab MIN  1.291 MAX  2.732 | Flutter SF min:  7.484 | Root: 0.1, Tip: 0.089, Span: 0.105
+ 208 | Stab MIN  1.314 MAX  2.739 | Flutter SF min:  7.664 | Root: 0.1, Tip: 0.094, Span: 0.105
+ 209 | Stab MIN  1.334 MAX  2.744 | Flutter SF min:  7.844 | Root: 0.1, Tip: 0.1, Span: 0.105
+ 210 | Stab MIN  1.172 MAX  2.646 | Flutter SF min:  5.306 | Root: 0.144, Tip: 0.05, Span: 0.105
+ 211 | Stab MIN  1.211 MAX  2.663 | Flutter SF min:  5.432 | Root: 0.144, Tip: 0.056, Span: 0.105
+ 212 | Stab MIN  1.247 MAX  2.679 | Flutter SF min:  5.555 | Root: 0.144, Tip: 0.061, Span: 0.105
+ 213 | Stab MIN  1.279 MAX  2.692 | Flutter SF min:  5.680 | Root: 0.144, Tip: 0.067, Span: 0.105
+ 214 | Stab MIN  1.307 MAX  2.703 | Flutter SF min:  5.805 | Root: 0.144, Tip: 0.072, Span: 0.105
+ 215 | Stab MIN  1.332 MAX  2.711 | Flutter SF min:  5.930 | Root: 0.144, Tip: 0.078, Span: 0.105
+ 216 | Stab MIN  1.354 MAX  2.718 | Flutter SF min:  6.054 | Root: 0.144, Tip: 0.083, Span: 0.105
+ 217 | Stab MIN  1.373 MAX  2.723 | Flutter SF min:  6.178 | Root: 0.144, Tip: 0.089, Span: 0.105
+ 218 | Stab MIN  1.390 MAX  2.727 | Flutter SF min:  6.303 | Root: 0.144, Tip: 0.094, Span: 0.105
+ 219 | Stab MIN  1.404 MAX  2.729 | Flutter SF min:  6.426 | Root: 0.144, Tip: 0.1, Span: 0.105
+ 220 | Stab MIN  1.189 MAX  2.596 | Flutter SF min:  4.819 | Root: 0.189, Tip: 0.05, Span: 0.105
+ 221 | Stab MIN  1.220 MAX  2.609 | Flutter SF min:  4.914 | Root: 0.189, Tip: 0.056, Span: 0.105
+ 222 | Stab MIN  1.248 MAX  2.621 | Flutter SF min:  5.008 | Root: 0.189, Tip: 0.061, Span: 0.105
+ 223 | Stab MIN  1.273 MAX  2.630 | Flutter SF min:  5.105 | Root: 0.189, Tip: 0.067, Span: 0.105
+ 224 | Stab MIN  1.296 MAX  2.638 | Flutter SF min:  5.199 | Root: 0.189, Tip: 0.072, Span: 0.105
+ 225 | Stab MIN  1.316 MAX  2.645 | Flutter SF min:  5.293 | Root: 0.189, Tip: 0.078, Span: 0.105
+ 226 | Stab MIN  1.334 MAX  2.650 | Flutter SF min:  5.389 | Root: 0.189, Tip: 0.083, Span: 0.105
+ 227 | Stab MIN  1.350 MAX  2.653 | Flutter SF min:  5.483 | Root: 0.189, Tip: 0.089, Span: 0.105
+ 228 | Stab MIN  1.364 MAX  2.656 | Flutter SF min:  5.577 | Root: 0.189, Tip: 0.094, Span: 0.105
+ 229 | Stab MIN  1.376 MAX  2.657 | Flutter SF min:  5.672 | Root: 0.189, Tip: 0.1, Span: 0.105
+ 230 | Stab MIN  1.137 MAX  2.508 | Flutter SF min:  4.514 | Root: 0.233, Tip: 0.05, Span: 0.105
+ 231 | Stab MIN  1.162 MAX  2.518 | Flutter SF min:  4.591 | Root: 0.233, Tip: 0.056, Span: 0.105
+ 232 | Stab MIN  1.186 MAX  2.527 | Flutter SF min:  4.668 | Root: 0.233, Tip: 0.061, Span: 0.105
+ 233 | Stab MIN  1.207 MAX  2.535 | Flutter SF min:  4.744 | Root: 0.233, Tip: 0.067, Span: 0.105
+ 234 | Stab MIN  1.227 MAX  2.542 | Flutter SF min:  4.821 | Root: 0.233, Tip: 0.072, Span: 0.105
+ 235 | Stab MIN  1.244 MAX  2.547 | Flutter SF min:  4.898 | Root: 0.233, Tip: 0.078, Span: 0.105
+ 236 | Stab MIN  1.260 MAX  2.552 | Flutter SF min:  4.973 | Root: 0.233, Tip: 0.083, Span: 0.105
+ 237 | Stab MIN  1.274 MAX  2.555 | Flutter SF min:  5.049 | Root: 0.233, Tip: 0.089, Span: 0.105
+ 238 | Stab MIN  1.287 MAX  2.557 | Flutter SF min:  5.127 | Root: 0.233, Tip: 0.094, Span: 0.105
+ 239 | Stab MIN  1.298 MAX  2.558 | Flutter SF min:  5.202 | Root: 0.233, Tip: 0.1, Span: 0.105
+ 240 | Stab MIN  1.050 MAX  2.400 | Flutter SF min:  4.306 | Root: 0.278, Tip: 0.05, Span: 0.105
+ 241 | Stab MIN  1.072 MAX  2.409 | Flutter SF min:  4.370 | Root: 0.278, Tip: 0.056, Span: 0.105
+ 242 | Stab MIN  1.093 MAX  2.417 | Flutter SF min:  4.435 | Root: 0.278, Tip: 0.061, Span: 0.105
+ 243 | Stab MIN  1.111 MAX  2.423 | Flutter SF min:  4.498 | Root: 0.278, Tip: 0.067, Span: 0.105
+ 244 | Stab MIN  1.129 MAX  2.429 | Flutter SF min:  4.563 | Root: 0.278, Tip: 0.072, Span: 0.105
+ 245 | Stab MIN  1.144 MAX  2.434 | Flutter SF min:  4.627 | Root: 0.278, Tip: 0.078, Span: 0.105
+ 246 | Stab MIN  1.159 MAX  2.438 | Flutter SF min:  4.690 | Root: 0.278, Tip: 0.083, Span: 0.105
+ 247 | Stab MIN  1.171 MAX  2.440 | Flutter SF min:  4.755 | Root: 0.278, Tip: 0.089, Span: 0.105
+ 248 | Stab MIN  1.183 MAX  2.442 | Flutter SF min:  4.819 | Root: 0.278, Tip: 0.094, Span: 0.105
+ 249 | Stab MIN  1.193 MAX  2.444 | Flutter SF min:  4.882 | Root: 0.278, Tip: 0.1, Span: 0.105
+ 250 | Stab MIN  0.945 MAX  2.281 | Flutter SF min:  4.154 | Root: 0.322, Tip: 0.05, Span: 0.105
+ 251 | Stab MIN  0.964 MAX  2.290 | Flutter SF min:  4.208 | Root: 0.322, Tip: 0.056, Span: 0.105
+ 252 | Stab MIN  0.982 MAX  2.296 | Flutter SF min:  4.264 | Root: 0.322, Tip: 0.061, Span: 0.105
+ 253 | Stab MIN  0.999 MAX  2.302 | Flutter SF min:  4.320 | Root: 0.322, Tip: 0.067, Span: 0.105
+ 254 | Stab MIN  1.015 MAX  2.308 | Flutter SF min:  4.374 | Root: 0.322, Tip: 0.072, Span: 0.105
+ 255 | Stab MIN  1.029 MAX  2.312 | Flutter SF min:  4.429 | Root: 0.322, Tip: 0.078, Span: 0.105
+ 256 | Stab MIN  1.042 MAX  2.315 | Flutter SF min:  4.484 | Root: 0.322, Tip: 0.083, Span: 0.105
+ 257 | Stab MIN  1.054 MAX  2.318 | Flutter SF min:  4.540 | Root: 0.322, Tip: 0.089, Span: 0.105
+ 258 | Stab MIN  1.065 MAX  2.320 | Flutter SF min:  4.595 | Root: 0.322, Tip: 0.094, Span: 0.105
+ 259 | Stab MIN  1.075 MAX  2.321 | Flutter SF min:  4.649 | Root: 0.322, Tip: 0.1, Span: 0.105
+ 260 | Stab MIN  0.829 MAX  2.158 | Flutter SF min:  4.038 | Root: 0.367, Tip: 0.05, Span: 0.105
+ 261 | Stab MIN  0.847 MAX  2.165 | Flutter SF min:  4.086 | Root: 0.367, Tip: 0.056, Span: 0.105
+ 262 | Stab MIN  0.863 MAX  2.171 | Flutter SF min:  4.136 | Root: 0.367, Tip: 0.061, Span: 0.105
+ 263 | Stab MIN  0.878 MAX  2.176 | Flutter SF min:  4.183 | Root: 0.367, Tip: 0.067, Span: 0.105
+ 264 | Stab MIN  0.892 MAX  2.181 | Flutter SF min:  4.232 | Root: 0.367, Tip: 0.072, Span: 0.105
+ 265 | Stab MIN  0.905 MAX  2.185 | Flutter SF min:  4.280 | Root: 0.367, Tip: 0.078, Span: 0.105
+ 266 | Stab MIN  0.918 MAX  2.188 | Flutter SF min:  4.329 | Root: 0.367, Tip: 0.083, Span: 0.105
+ 267 | Stab MIN  0.929 MAX  2.191 | Flutter SF min:  4.377 | Root: 0.367, Tip: 0.089, Span: 0.105
+ 268 | Stab MIN  0.939 MAX  2.193 | Flutter SF min:  4.425 | Root: 0.367, Tip: 0.094, Span: 0.105
+ 269 | Stab MIN  0.948 MAX  2.194 | Flutter SF min:  4.474 | Root: 0.367, Tip: 0.1, Span: 0.105
+ 270 | Stab MIN  0.707 MAX  2.031 | Flutter SF min:  3.946 | Root: 0.411, Tip: 0.05, Span: 0.105
+ 271 | Stab MIN  0.723 MAX  2.037 | Flutter SF min:  3.990 | Root: 0.411, Tip: 0.056, Span: 0.105
+ 272 | Stab MIN  0.738 MAX  2.043 | Flutter SF min:  4.033 | Root: 0.411, Tip: 0.061, Span: 0.105
+ 273 | Stab MIN  0.752 MAX  2.048 | Flutter SF min:  4.076 | Root: 0.411, Tip: 0.067, Span: 0.105
+ 274 | Stab MIN  0.765 MAX  2.052 | Flutter SF min:  4.119 | Root: 0.411, Tip: 0.072, Span: 0.105
+ 275 | Stab MIN  0.777 MAX  2.056 | Flutter SF min:  4.162 | Root: 0.411, Tip: 0.078, Span: 0.105
+ 276 | Stab MIN  0.788 MAX  2.059 | Flutter SF min:  4.206 | Root: 0.411, Tip: 0.083, Span: 0.105
+ 277 | Stab MIN  0.799 MAX  2.061 | Flutter SF min:  4.249 | Root: 0.411, Tip: 0.089, Span: 0.105
+ 278 | Stab MIN  0.808 MAX  2.063 | Flutter SF min:  4.292 | Root: 0.411, Tip: 0.094, Span: 0.105
+ 279 | Stab MIN  0.817 MAX  2.065 | Flutter SF min:  4.335 | Root: 0.411, Tip: 0.1, Span: 0.105
+ 280 | Stab MIN  0.582 MAX  1.902 | Flutter SF min:  3.873 | Root: 0.456, Tip: 0.05, Span: 0.105
+ 281 | Stab MIN  0.597 MAX  1.907 | Flutter SF min:  3.912 | Root: 0.456, Tip: 0.056, Span: 0.105
+ 282 | Stab MIN  0.610 MAX  1.913 | Flutter SF min:  3.952 | Root: 0.456, Tip: 0.061, Span: 0.105
+ 283 | Stab MIN  0.623 MAX  1.917 | Flutter SF min:  3.990 | Root: 0.456, Tip: 0.067, Span: 0.105
+ 284 | Stab MIN  0.635 MAX  1.921 | Flutter SF min:  4.028 | Root: 0.456, Tip: 0.072, Span: 0.105
+ 285 | Stab MIN  0.646 MAX  1.925 | Flutter SF min:  4.067 | Root: 0.456, Tip: 0.078, Span: 0.105
+ 286 | Stab MIN  0.657 MAX  1.928 | Flutter SF min:  4.105 | Root: 0.456, Tip: 0.083, Span: 0.105
+ 287 | Stab MIN  0.667 MAX  1.930 | Flutter SF min:  4.145 | Root: 0.456, Tip: 0.089, Span: 0.105
+ 288 | Stab MIN  0.676 MAX  1.932 | Flutter SF min:  4.184 | Root: 0.456, Tip: 0.094, Span: 0.105
+ 289 | Stab MIN  0.684 MAX  1.933 | Flutter SF min:  4.223 | Root: 0.456, Tip: 0.1, Span: 0.105
+ 290 | Stab MIN  0.455 MAX  1.771 | Flutter SF min:  3.812 | Root: 0.5, Tip: 0.05, Span: 0.105
+ 291 | Stab MIN  0.468 MAX  1.777 | Flutter SF min:  3.848 | Root: 0.5, Tip: 0.056, Span: 0.105
+ 292 | Stab MIN  0.481 MAX  1.782 | Flutter SF min:  3.883 | Root: 0.5, Tip: 0.061, Span: 0.105
+ 293 | Stab MIN  0.492 MAX  1.786 | Flutter SF min:  3.919 | Root: 0.5, Tip: 0.067, Span: 0.105
+ 294 | Stab MIN  0.504 MAX  1.790 | Flutter SF min:  3.954 | Root: 0.5, Tip: 0.072, Span: 0.105
+ 295 | Stab MIN  0.514 MAX  1.793 | Flutter SF min:  3.989 | Root: 0.5, Tip: 0.078, Span: 0.105
+ 296 | Stab MIN  0.524 MAX  1.796 | Flutter SF min:  4.024 | Root: 0.5, Tip: 0.083, Span: 0.105
+ 297 | Stab MIN  0.533 MAX  1.798 | Flutter SF min:  4.059 | Root: 0.5, Tip: 0.089, Span: 0.105
+ 298 | Stab MIN  0.542 MAX  1.800 | Flutter SF min:  4.095 | Root: 0.5, Tip: 0.094, Span: 0.105
+ 299 | Stab MIN  0.549 MAX  1.801 | Flutter SF min:  4.130 | Root: 0.5, Tip: 0.1, Span: 0.105
+ 300 | Stab MIN  1.136 MAX  2.739 | Flutter SF min:  6.017 | Root: 0.1, Tip: 0.05, Span: 0.108
+ 301 | Stab MIN  1.193 MAX  2.767 | Flutter SF min:  6.193 | Root: 0.1, Tip: 0.056, Span: 0.108
+ 302 | Stab MIN  1.243 MAX  2.792 | Flutter SF min:  6.369 | Root: 0.1, Tip: 0.061, Span: 0.108
+ 303 | Stab MIN  1.288 MAX  2.813 | Flutter SF min:  6.545 | Root: 0.1, Tip: 0.067, Span: 0.108
+ 304 | Stab MIN  1.328 MAX  2.830 | Flutter SF min:  6.720 | Root: 0.1, Tip: 0.072, Span: 0.108
+ 305 | Stab MIN  1.363 MAX  2.845 | Flutter SF min:  6.895 | Root: 0.1, Tip: 0.078, Span: 0.108
+ 306 | Stab MIN  1.394 MAX  2.856 | Flutter SF min:  7.069 | Root: 0.1, Tip: 0.083, Span: 0.108
+ 307 | Stab MIN  1.420 MAX  2.866 | Flutter SF min:  7.244 | Root: 0.1, Tip: 0.089, Span: 0.108
+ 308 | Stab MIN  1.444 MAX  2.872 | Flutter SF min:  7.417 | Root: 0.1, Tip: 0.094, Span: 0.108
+ 309 | Stab MIN  1.464 MAX  2.877 | Flutter SF min:  7.592 | Root: 0.1, Tip: 0.1, Span: 0.108
+ 310 | Stab MIN  1.305 MAX  2.781 | Flutter SF min:  5.136 | Root: 0.144, Tip: 0.05, Span: 0.108
+ 311 | Stab MIN  1.344 MAX  2.799 | Flutter SF min:  5.256 | Root: 0.144, Tip: 0.056, Span: 0.108
+ 312 | Stab MIN  1.380 MAX  2.814 | Flutter SF min:  5.376 | Root: 0.144, Tip: 0.061, Span: 0.108
+ 313 | Stab MIN  1.411 MAX  2.827 | Flutter SF min:  5.496 | Root: 0.144, Tip: 0.067, Span: 0.108
+ 314 | Stab MIN  1.439 MAX  2.838 | Flutter SF min:  5.617 | Root: 0.144, Tip: 0.072, Span: 0.108
+ 315 | Stab MIN  1.464 MAX  2.846 | Flutter SF min:  5.738 | Root: 0.144, Tip: 0.078, Span: 0.108
+ 316 | Stab MIN  1.486 MAX  2.853 | Flutter SF min:  5.857 | Root: 0.144, Tip: 0.083, Span: 0.108
+ 317 | Stab MIN  1.505 MAX  2.858 | Flutter SF min:  5.977 | Root: 0.144, Tip: 0.089, Span: 0.108
+ 318 | Stab MIN  1.521 MAX  2.861 | Flutter SF min:  6.097 | Root: 0.144, Tip: 0.094, Span: 0.108
+ 319 | Stab MIN  1.536 MAX  2.863 | Flutter SF min:  6.217 | Root: 0.144, Tip: 0.1, Span: 0.108
+ 320 | Stab MIN  1.325 MAX  2.733 | Flutter SF min:  4.661 | Root: 0.189, Tip: 0.05, Span: 0.108
+ 321 | Stab MIN  1.356 MAX  2.746 | Flutter SF min:  4.754 | Root: 0.189, Tip: 0.056, Span: 0.108
+ 322 | Stab MIN  1.383 MAX  2.757 | Flutter SF min:  4.845 | Root: 0.189, Tip: 0.061, Span: 0.108
+ 323 | Stab MIN  1.408 MAX  2.767 | Flutter SF min:  4.937 | Root: 0.189, Tip: 0.067, Span: 0.108
+ 324 | Stab MIN  1.430 MAX  2.774 | Flutter SF min:  5.028 | Root: 0.189, Tip: 0.072, Span: 0.108
+ 325 | Stab MIN  1.450 MAX  2.781 | Flutter SF min:  5.119 | Root: 0.189, Tip: 0.078, Span: 0.108
+ 326 | Stab MIN  1.468 MAX  2.786 | Flutter SF min:  5.210 | Root: 0.189, Tip: 0.083, Span: 0.108
+ 327 | Stab MIN  1.484 MAX  2.789 | Flutter SF min:  5.302 | Root: 0.189, Tip: 0.089, Span: 0.108
+ 328 | Stab MIN  1.497 MAX  2.791 | Flutter SF min:  5.393 | Root: 0.189, Tip: 0.094, Span: 0.108
+ 329 | Stab MIN  1.509 MAX  2.793 | Flutter SF min:  5.483 | Root: 0.189, Tip: 0.1, Span: 0.108
+ 330 | Stab MIN  1.275 MAX  2.645 | Flutter SF min:  4.366 | Root: 0.233, Tip: 0.05, Span: 0.108
+ 331 | Stab MIN  1.300 MAX  2.655 | Flutter SF min:  4.440 | Root: 0.233, Tip: 0.056, Span: 0.108
+ 332 | Stab MIN  1.323 MAX  2.664 | Flutter SF min:  4.513 | Root: 0.233, Tip: 0.061, Span: 0.108
+ 333 | Stab MIN  1.344 MAX  2.672 | Flutter SF min:  4.587 | Root: 0.233, Tip: 0.067, Span: 0.108
+ 334 | Stab MIN  1.363 MAX  2.678 | Flutter SF min:  4.660 | Root: 0.233, Tip: 0.072, Span: 0.108
+ 335 | Stab MIN  1.380 MAX  2.683 | Flutter SF min:  4.735 | Root: 0.233, Tip: 0.078, Span: 0.108
+ 336 | Stab MIN  1.396 MAX  2.687 | Flutter SF min:  4.808 | Root: 0.233, Tip: 0.083, Span: 0.108
+ 337 | Stab MIN  1.410 MAX  2.690 | Flutter SF min:  4.882 | Root: 0.233, Tip: 0.089, Span: 0.108
+ 338 | Stab MIN  1.422 MAX  2.692 | Flutter SF min:  4.955 | Root: 0.233, Tip: 0.094, Span: 0.108
+ 339 | Stab MIN  1.432 MAX  2.693 | Flutter SF min:  5.028 | Root: 0.233, Tip: 0.1, Span: 0.108
+ 340 | Stab MIN  1.189 MAX  2.537 | Flutter SF min:  4.162 | Root: 0.278, Tip: 0.05, Span: 0.108
+ 341 | Stab MIN  1.211 MAX  2.546 | Flutter SF min:  4.224 | Root: 0.278, Tip: 0.056, Span: 0.108
+ 342 | Stab MIN  1.231 MAX  2.553 | Flutter SF min:  4.286 | Root: 0.278, Tip: 0.061, Span: 0.108
+ 343 | Stab MIN  1.249 MAX  2.560 | Flutter SF min:  4.347 | Root: 0.278, Tip: 0.067, Span: 0.108
+ 344 | Stab MIN  1.266 MAX  2.565 | Flutter SF min:  4.410 | Root: 0.278, Tip: 0.072, Span: 0.108
+ 345 | Stab MIN  1.281 MAX  2.570 | Flutter SF min:  4.471 | Root: 0.278, Tip: 0.078, Span: 0.108
+ 346 | Stab MIN  1.295 MAX  2.574 | Flutter SF min:  4.532 | Root: 0.278, Tip: 0.083, Span: 0.108
+ 347 | Stab MIN  1.308 MAX  2.576 | Flutter SF min:  4.595 | Root: 0.278, Tip: 0.089, Span: 0.108
+ 348 | Stab MIN  1.319 MAX  2.578 | Flutter SF min:  4.656 | Root: 0.278, Tip: 0.094, Span: 0.108
+ 349 | Stab MIN  1.329 MAX  2.579 | Flutter SF min:  4.718 | Root: 0.278, Tip: 0.1, Span: 0.108
+ 350 | Stab MIN  1.084 MAX  2.419 | Flutter SF min:  4.013 | Root: 0.322, Tip: 0.05, Span: 0.108
+ 351 | Stab MIN  1.103 MAX  2.426 | Flutter SF min:  4.067 | Root: 0.322, Tip: 0.056, Span: 0.108
+ 352 | Stab MIN  1.121 MAX  2.433 | Flutter SF min:  4.120 | Root: 0.322, Tip: 0.061, Span: 0.108
+ 353 | Stab MIN  1.137 MAX  2.439 | Flutter SF min:  4.174 | Root: 0.322, Tip: 0.067, Span: 0.108
+ 354 | Stab MIN  1.153 MAX  2.443 | Flutter SF min:  4.227 | Root: 0.322, Tip: 0.072, Span: 0.108
+ 355 | Stab MIN  1.166 MAX  2.448 | Flutter SF min:  4.280 | Root: 0.322, Tip: 0.078, Span: 0.108
+ 356 | Stab MIN  1.179 MAX  2.451 | Flutter SF min:  4.333 | Root: 0.322, Tip: 0.083, Span: 0.108
+ 357 | Stab MIN  1.191 MAX  2.453 | Flutter SF min:  4.386 | Root: 0.322, Tip: 0.089, Span: 0.108
+ 358 | Stab MIN  1.201 MAX  2.455 | Flutter SF min:  4.439 | Root: 0.322, Tip: 0.094, Span: 0.108
+ 359 | Stab MIN  1.211 MAX  2.456 | Flutter SF min:  4.493 | Root: 0.322, Tip: 0.1, Span: 0.108
+ 360 | Stab MIN  0.969 MAX  2.294 | Flutter SF min:  3.901 | Root: 0.367, Tip: 0.05, Span: 0.108
+ 361 | Stab MIN  0.986 MAX  2.301 | Flutter SF min:  3.948 | Root: 0.367, Tip: 0.056, Span: 0.108
+ 362 | Stab MIN  1.002 MAX  2.307 | Flutter SF min:  3.994 | Root: 0.367, Tip: 0.061, Span: 0.108
+ 363 | Stab MIN  1.016 MAX  2.312 | Flutter SF min:  4.041 | Root: 0.367, Tip: 0.067, Span: 0.108
+ 364 | Stab MIN  1.030 MAX  2.317 | Flutter SF min:  4.087 | Root: 0.367, Tip: 0.072, Span: 0.108
+ 365 | Stab MIN  1.043 MAX  2.320 | Flutter SF min:  4.134 | Root: 0.367, Tip: 0.078, Span: 0.108
+ 366 | Stab MIN  1.055 MAX  2.323 | Flutter SF min:  4.181 | Root: 0.367, Tip: 0.083, Span: 0.108
+ 367 | Stab MIN  1.065 MAX  2.326 | Flutter SF min:  4.228 | Root: 0.367, Tip: 0.089, Span: 0.108
+ 368 | Stab MIN  1.075 MAX  2.328 | Flutter SF min:  4.274 | Root: 0.367, Tip: 0.094, Span: 0.108
+ 369 | Stab MIN  1.084 MAX  2.329 | Flutter SF min:  4.320 | Root: 0.367, Tip: 0.1, Span: 0.108
+ 370 | Stab MIN  0.847 MAX  2.166 | Flutter SF min:  3.812 | Root: 0.411, Tip: 0.05, Span: 0.108
+ 371 | Stab MIN  0.862 MAX  2.173 | Flutter SF min:  3.853 | Root: 0.411, Tip: 0.056, Span: 0.108
+ 372 | Stab MIN  0.877 MAX  2.178 | Flutter SF min:  3.895 | Root: 0.411, Tip: 0.061, Span: 0.108
+ 373 | Stab MIN  0.890 MAX  2.183 | Flutter SF min:  3.936 | Root: 0.411, Tip: 0.067, Span: 0.108
+ 374 | Stab MIN  0.903 MAX  2.187 | Flutter SF min:  3.978 | Root: 0.411, Tip: 0.072, Span: 0.108
+ 375 | Stab MIN  0.915 MAX  2.190 | Flutter SF min:  4.019 | Root: 0.411, Tip: 0.078, Span: 0.108
+ 376 | Stab MIN  0.925 MAX  2.193 | Flutter SF min:  4.061 | Root: 0.411, Tip: 0.083, Span: 0.108
+ 377 | Stab MIN  0.935 MAX  2.195 | Flutter SF min:  4.104 | Root: 0.411, Tip: 0.089, Span: 0.108
+ 378 | Stab MIN  0.945 MAX  2.197 | Flutter SF min:  4.144 | Root: 0.411, Tip: 0.094, Span: 0.108
+ 379 | Stab MIN  0.953 MAX  2.198 | Flutter SF min:  4.186 | Root: 0.411, Tip: 0.1, Span: 0.108
+ 380 | Stab MIN  0.721 MAX  2.037 | Flutter SF min:  3.740 | Root: 0.456, Tip: 0.05, Span: 0.108
+ 381 | Stab MIN  0.735 MAX  2.042 | Flutter SF min:  3.778 | Root: 0.456, Tip: 0.056, Span: 0.108
+ 382 | Stab MIN  0.748 MAX  2.047 | Flutter SF min:  3.816 | Root: 0.456, Tip: 0.061, Span: 0.108
+ 383 | Stab MIN  0.761 MAX  2.051 | Flutter SF min:  3.853 | Root: 0.456, Tip: 0.067, Span: 0.108
+ 384 | Stab MIN  0.772 MAX  2.055 | Flutter SF min:  3.890 | Root: 0.456, Tip: 0.072, Span: 0.108
+ 385 | Stab MIN  0.783 MAX  2.058 | Flutter SF min:  3.927 | Root: 0.456, Tip: 0.078, Span: 0.108
+ 386 | Stab MIN  0.793 MAX  2.061 | Flutter SF min:  3.965 | Root: 0.456, Tip: 0.083, Span: 0.108
+ 387 | Stab MIN  0.803 MAX  2.063 | Flutter SF min:  4.003 | Root: 0.456, Tip: 0.089, Span: 0.108
+ 388 | Stab MIN  0.811 MAX  2.065 | Flutter SF min:  4.040 | Root: 0.456, Tip: 0.094, Span: 0.108
+ 389 | Stab MIN  0.819 MAX  2.066 | Flutter SF min:  4.078 | Root: 0.456, Tip: 0.1, Span: 0.108
+ 390 | Stab MIN  0.593 MAX  1.905 | Flutter SF min:  3.681 | Root: 0.5, Tip: 0.05, Span: 0.108
+ 391 | Stab MIN  0.606 MAX  1.910 | Flutter SF min:  3.715 | Root: 0.5, Tip: 0.056, Span: 0.108
+ 392 | Stab MIN  0.618 MAX  1.915 | Flutter SF min:  3.749 | Root: 0.5, Tip: 0.061, Span: 0.108
+ 393 | Stab MIN  0.629 MAX  1.919 | Flutter SF min:  3.784 | Root: 0.5, Tip: 0.067, Span: 0.108
+ 394 | Stab MIN  0.640 MAX  1.923 | Flutter SF min:  3.817 | Root: 0.5, Tip: 0.072, Span: 0.108
+ 395 | Stab MIN  0.650 MAX  1.926 | Flutter SF min:  3.850 | Root: 0.5, Tip: 0.078, Span: 0.108
+ 396 | Stab MIN  0.660 MAX  1.928 | Flutter SF min:  3.886 | Root: 0.5, Tip: 0.083, Span: 0.108
+ 397 | Stab MIN  0.669 MAX  1.930 | Flutter SF min:  3.920 | Root: 0.5, Tip: 0.089, Span: 0.108
+ 398 | Stab MIN  0.677 MAX  1.932 | Flutter SF min:  3.954 | Root: 0.5, Tip: 0.094, Span: 0.108
+ 399 | Stab MIN  0.684 MAX  1.933 | Flutter SF min:  3.987 | Root: 0.5, Tip: 0.1, Span: 0.108
+ 400 | Stab MIN  1.260 MAX  2.865 | Flutter SF min:  5.833 | Root: 0.1, Tip: 0.05, Span: 0.111
+ 401 | Stab MIN  1.316 MAX  2.894 | Flutter SF min:  6.004 | Root: 0.1, Tip: 0.056, Span: 0.111
+ 402 | Stab MIN  1.366 MAX  2.919 | Flutter SF min:  6.173 | Root: 0.1, Tip: 0.061, Span: 0.111
+ 403 | Stab MIN  1.411 MAX  2.939 | Flutter SF min:  6.343 | Root: 0.1, Tip: 0.067, Span: 0.111
+ 404 | Stab MIN  1.451 MAX  2.957 | Flutter SF min:  6.511 | Root: 0.1, Tip: 0.072, Span: 0.111
+ 405 | Stab MIN  1.486 MAX  2.971 | Flutter SF min:  6.682 | Root: 0.1, Tip: 0.078, Span: 0.111
+ 406 | Stab MIN  1.517 MAX  2.983 | Flutter SF min:  6.849 | Root: 0.1, Tip: 0.083, Span: 0.111
+ 407 | Stab MIN  1.544 MAX  2.993 | Flutter SF min:  7.019 | Root: 0.1, Tip: 0.089, Span: 0.111
+ 408 | Stab MIN  1.567 MAX  3.000 | Flutter SF min:  7.185 | Root: 0.1, Tip: 0.094, Span: 0.111
+ 409 | Stab MIN  1.587 MAX  3.005 | Flutter SF min:  7.354 | Root: 0.1, Tip: 0.1, Span: 0.111
+ 410 | Stab MIN  1.432 MAX  2.910 | Flutter SF min:  4.974 | Root: 0.144, Tip: 0.05, Span: 0.111
+ 411 | Stab MIN  1.471 MAX  2.928 | Flutter SF min:  5.091 | Root: 0.144, Tip: 0.056, Span: 0.111
+ 412 | Stab MIN  1.506 MAX  2.943 | Flutter SF min:  5.208 | Root: 0.144, Tip: 0.061, Span: 0.111
+ 413 | Stab MIN  1.537 MAX  2.956 | Flutter SF min:  5.323 | Root: 0.144, Tip: 0.067, Span: 0.111
+ 414 | Stab MIN  1.565 MAX  2.966 | Flutter SF min:  5.439 | Root: 0.144, Tip: 0.072, Span: 0.111
+ 415 | Stab MIN  1.589 MAX  2.975 | Flutter SF min:  5.555 | Root: 0.144, Tip: 0.078, Span: 0.111
+ 416 | Stab MIN  1.611 MAX  2.981 | Flutter SF min:  5.670 | Root: 0.144, Tip: 0.083, Span: 0.111
+ 417 | Stab MIN  1.630 MAX  2.986 | Flutter SF min:  5.786 | Root: 0.144, Tip: 0.089, Span: 0.111
+ 418 | Stab MIN  1.647 MAX  2.990 | Flutter SF min:  5.902 | Root: 0.144, Tip: 0.094, Span: 0.111
+ 419 | Stab MIN  1.661 MAX  2.992 | Flutter SF min:  6.017 | Root: 0.144, Tip: 0.1, Span: 0.111
+ 420 | Stab MIN  1.455 MAX  2.863 | Flutter SF min:  4.514 | Root: 0.189, Tip: 0.05, Span: 0.111
+ 421 | Stab MIN  1.485 MAX  2.876 | Flutter SF min:  4.601 | Root: 0.189, Tip: 0.056, Span: 0.111
+ 422 | Stab MIN  1.512 MAX  2.887 | Flutter SF min:  4.689 | Root: 0.189, Tip: 0.061, Span: 0.111
+ 423 | Stab MIN  1.536 MAX  2.896 | Flutter SF min:  4.777 | Root: 0.189, Tip: 0.067, Span: 0.111
+ 424 | Stab MIN  1.558 MAX  2.904 | Flutter SF min:  4.866 | Root: 0.189, Tip: 0.072, Span: 0.111
+ 425 | Stab MIN  1.578 MAX  2.910 | Flutter SF min:  4.955 | Root: 0.189, Tip: 0.078, Span: 0.111
+ 426 | Stab MIN  1.595 MAX  2.915 | Flutter SF min:  5.042 | Root: 0.189, Tip: 0.083, Span: 0.111
+ 427 | Stab MIN  1.611 MAX  2.918 | Flutter SF min:  5.131 | Root: 0.189, Tip: 0.089, Span: 0.111
+ 428 | Stab MIN  1.624 MAX  2.920 | Flutter SF min:  5.218 | Root: 0.189, Tip: 0.094, Span: 0.111
+ 429 | Stab MIN  1.636 MAX  2.921 | Flutter SF min:  5.306 | Root: 0.189, Tip: 0.1, Span: 0.111
+ 430 | Stab MIN  1.406 MAX  2.775 | Flutter SF min:  4.225 | Root: 0.233, Tip: 0.05, Span: 0.111
+ 431 | Stab MIN  1.431 MAX  2.786 | Flutter SF min:  4.297 | Root: 0.233, Tip: 0.056, Span: 0.111
+ 432 | Stab MIN  1.454 MAX  2.795 | Flutter SF min:  4.367 | Root: 0.233, Tip: 0.061, Span: 0.111
+ 433 | Stab MIN  1.474 MAX  2.802 | Flutter SF min:  4.438 | Root: 0.233, Tip: 0.067, Span: 0.111
+ 434 | Stab MIN  1.493 MAX  2.808 | Flutter SF min:  4.509 | Root: 0.233, Tip: 0.072, Span: 0.111
+ 435 | Stab MIN  1.510 MAX  2.813 | Flutter SF min:  4.580 | Root: 0.233, Tip: 0.078, Span: 0.111
+ 436 | Stab MIN  1.525 MAX  2.817 | Flutter SF min:  4.651 | Root: 0.233, Tip: 0.083, Span: 0.111
+ 437 | Stab MIN  1.538 MAX  2.819 | Flutter SF min:  4.723 | Root: 0.233, Tip: 0.089, Span: 0.111
+ 438 | Stab MIN  1.550 MAX  2.821 | Flutter SF min:  4.793 | Root: 0.233, Tip: 0.094, Span: 0.111
+ 439 | Stab MIN  1.560 MAX  2.822 | Flutter SF min:  4.865 | Root: 0.233, Tip: 0.1, Span: 0.111
+ 440 | Stab MIN  1.322 MAX  2.668 | Flutter SF min:  4.027 | Root: 0.278, Tip: 0.05, Span: 0.111
+ 441 | Stab MIN  1.343 MAX  2.676 | Flutter SF min:  4.087 | Root: 0.278, Tip: 0.056, Span: 0.111
+ 442 | Stab MIN  1.362 MAX  2.683 | Flutter SF min:  4.146 | Root: 0.278, Tip: 0.061, Span: 0.111
+ 443 | Stab MIN  1.380 MAX  2.690 | Flutter SF min:  4.205 | Root: 0.278, Tip: 0.067, Span: 0.111
+ 444 | Stab MIN  1.397 MAX  2.695 | Flutter SF min:  4.265 | Root: 0.278, Tip: 0.072, Span: 0.111
+ 445 | Stab MIN  1.412 MAX  2.699 | Flutter SF min:  4.325 | Root: 0.278, Tip: 0.078, Span: 0.111
+ 446 | Stab MIN  1.425 MAX  2.703 | Flutter SF min:  4.384 | Root: 0.278, Tip: 0.083, Span: 0.111
+ 447 | Stab MIN  1.437 MAX  2.705 | Flutter SF min:  4.443 | Root: 0.278, Tip: 0.089, Span: 0.111
+ 448 | Stab MIN  1.448 MAX  2.707 | Flutter SF min:  4.503 | Root: 0.278, Tip: 0.094, Span: 0.111
+ 449 | Stab MIN  1.458 MAX  2.708 | Flutter SF min:  4.563 | Root: 0.278, Tip: 0.1, Span: 0.111
+ 450 | Stab MIN  1.217 MAX  2.549 | Flutter SF min:  3.882 | Root: 0.322, Tip: 0.05, Span: 0.111
+ 451 | Stab MIN  1.236 MAX  2.556 | Flutter SF min:  3.933 | Root: 0.322, Tip: 0.056, Span: 0.111
+ 452 | Stab MIN  1.253 MAX  2.563 | Flutter SF min:  3.984 | Root: 0.322, Tip: 0.061, Span: 0.111
+ 453 | Stab MIN  1.269 MAX  2.568 | Flutter SF min:  4.036 | Root: 0.322, Tip: 0.067, Span: 0.111
+ 454 | Stab MIN  1.284 MAX  2.573 | Flutter SF min:  4.088 | Root: 0.322, Tip: 0.072, Span: 0.111
+ 455 | Stab MIN  1.297 MAX  2.577 | Flutter SF min:  4.139 | Root: 0.322, Tip: 0.078, Span: 0.111
+ 456 | Stab MIN  1.310 MAX  2.580 | Flutter SF min:  4.189 | Root: 0.322, Tip: 0.083, Span: 0.111
+ 457 | Stab MIN  1.321 MAX  2.582 | Flutter SF min:  4.241 | Root: 0.322, Tip: 0.089, Span: 0.111
+ 458 | Stab MIN  1.331 MAX  2.584 | Flutter SF min:  4.292 | Root: 0.322, Tip: 0.094, Span: 0.111
+ 459 | Stab MIN  1.340 MAX  2.585 | Flutter SF min:  4.343 | Root: 0.322, Tip: 0.1, Span: 0.111
+ 460 | Stab MIN  1.102 MAX  2.424 | Flutter SF min:  3.772 | Root: 0.367, Tip: 0.05, Span: 0.111
+ 461 | Stab MIN  1.118 MAX  2.430 | Flutter SF min:  3.817 | Root: 0.367, Tip: 0.056, Span: 0.111
+ 462 | Stab MIN  1.134 MAX  2.436 | Flutter SF min:  3.862 | Root: 0.367, Tip: 0.061, Span: 0.111
+ 463 | Stab MIN  1.148 MAX  2.441 | Flutter SF min:  3.907 | Root: 0.367, Tip: 0.067, Span: 0.111
+ 464 | Stab MIN  1.162 MAX  2.445 | Flutter SF min:  3.952 | Root: 0.367, Tip: 0.072, Span: 0.111
+ 465 | Stab MIN  1.174 MAX  2.449 | Flutter SF min:  3.996 | Root: 0.367, Tip: 0.078, Span: 0.111
+ 466 | Stab MIN  1.185 MAX  2.452 | Flutter SF min:  4.042 | Root: 0.367, Tip: 0.083, Span: 0.111
+ 467 | Stab MIN  1.196 MAX  2.454 | Flutter SF min:  4.087 | Root: 0.367, Tip: 0.089, Span: 0.111
+ 468 | Stab MIN  1.205 MAX  2.456 | Flutter SF min:  4.132 | Root: 0.367, Tip: 0.094, Span: 0.111
+ 469 | Stab MIN  1.214 MAX  2.457 | Flutter SF min:  4.177 | Root: 0.367, Tip: 0.1, Span: 0.111
+ 470 | Stab MIN  0.979 MAX  2.295 | Flutter SF min:  3.685 | Root: 0.411, Tip: 0.05, Span: 0.111
+ 471 | Stab MIN  0.994 MAX  2.301 | Flutter SF min:  3.725 | Root: 0.411, Tip: 0.056, Span: 0.111
+ 472 | Stab MIN  1.008 MAX  2.307 | Flutter SF min:  3.765 | Root: 0.411, Tip: 0.061, Span: 0.111
+ 473 | Stab MIN  1.022 MAX  2.311 | Flutter SF min:  3.805 | Root: 0.411, Tip: 0.067, Span: 0.111
+ 474 | Stab MIN  1.034 MAX  2.315 | Flutter SF min:  3.845 | Root: 0.411, Tip: 0.072, Span: 0.111
+ 475 | Stab MIN  1.045 MAX  2.318 | Flutter SF min:  3.885 | Root: 0.411, Tip: 0.078, Span: 0.111
+ 476 | Stab MIN  1.056 MAX  2.321 | Flutter SF min:  3.925 | Root: 0.411, Tip: 0.083, Span: 0.111
+ 477 | Stab MIN  1.065 MAX  2.323 | Flutter SF min:  3.966 | Root: 0.411, Tip: 0.089, Span: 0.111
+ 478 | Stab MIN  1.074 MAX  2.325 | Flutter SF min:  4.006 | Root: 0.411, Tip: 0.094, Span: 0.111
+ 479 | Stab MIN  1.082 MAX  2.326 | Flutter SF min:  4.045 | Root: 0.411, Tip: 0.1, Span: 0.111
+ 480 | Stab MIN  0.853 MAX  2.165 | Flutter SF min:  3.615 | Root: 0.456, Tip: 0.05, Span: 0.111
+ 481 | Stab MIN  0.867 MAX  2.170 | Flutter SF min:  3.651 | Root: 0.456, Tip: 0.056, Span: 0.111
+ 482 | Stab MIN  0.880 MAX  2.175 | Flutter SF min:  3.687 | Root: 0.456, Tip: 0.061, Span: 0.111
+ 483 | Stab MIN  0.892 MAX  2.179 | Flutter SF min:  3.723 | Root: 0.456, Tip: 0.067, Span: 0.111
+ 484 | Stab MIN  0.903 MAX  2.182 | Flutter SF min:  3.760 | Root: 0.456, Tip: 0.072, Span: 0.111
+ 485 | Stab MIN  0.914 MAX  2.186 | Flutter SF min:  3.796 | Root: 0.456, Tip: 0.078, Span: 0.111
+ 486 | Stab MIN  0.923 MAX  2.188 | Flutter SF min:  3.832 | Root: 0.456, Tip: 0.083, Span: 0.111
+ 487 | Stab MIN  0.932 MAX  2.190 | Flutter SF min:  3.868 | Root: 0.456, Tip: 0.089, Span: 0.111
+ 488 | Stab MIN  0.941 MAX  2.192 | Flutter SF min:  3.904 | Root: 0.456, Tip: 0.094, Span: 0.111
+ 489 | Stab MIN  0.948 MAX  2.193 | Flutter SF min:  3.940 | Root: 0.456, Tip: 0.1, Span: 0.111
+ 490 | Stab MIN  0.724 MAX  2.032 | Flutter SF min:  3.557 | Root: 0.5, Tip: 0.05, Span: 0.111
+ 491 | Stab MIN  0.737 MAX  2.037 | Flutter SF min:  3.590 | Root: 0.5, Tip: 0.056, Span: 0.111
+ 492 | Stab MIN  0.749 MAX  2.042 | Flutter SF min:  3.624 | Root: 0.5, Tip: 0.061, Span: 0.111
+ 493 | Stab MIN  0.760 MAX  2.046 | Flutter SF min:  3.656 | Root: 0.5, Tip: 0.067, Span: 0.111
+ 494 | Stab MIN  0.770 MAX  2.049 | Flutter SF min:  3.689 | Root: 0.5, Tip: 0.072, Span: 0.111
+ 495 | Stab MIN  0.780 MAX  2.052 | Flutter SF min:  3.722 | Root: 0.5, Tip: 0.078, Span: 0.111
+ 496 | Stab MIN  0.789 MAX  2.054 | Flutter SF min:  3.755 | Root: 0.5, Tip: 0.083, Span: 0.111
+ 497 | Stab MIN  0.798 MAX  2.056 | Flutter SF min:  3.787 | Root: 0.5, Tip: 0.089, Span: 0.111
+ 498 | Stab MIN  0.806 MAX  2.058 | Flutter SF min:  3.820 | Root: 0.5, Tip: 0.094, Span: 0.111
+ 499 | Stab MIN  0.813 MAX  2.059 | Flutter SF min:  3.854 | Root: 0.5, Tip: 0.1, Span: 0.111
+ 500 | Stab MIN  1.377 MAX  2.986 | Flutter SF min:  5.660 | Root: 0.1, Tip: 0.05, Span: 0.113
+ 501 | Stab MIN  1.434 MAX  3.014 | Flutter SF min:  5.824 | Root: 0.1, Tip: 0.056, Span: 0.113
+ 502 | Stab MIN  1.484 MAX  3.039 | Flutter SF min:  5.988 | Root: 0.1, Tip: 0.061, Span: 0.113
+ 503 | Stab MIN  1.529 MAX  3.060 | Flutter SF min:  6.151 | Root: 0.1, Tip: 0.067, Span: 0.113
+ 504 | Stab MIN  1.568 MAX  3.078 | Flutter SF min:  6.315 | Root: 0.1, Tip: 0.072, Span: 0.113
+ 505 | Stab MIN  1.603 MAX  3.093 | Flutter SF min:  6.479 | Root: 0.1, Tip: 0.078, Span: 0.113
+ 506 | Stab MIN  1.634 MAX  3.104 | Flutter SF min:  6.640 | Root: 0.1, Tip: 0.083, Span: 0.113
+ 507 | Stab MIN  1.661 MAX  3.114 | Flutter SF min:  6.803 | Root: 0.1, Tip: 0.089, Span: 0.113
+ 508 | Stab MIN  1.684 MAX  3.121 | Flutter SF min:  6.966 | Root: 0.1, Tip: 0.094, Span: 0.113
+ 509 | Stab MIN  1.705 MAX  3.126 | Flutter SF min:  7.129 | Root: 0.1, Tip: 0.1, Span: 0.113
+ 510 | Stab MIN  1.553 MAX  3.032 | Flutter SF min:  4.824 | Root: 0.144, Tip: 0.05, Span: 0.113
+ 511 | Stab MIN  1.592 MAX  3.050 | Flutter SF min:  4.936 | Root: 0.144, Tip: 0.056, Span: 0.113
+ 512 | Stab MIN  1.626 MAX  3.065 | Flutter SF min:  5.047 | Root: 0.144, Tip: 0.061, Span: 0.113
+ 513 | Stab MIN  1.657 MAX  3.078 | Flutter SF min:  5.160 | Root: 0.144, Tip: 0.067, Span: 0.113
+ 514 | Stab MIN  1.685 MAX  3.088 | Flutter SF min:  5.272 | Root: 0.144, Tip: 0.072, Span: 0.113
+ 515 | Stab MIN  1.709 MAX  3.097 | Flutter SF min:  5.382 | Root: 0.144, Tip: 0.078, Span: 0.113
+ 516 | Stab MIN  1.730 MAX  3.103 | Flutter SF min:  5.496 | Root: 0.144, Tip: 0.083, Span: 0.113
+ 517 | Stab MIN  1.749 MAX  3.108 | Flutter SF min:  5.607 | Root: 0.144, Tip: 0.089, Span: 0.113
+ 518 | Stab MIN  1.766 MAX  3.112 | Flutter SF min:  5.719 | Root: 0.144, Tip: 0.094, Span: 0.113
+ 519 | Stab MIN  1.780 MAX  3.114 | Flutter SF min:  5.830 | Root: 0.144, Tip: 0.1, Span: 0.113
+ 520 | Stab MIN  1.579 MAX  2.987 | Flutter SF min:  4.374 | Root: 0.189, Tip: 0.05, Span: 0.113
+ 521 | Stab MIN  1.608 MAX  3.000 | Flutter SF min:  4.458 | Root: 0.189, Tip: 0.056, Span: 0.113
+ 522 | Stab MIN  1.635 MAX  3.011 | Flutter SF min:  4.544 | Root: 0.189, Tip: 0.061, Span: 0.113
+ 523 | Stab MIN  1.659 MAX  3.020 | Flutter SF min:  4.629 | Root: 0.189, Tip: 0.067, Span: 0.113
+ 524 | Stab MIN  1.680 MAX  3.027 | Flutter SF min:  4.714 | Root: 0.189, Tip: 0.072, Span: 0.113
+ 525 | Stab MIN  1.700 MAX  3.033 | Flutter SF min:  4.800 | Root: 0.189, Tip: 0.078, Span: 0.113
+ 526 | Stab MIN  1.717 MAX  3.038 | Flutter SF min:  4.884 | Root: 0.189, Tip: 0.083, Span: 0.113
+ 527 | Stab MIN  1.732 MAX  3.041 | Flutter SF min:  4.969 | Root: 0.189, Tip: 0.089, Span: 0.113
+ 528 | Stab MIN  1.745 MAX  3.043 | Flutter SF min:  5.054 | Root: 0.189, Tip: 0.094, Span: 0.113
+ 529 | Stab MIN  1.757 MAX  3.044 | Flutter SF min:  5.139 | Root: 0.189, Tip: 0.1, Span: 0.113
+ 530 | Stab MIN  1.532 MAX  2.900 | Flutter SF min:  4.092 | Root: 0.233, Tip: 0.05, Span: 0.113
+ 531 | Stab MIN  1.556 MAX  2.910 | Flutter SF min:  4.160 | Root: 0.233, Tip: 0.056, Span: 0.113
+ 532 | Stab MIN  1.578 MAX  2.918 | Flutter SF min:  4.230 | Root: 0.233, Tip: 0.061, Span: 0.113
+ 533 | Stab MIN  1.598 MAX  2.925 | Flutter SF min:  4.299 | Root: 0.233, Tip: 0.067, Span: 0.113
+ 534 | Stab MIN  1.616 MAX  2.932 | Flutter SF min:  4.366 | Root: 0.233, Tip: 0.072, Span: 0.113
+ 535 | Stab MIN  1.633 MAX  2.936 | Flutter SF min:  4.435 | Root: 0.233, Tip: 0.078, Span: 0.113
+ 536 | Stab MIN  1.648 MAX  2.940 | Flutter SF min:  4.504 | Root: 0.233, Tip: 0.083, Span: 0.113
+ 537 | Stab MIN  1.661 MAX  2.943 | Flutter SF min:  4.571 | Root: 0.233, Tip: 0.089, Span: 0.113
+ 538 | Stab MIN  1.672 MAX  2.944 | Flutter SF min:  4.640 | Root: 0.233, Tip: 0.094, Span: 0.113
+ 539 | Stab MIN  1.682 MAX  2.945 | Flutter SF min:  4.709 | Root: 0.233, Tip: 0.1, Span: 0.113
+ 540 | Stab MIN  1.448 MAX  2.792 | Flutter SF min:  3.899 | Root: 0.278, Tip: 0.05, Span: 0.113
+ 541 | Stab MIN  1.469 MAX  2.800 | Flutter SF min:  3.956 | Root: 0.278, Tip: 0.056, Span: 0.113
+ 542 | Stab MIN  1.488 MAX  2.807 | Flutter SF min:  4.014 | Root: 0.278, Tip: 0.061, Span: 0.113
+ 543 | Stab MIN  1.505 MAX  2.814 | Flutter SF min:  4.071 | Root: 0.278, Tip: 0.067, Span: 0.113
+ 544 | Stab MIN  1.521 MAX  2.819 | Flutter SF min:  4.128 | Root: 0.278, Tip: 0.072, Span: 0.113
+ 545 | Stab MIN  1.536 MAX  2.823 | Flutter SF min:  4.186 | Root: 0.278, Tip: 0.078, Span: 0.113
+ 546 | Stab MIN  1.549 MAX  2.826 | Flutter SF min:  4.243 | Root: 0.278, Tip: 0.083, Span: 0.113
+ 547 | Stab MIN  1.561 MAX  2.828 | Flutter SF min:  4.300 | Root: 0.278, Tip: 0.089, Span: 0.113
+ 548 | Stab MIN  1.571 MAX  2.830 | Flutter SF min:  4.358 | Root: 0.278, Tip: 0.094, Span: 0.113
+ 549 | Stab MIN  1.580 MAX  2.830 | Flutter SF min:  4.416 | Root: 0.278, Tip: 0.1, Span: 0.113
+ 550 | Stab MIN  1.344 MAX  2.673 | Flutter SF min:  3.757 | Root: 0.322, Tip: 0.05, Span: 0.113
+ 551 | Stab MIN  1.362 MAX  2.680 | Flutter SF min:  3.806 | Root: 0.322, Tip: 0.056, Span: 0.113
+ 552 | Stab MIN  1.379 MAX  2.686 | Flutter SF min:  3.856 | Root: 0.322, Tip: 0.061, Span: 0.113
+ 553 | Stab MIN  1.394 MAX  2.692 | Flutter SF min:  3.906 | Root: 0.322, Tip: 0.067, Span: 0.113
+ 554 | Stab MIN  1.409 MAX  2.696 | Flutter SF min:  3.956 | Root: 0.322, Tip: 0.072, Span: 0.113
+ 555 | Stab MIN  1.422 MAX  2.700 | Flutter SF min:  4.005 | Root: 0.322, Tip: 0.078, Span: 0.113
+ 556 | Stab MIN  1.434 MAX  2.703 | Flutter SF min:  4.055 | Root: 0.322, Tip: 0.083, Span: 0.113
+ 557 | Stab MIN  1.445 MAX  2.705 | Flutter SF min:  4.103 | Root: 0.322, Tip: 0.089, Span: 0.113
+ 558 | Stab MIN  1.454 MAX  2.706 | Flutter SF min:  4.154 | Root: 0.322, Tip: 0.094, Span: 0.113
+ 559 | Stab MIN  1.463 MAX  2.707 | Flutter SF min:  4.202 | Root: 0.322, Tip: 0.1, Span: 0.113
+ 560 | Stab MIN  1.228 MAX  2.548 | Flutter SF min:  3.650 | Root: 0.367, Tip: 0.05, Span: 0.113
+ 561 | Stab MIN  1.245 MAX  2.554 | Flutter SF min:  3.694 | Root: 0.367, Tip: 0.056, Span: 0.113
+ 562 | Stab MIN  1.260 MAX  2.559 | Flutter SF min:  3.738 | Root: 0.367, Tip: 0.061, Span: 0.113
+ 563 | Stab MIN  1.274 MAX  2.564 | Flutter SF min:  3.780 | Root: 0.367, Tip: 0.067, Span: 0.113
+ 564 | Stab MIN  1.287 MAX  2.568 | Flutter SF min:  3.824 | Root: 0.367, Tip: 0.072, Span: 0.113
+ 565 | Stab MIN  1.299 MAX  2.572 | Flutter SF min:  3.868 | Root: 0.367, Tip: 0.078, Span: 0.113
+ 566 | Stab MIN  1.309 MAX  2.574 | Flutter SF min:  3.910 | Root: 0.367, Tip: 0.083, Span: 0.113
+ 567 | Stab MIN  1.320 MAX  2.576 | Flutter SF min:  3.954 | Root: 0.367, Tip: 0.089, Span: 0.113
+ 568 | Stab MIN  1.329 MAX  2.578 | Flutter SF min:  3.997 | Root: 0.367, Tip: 0.094, Span: 0.113
+ 569 | Stab MIN  1.337 MAX  2.578 | Flutter SF min:  4.041 | Root: 0.367, Tip: 0.1, Span: 0.113
+ 570 | Stab MIN  1.106 MAX  2.418 | Flutter SF min:  3.565 | Root: 0.411, Tip: 0.05, Span: 0.113
+ 571 | Stab MIN  1.120 MAX  2.424 | Flutter SF min:  3.605 | Root: 0.411, Tip: 0.056, Span: 0.113
+ 572 | Stab MIN  1.134 MAX  2.429 | Flutter SF min:  3.643 | Root: 0.411, Tip: 0.061, Span: 0.113
+ 573 | Stab MIN  1.147 MAX  2.433 | Flutter SF min:  3.682 | Root: 0.411, Tip: 0.067, Span: 0.113
+ 574 | Stab MIN  1.159 MAX  2.437 | Flutter SF min:  3.721 | Root: 0.411, Tip: 0.072, Span: 0.113
+ 575 | Stab MIN  1.170 MAX  2.440 | Flutter SF min:  3.759 | Root: 0.411, Tip: 0.078, Span: 0.113
+ 576 | Stab MIN  1.180 MAX  2.443 | Flutter SF min:  3.798 | Root: 0.411, Tip: 0.083, Span: 0.113
+ 577 | Stab MIN  1.189 MAX  2.445 | Flutter SF min:  3.836 | Root: 0.411, Tip: 0.089, Span: 0.113
+ 578 | Stab MIN  1.198 MAX  2.446 | Flutter SF min:  3.874 | Root: 0.411, Tip: 0.094, Span: 0.113
+ 579 | Stab MIN  1.206 MAX  2.447 | Flutter SF min:  3.914 | Root: 0.411, Tip: 0.1, Span: 0.113
+ 580 | Stab MIN  0.979 MAX  2.287 | Flutter SF min:  3.497 | Root: 0.456, Tip: 0.05, Span: 0.113
+ 581 | Stab MIN  0.992 MAX  2.292 | Flutter SF min:  3.531 | Root: 0.456, Tip: 0.056, Span: 0.113
+ 582 | Stab MIN  1.005 MAX  2.296 | Flutter SF min:  3.567 | Root: 0.456, Tip: 0.061, Span: 0.113
+ 583 | Stab MIN  1.017 MAX  2.300 | Flutter SF min:  3.602 | Root: 0.456, Tip: 0.067, Span: 0.113
+ 584 | Stab MIN  1.028 MAX  2.304 | Flutter SF min:  3.637 | Root: 0.456, Tip: 0.072, Span: 0.113
+ 585 | Stab MIN  1.038 MAX  2.307 | Flutter SF min:  3.672 | Root: 0.456, Tip: 0.078, Span: 0.113
+ 586 | Stab MIN  1.047 MAX  2.309 | Flutter SF min:  3.706 | Root: 0.456, Tip: 0.083, Span: 0.113
+ 587 | Stab MIN  1.056 MAX  2.311 | Flutter SF min:  3.742 | Root: 0.456, Tip: 0.089, Span: 0.113
+ 588 | Stab MIN  1.064 MAX  2.312 | Flutter SF min:  3.776 | Root: 0.456, Tip: 0.094, Span: 0.113
+ 589 | Stab MIN  1.071 MAX  2.313 | Flutter SF min:  3.811 | Root: 0.456, Tip: 0.1, Span: 0.113
+ 590 | Stab MIN  0.850 MAX  2.154 | Flutter SF min:  3.441 | Root: 0.5, Tip: 0.05, Span: 0.113
+ 591 | Stab MIN  0.862 MAX  2.159 | Flutter SF min:  3.472 | Root: 0.5, Tip: 0.056, Span: 0.113
+ 592 | Stab MIN  0.873 MAX  2.163 | Flutter SF min:  3.504 | Root: 0.5, Tip: 0.061, Span: 0.113
+ 593 | Stab MIN  0.884 MAX  2.166 | Flutter SF min:  3.536 | Root: 0.5, Tip: 0.067, Span: 0.113
+ 594 | Stab MIN  0.894 MAX  2.169 | Flutter SF min:  3.567 | Root: 0.5, Tip: 0.072, Span: 0.113
+ 595 | Stab MIN  0.904 MAX  2.172 | Flutter SF min:  3.599 | Root: 0.5, Tip: 0.078, Span: 0.113
+ 596 | Stab MIN  0.913 MAX  2.174 | Flutter SF min:  3.631 | Root: 0.5, Tip: 0.083, Span: 0.113
+ 597 | Stab MIN  0.921 MAX  2.176 | Flutter SF min:  3.663 | Root: 0.5, Tip: 0.089, Span: 0.113
+ 598 | Stab MIN  0.928 MAX  2.177 | Flutter SF min:  3.695 | Root: 0.5, Tip: 0.094, Span: 0.113
+ 599 | Stab MIN  0.935 MAX  2.178 | Flutter SF min:  3.726 | Root: 0.5, Tip: 0.1, Span: 0.113
+ 600 | Stab MIN  1.490 MAX  3.101 | Flutter SF min:  5.494 | Root: 0.1, Tip: 0.05, Span: 0.116
+ 601 | Stab MIN  1.546 MAX  3.130 | Flutter SF min:  5.654 | Root: 0.1, Tip: 0.056, Span: 0.116
+ 602 | Stab MIN  1.596 MAX  3.154 | Flutter SF min:  5.813 | Root: 0.1, Tip: 0.061, Span: 0.116
+ 603 | Stab MIN  1.641 MAX  3.175 | Flutter SF min:  5.971 | Root: 0.1, Tip: 0.067, Span: 0.116
+ 604 | Stab MIN  1.680 MAX  3.193 | Flutter SF min:  6.130 | Root: 0.1, Tip: 0.072, Span: 0.116
+ 605 | Stab MIN  1.715 MAX  3.208 | Flutter SF min:  6.287 | Root: 0.1, Tip: 0.078, Span: 0.116
+ 606 | Stab MIN  1.746 MAX  3.220 | Flutter SF min:  6.443 | Root: 0.1, Tip: 0.083, Span: 0.116
+ 607 | Stab MIN  1.773 MAX  3.229 | Flutter SF min:  6.602 | Root: 0.1, Tip: 0.089, Span: 0.116
+ 608 | Stab MIN  1.797 MAX  3.236 | Flutter SF min:  6.758 | Root: 0.1, Tip: 0.094, Span: 0.116
+ 609 | Stab MIN  1.817 MAX  3.242 | Flutter SF min:  6.915 | Root: 0.1, Tip: 0.1, Span: 0.116
+ 610 | Stab MIN  1.669 MAX  3.150 | Flutter SF min:  4.678 | Root: 0.144, Tip: 0.05, Span: 0.116
+ 611 | Stab MIN  1.707 MAX  3.167 | Flutter SF min:  4.788 | Root: 0.144, Tip: 0.056, Span: 0.116
+ 612 | Stab MIN  1.741 MAX  3.182 | Flutter SF min:  4.896 | Root: 0.144, Tip: 0.061, Span: 0.116
+ 613 | Stab MIN  1.772 MAX  3.195 | Flutter SF min:  5.005 | Root: 0.144, Tip: 0.067, Span: 0.116
+ 614 | Stab MIN  1.799 MAX  3.205 | Flutter SF min:  5.113 | Root: 0.144, Tip: 0.072, Span: 0.116
+ 615 | Stab MIN  1.823 MAX  3.213 | Flutter SF min:  5.221 | Root: 0.144, Tip: 0.078, Span: 0.116
+ 616 | Stab MIN  1.844 MAX  3.220 | Flutter SF min:  5.330 | Root: 0.144, Tip: 0.083, Span: 0.116
+ 617 | Stab MIN  1.863 MAX  3.225 | Flutter SF min:  5.437 | Root: 0.144, Tip: 0.089, Span: 0.116
+ 618 | Stab MIN  1.879 MAX  3.228 | Flutter SF min:  5.545 | Root: 0.144, Tip: 0.094, Span: 0.116
+ 619 | Stab MIN  1.893 MAX  3.230 | Flutter SF min:  5.653 | Root: 0.144, Tip: 0.1, Span: 0.116
+ 620 | Stab MIN  1.697 MAX  3.105 | Flutter SF min:  4.240 | Root: 0.189, Tip: 0.05, Span: 0.116
+ 621 | Stab MIN  1.726 MAX  3.118 | Flutter SF min:  4.323 | Root: 0.189, Tip: 0.056, Span: 0.116
+ 622 | Stab MIN  1.752 MAX  3.128 | Flutter SF min:  4.406 | Root: 0.189, Tip: 0.061, Span: 0.116
+ 623 | Stab MIN  1.775 MAX  3.137 | Flutter SF min:  4.488 | Root: 0.189, Tip: 0.067, Span: 0.116
+ 624 | Stab MIN  1.797 MAX  3.144 | Flutter SF min:  4.570 | Root: 0.189, Tip: 0.072, Span: 0.116
+ 625 | Stab MIN  1.816 MAX  3.150 | Flutter SF min:  4.652 | Root: 0.189, Tip: 0.078, Span: 0.116
+ 626 | Stab MIN  1.833 MAX  3.155 | Flutter SF min:  4.734 | Root: 0.189, Tip: 0.083, Span: 0.116
+ 627 | Stab MIN  1.847 MAX  3.158 | Flutter SF min:  4.817 | Root: 0.189, Tip: 0.089, Span: 0.116
+ 628 | Stab MIN  1.860 MAX  3.160 | Flutter SF min:  4.900 | Root: 0.189, Tip: 0.094, Span: 0.116
+ 629 | Stab MIN  1.872 MAX  3.160 | Flutter SF min:  4.981 | Root: 0.189, Tip: 0.1, Span: 0.116
+ 630 | Stab MIN  1.651 MAX  3.018 | Flutter SF min:  3.966 | Root: 0.233, Tip: 0.05, Span: 0.116
+ 631 | Stab MIN  1.675 MAX  3.028 | Flutter SF min:  4.032 | Root: 0.233, Tip: 0.056, Span: 0.116
+ 632 | Stab MIN  1.697 MAX  3.036 | Flutter SF min:  4.099 | Root: 0.233, Tip: 0.061, Span: 0.116
+ 633 | Stab MIN  1.716 MAX  3.043 | Flutter SF min:  4.165 | Root: 0.233, Tip: 0.067, Span: 0.116
+ 634 | Stab MIN  1.734 MAX  3.049 | Flutter SF min:  4.231 | Root: 0.233, Tip: 0.072, Span: 0.116
+ 635 | Stab MIN  1.750 MAX  3.054 | Flutter SF min:  4.298 | Root: 0.233, Tip: 0.078, Span: 0.116
+ 636 | Stab MIN  1.765 MAX  3.057 | Flutter SF min:  4.364 | Root: 0.233, Tip: 0.083, Span: 0.116
+ 637 | Stab MIN  1.777 MAX  3.060 | Flutter SF min:  4.431 | Root: 0.233, Tip: 0.089, Span: 0.116
+ 638 | Stab MIN  1.789 MAX  3.061 | Flutter SF min:  4.498 | Root: 0.233, Tip: 0.094, Span: 0.116
+ 639 | Stab MIN  1.798 MAX  3.062 | Flutter SF min:  4.563 | Root: 0.233, Tip: 0.1, Span: 0.116
+ 640 | Stab MIN  1.568 MAX  2.910 | Flutter SF min:  3.777 | Root: 0.278, Tip: 0.05, Span: 0.116
+ 641 | Stab MIN  1.589 MAX  2.919 | Flutter SF min:  3.833 | Root: 0.278, Tip: 0.056, Span: 0.116
+ 642 | Stab MIN  1.607 MAX  2.925 | Flutter SF min:  3.889 | Root: 0.278, Tip: 0.061, Span: 0.116
+ 643 | Stab MIN  1.624 MAX  2.931 | Flutter SF min:  3.945 | Root: 0.278, Tip: 0.067, Span: 0.116
+ 644 | Stab MIN  1.640 MAX  2.936 | Flutter SF min:  4.000 | Root: 0.278, Tip: 0.072, Span: 0.116
+ 645 | Stab MIN  1.654 MAX  2.940 | Flutter SF min:  4.056 | Root: 0.278, Tip: 0.078, Span: 0.116
+ 646 | Stab MIN  1.667 MAX  2.943 | Flutter SF min:  4.111 | Root: 0.278, Tip: 0.083, Span: 0.116
+ 647 | Stab MIN  1.678 MAX  2.945 | Flutter SF min:  4.166 | Root: 0.278, Tip: 0.089, Span: 0.116
+ 648 | Stab MIN  1.688 MAX  2.946 | Flutter SF min:  4.222 | Root: 0.278, Tip: 0.094, Span: 0.116
+ 649 | Stab MIN  1.697 MAX  2.947 | Flutter SF min:  4.277 | Root: 0.278, Tip: 0.1, Span: 0.116
+ 650 | Stab MIN  1.465 MAX  2.791 | Flutter SF min:  3.640 | Root: 0.322, Tip: 0.05, Span: 0.116
+ 651 | Stab MIN  1.482 MAX  2.798 | Flutter SF min:  3.687 | Root: 0.322, Tip: 0.056, Span: 0.116
+ 652 | Stab MIN  1.499 MAX  2.804 | Flutter SF min:  3.735 | Root: 0.322, Tip: 0.061, Span: 0.116
+ 653 | Stab MIN  1.514 MAX  2.809 | Flutter SF min:  3.783 | Root: 0.322, Tip: 0.067, Span: 0.116
+ 654 | Stab MIN  1.528 MAX  2.813 | Flutter SF min:  3.831 | Root: 0.322, Tip: 0.072, Span: 0.116
+ 655 | Stab MIN  1.541 MAX  2.817 | Flutter SF min:  3.879 | Root: 0.322, Tip: 0.078, Span: 0.116
+ 656 | Stab MIN  1.552 MAX  2.820 | Flutter SF min:  3.927 | Root: 0.322, Tip: 0.083, Span: 0.116
+ 657 | Stab MIN  1.563 MAX  2.822 | Flutter SF min:  3.975 | Root: 0.322, Tip: 0.089, Span: 0.116
+ 658 | Stab MIN  1.572 MAX  2.823 | Flutter SF min:  4.022 | Root: 0.322, Tip: 0.094, Span: 0.116
+ 659 | Stab MIN  1.580 MAX  2.823 | Flutter SF min:  4.071 | Root: 0.322, Tip: 0.1, Span: 0.116
+ 660 | Stab MIN  1.349 MAX  2.665 | Flutter SF min:  3.535 | Root: 0.367, Tip: 0.05, Span: 0.116
+ 661 | Stab MIN  1.365 MAX  2.671 | Flutter SF min:  3.577 | Root: 0.367, Tip: 0.056, Span: 0.116
+ 662 | Stab MIN  1.380 MAX  2.677 | Flutter SF min:  3.619 | Root: 0.367, Tip: 0.061, Span: 0.116
+ 663 | Stab MIN  1.393 MAX  2.681 | Flutter SF min:  3.661 | Root: 0.367, Tip: 0.067, Span: 0.116
+ 664 | Stab MIN  1.406 MAX  2.685 | Flutter SF min:  3.702 | Root: 0.367, Tip: 0.072, Span: 0.116
+ 665 | Stab MIN  1.417 MAX  2.688 | Flutter SF min:  3.745 | Root: 0.367, Tip: 0.078, Span: 0.116
+ 666 | Stab MIN  1.428 MAX  2.691 | Flutter SF min:  3.787 | Root: 0.367, Tip: 0.083, Span: 0.116
+ 667 | Stab MIN  1.438 MAX  2.692 | Flutter SF min:  3.829 | Root: 0.367, Tip: 0.089, Span: 0.116
+ 668 | Stab MIN  1.446 MAX  2.694 | Flutter SF min:  3.871 | Root: 0.367, Tip: 0.094, Span: 0.116
+ 669 | Stab MIN  1.454 MAX  2.694 | Flutter SF min:  3.913 | Root: 0.367, Tip: 0.1, Span: 0.116
+ 670 | Stab MIN  1.226 MAX  2.535 | Flutter SF min:  3.452 | Root: 0.411, Tip: 0.05, Span: 0.116
+ 671 | Stab MIN  1.241 MAX  2.541 | Flutter SF min:  3.490 | Root: 0.411, Tip: 0.056, Span: 0.116
+ 672 | Stab MIN  1.254 MAX  2.546 | Flutter SF min:  3.527 | Root: 0.411, Tip: 0.061, Span: 0.116
+ 673 | Stab MIN  1.266 MAX  2.550 | Flutter SF min:  3.565 | Root: 0.411, Tip: 0.067, Span: 0.116
+ 674 | Stab MIN  1.278 MAX  2.553 | Flutter SF min:  3.602 | Root: 0.411, Tip: 0.072, Span: 0.116
+ 675 | Stab MIN  1.289 MAX  2.556 | Flutter SF min:  3.640 | Root: 0.411, Tip: 0.078, Span: 0.116
+ 676 | Stab MIN  1.298 MAX  2.559 | Flutter SF min:  3.676 | Root: 0.411, Tip: 0.083, Span: 0.116
+ 677 | Stab MIN  1.307 MAX  2.560 | Flutter SF min:  3.714 | Root: 0.411, Tip: 0.089, Span: 0.116
+ 678 | Stab MIN  1.315 MAX  2.561 | Flutter SF min:  3.751 | Root: 0.411, Tip: 0.094, Span: 0.116
+ 679 | Stab MIN  1.323 MAX  2.562 | Flutter SF min:  3.789 | Root: 0.411, Tip: 0.1, Span: 0.116
+ 680 | Stab MIN  1.099 MAX  2.403 | Flutter SF min:  3.385 | Root: 0.456, Tip: 0.05, Span: 0.116
+ 681 | Stab MIN  1.112 MAX  2.408 | Flutter SF min:  3.419 | Root: 0.456, Tip: 0.056, Span: 0.116
+ 682 | Stab MIN  1.124 MAX  2.412 | Flutter SF min:  3.453 | Root: 0.456, Tip: 0.061, Span: 0.116
+ 683 | Stab MIN  1.136 MAX  2.416 | Flutter SF min:  3.487 | Root: 0.456, Tip: 0.067, Span: 0.116
+ 684 | Stab MIN  1.146 MAX  2.419 | Flutter SF min:  3.521 | Root: 0.456, Tip: 0.072, Span: 0.116
+ 685 | Stab MIN  1.156 MAX  2.422 | Flutter SF min:  3.554 | Root: 0.456, Tip: 0.078, Span: 0.116
+ 686 | Stab MIN  1.165 MAX  2.424 | Flutter SF min:  3.588 | Root: 0.456, Tip: 0.083, Span: 0.116
+ 687 | Stab MIN  1.174 MAX  2.426 | Flutter SF min:  3.622 | Root: 0.456, Tip: 0.089, Span: 0.116
+ 688 | Stab MIN  1.181 MAX  2.427 | Flutter SF min:  3.655 | Root: 0.456, Tip: 0.094, Span: 0.116
+ 689 | Stab MIN  1.188 MAX  2.428 | Flutter SF min:  3.689 | Root: 0.456, Tip: 0.1, Span: 0.116
+ 690 | Stab MIN  0.969 MAX  2.269 | Flutter SF min:  3.331 | Root: 0.5, Tip: 0.05, Span: 0.116
+ 691 | Stab MIN  0.981 MAX  2.274 | Flutter SF min:  3.361 | Root: 0.5, Tip: 0.056, Span: 0.116
+ 692 | Stab MIN  0.992 MAX  2.278 | Flutter SF min:  3.392 | Root: 0.5, Tip: 0.061, Span: 0.116
+ 693 | Stab MIN  1.003 MAX  2.281 | Flutter SF min:  3.423 | Root: 0.5, Tip: 0.067, Span: 0.116
+ 694 | Stab MIN  1.013 MAX  2.284 | Flutter SF min:  3.453 | Root: 0.5, Tip: 0.072, Span: 0.116
+ 695 | Stab MIN  1.022 MAX  2.287 | Flutter SF min:  3.484 | Root: 0.5, Tip: 0.078, Span: 0.116
+ 696 | Stab MIN  1.030 MAX  2.289 | Flutter SF min:  3.515 | Root: 0.5, Tip: 0.083, Span: 0.116
+ 697 | Stab MIN  1.038 MAX  2.290 | Flutter SF min:  3.545 | Root: 0.5, Tip: 0.089, Span: 0.116
+ 698 | Stab MIN  1.045 MAX  2.291 | Flutter SF min:  3.576 | Root: 0.5, Tip: 0.094, Span: 0.116
+ 699 | Stab MIN  1.052 MAX  2.292 | Flutter SF min:  3.607 | Root: 0.5, Tip: 0.1, Span: 0.116
+ 700 | Stab MIN  1.598 MAX  3.210 | Flutter SF min:  5.339 | Root: 0.1, Tip: 0.05, Span: 0.118
+ 701 | Stab MIN  1.654 MAX  3.239 | Flutter SF min:  5.493 | Root: 0.1, Tip: 0.056, Span: 0.118
+ 702 | Stab MIN  1.703 MAX  3.264 | Flutter SF min:  5.647 | Root: 0.1, Tip: 0.061, Span: 0.118
+ 703 | Stab MIN  1.748 MAX  3.285 | Flutter SF min:  5.800 | Root: 0.1, Tip: 0.067, Span: 0.118
+ 704 | Stab MIN  1.787 MAX  3.303 | Flutter SF min:  5.953 | Root: 0.1, Tip: 0.072, Span: 0.118
+ 705 | Stab MIN  1.822 MAX  3.317 | Flutter SF min:  6.105 | Root: 0.1, Tip: 0.078, Span: 0.118
+ 706 | Stab MIN  1.853 MAX  3.329 | Flutter SF min:  6.258 | Root: 0.1, Tip: 0.083, Span: 0.118
+ 707 | Stab MIN  1.880 MAX  3.339 | Flutter SF min:  6.410 | Root: 0.1, Tip: 0.089, Span: 0.118
+ 708 | Stab MIN  1.904 MAX  3.346 | Flutter SF min:  6.561 | Root: 0.1, Tip: 0.094, Span: 0.118
+ 709 | Stab MIN  1.924 MAX  3.352 | Flutter SF min:  6.714 | Root: 0.1, Tip: 0.1, Span: 0.118
+ 710 | Stab MIN  1.779 MAX  3.261 | Flutter SF min:  4.543 | Root: 0.144, Tip: 0.05, Span: 0.118
+ 711 | Stab MIN  1.817 MAX  3.278 | Flutter SF min:  4.649 | Root: 0.144, Tip: 0.056, Span: 0.118
+ 712 | Stab MIN  1.851 MAX  3.293 | Flutter SF min:  4.753 | Root: 0.144, Tip: 0.061, Span: 0.118
+ 713 | Stab MIN  1.881 MAX  3.306 | Flutter SF min:  4.859 | Root: 0.144, Tip: 0.067, Span: 0.118
+ 714 | Stab MIN  1.908 MAX  3.316 | Flutter SF min:  4.963 | Root: 0.144, Tip: 0.072, Span: 0.118
+ 715 | Stab MIN  1.932 MAX  3.324 | Flutter SF min:  5.067 | Root: 0.144, Tip: 0.078, Span: 0.118
+ 716 | Stab MIN  1.953 MAX  3.331 | Flutter SF min:  5.172 | Root: 0.144, Tip: 0.083, Span: 0.118
+ 717 | Stab MIN  1.972 MAX  3.335 | Flutter SF min:  5.277 | Root: 0.144, Tip: 0.089, Span: 0.118
+ 718 | Stab MIN  1.988 MAX  3.339 | Flutter SF min:  5.382 | Root: 0.144, Tip: 0.094, Span: 0.118
+ 719 | Stab MIN  2.002 MAX  3.341 | Flutter SF min:  5.486 | Root: 0.144, Tip: 0.1, Span: 0.118
+ 720 | Stab MIN  1.809 MAX  3.218 | Flutter SF min:  4.116 | Root: 0.189, Tip: 0.05, Span: 0.118
+ 721 | Stab MIN  1.838 MAX  3.230 | Flutter SF min:  4.195 | Root: 0.189, Tip: 0.056, Span: 0.118
+ 722 | Stab MIN  1.863 MAX  3.240 | Flutter SF min:  4.275 | Root: 0.189, Tip: 0.061, Span: 0.118
+ 723 | Stab MIN  1.887 MAX  3.249 | Flutter SF min:  4.354 | Root: 0.189, Tip: 0.067, Span: 0.118
+ 724 | Stab MIN  1.908 MAX  3.256 | Flutter SF min:  4.434 | Root: 0.189, Tip: 0.072, Span: 0.118
+ 725 | Stab MIN  1.926 MAX  3.262 | Flutter SF min:  4.514 | Root: 0.189, Tip: 0.078, Span: 0.118
+ 726 | Stab MIN  1.943 MAX  3.266 | Flutter SF min:  4.593 | Root: 0.189, Tip: 0.083, Span: 0.118
+ 727 | Stab MIN  1.957 MAX  3.269 | Flutter SF min:  4.673 | Root: 0.189, Tip: 0.089, Span: 0.118
+ 728 | Stab MIN  1.970 MAX  3.271 | Flutter SF min:  4.752 | Root: 0.189, Tip: 0.094, Span: 0.118
+ 729 | Stab MIN  1.981 MAX  3.271 | Flutter SF min:  4.833 | Root: 0.189, Tip: 0.1, Span: 0.118
+ 730 | Stab MIN  1.765 MAX  3.131 | Flutter SF min:  3.847 | Root: 0.233, Tip: 0.05, Span: 0.118
+ 731 | Stab MIN  1.789 MAX  3.141 | Flutter SF min:  3.912 | Root: 0.233, Tip: 0.056, Span: 0.118
+ 732 | Stab MIN  1.810 MAX  3.149 | Flutter SF min:  3.975 | Root: 0.233, Tip: 0.061, Span: 0.118
+ 733 | Stab MIN  1.829 MAX  3.156 | Flutter SF min:  4.040 | Root: 0.233, Tip: 0.067, Span: 0.118
+ 734 | Stab MIN  1.846 MAX  3.161 | Flutter SF min:  4.104 | Root: 0.233, Tip: 0.072, Span: 0.118
+ 735 | Stab MIN  1.862 MAX  3.166 | Flutter SF min:  4.169 | Root: 0.233, Tip: 0.078, Span: 0.118
+ 736 | Stab MIN  1.876 MAX  3.169 | Flutter SF min:  4.233 | Root: 0.233, Tip: 0.083, Span: 0.118
+ 737 | Stab MIN  1.889 MAX  3.171 | Flutter SF min:  4.296 | Root: 0.233, Tip: 0.089, Span: 0.118
+ 738 | Stab MIN  1.900 MAX  3.172 | Flutter SF min:  4.361 | Root: 0.233, Tip: 0.094, Span: 0.118
+ 739 | Stab MIN  1.909 MAX  3.173 | Flutter SF min:  4.425 | Root: 0.233, Tip: 0.1, Span: 0.118
+ 740 | Stab MIN  1.683 MAX  3.023 | Flutter SF min:  3.663 | Root: 0.278, Tip: 0.05, Span: 0.118
+ 741 | Stab MIN  1.703 MAX  3.031 | Flutter SF min:  3.716 | Root: 0.278, Tip: 0.056, Span: 0.118
+ 742 | Stab MIN  1.721 MAX  3.038 | Flutter SF min:  3.771 | Root: 0.278, Tip: 0.061, Span: 0.118
+ 743 | Stab MIN  1.738 MAX  3.044 | Flutter SF min:  3.824 | Root: 0.278, Tip: 0.067, Span: 0.118
+ 744 | Stab MIN  1.753 MAX  3.048 | Flutter SF min:  3.878 | Root: 0.278, Tip: 0.072, Span: 0.118
+ 745 | Stab MIN  1.767 MAX  3.052 | Flutter SF min:  3.932 | Root: 0.278, Tip: 0.078, Span: 0.118
+ 746 | Stab MIN  1.779 MAX  3.055 | Flutter SF min:  3.986 | Root: 0.278, Tip: 0.083, Span: 0.118
+ 747 | Stab MIN  1.790 MAX  3.057 | Flutter SF min:  4.040 | Root: 0.278, Tip: 0.089, Span: 0.118
+ 748 | Stab MIN  1.800 MAX  3.058 | Flutter SF min:  4.093 | Root: 0.278, Tip: 0.094, Span: 0.118
+ 749 | Stab MIN  1.809 MAX  3.058 | Flutter SF min:  4.147 | Root: 0.278, Tip: 0.1, Span: 0.118
+ 750 | Stab MIN  1.580 MAX  2.904 | Flutter SF min:  3.528 | Root: 0.322, Tip: 0.05, Span: 0.118
+ 751 | Stab MIN  1.597 MAX  2.910 | Flutter SF min:  3.575 | Root: 0.322, Tip: 0.056, Span: 0.118
+ 752 | Stab MIN  1.613 MAX  2.916 | Flutter SF min:  3.621 | Root: 0.322, Tip: 0.061, Span: 0.118
+ 753 | Stab MIN  1.628 MAX  2.921 | Flutter SF min:  3.668 | Root: 0.322, Tip: 0.067, Span: 0.118
+ 754 | Stab MIN  1.641 MAX  2.925 | Flutter SF min:  3.713 | Root: 0.322, Tip: 0.072, Span: 0.118
+ 755 | Stab MIN  1.654 MAX  2.928 | Flutter SF min:  3.760 | Root: 0.322, Tip: 0.078, Span: 0.118
+ 756 | Stab MIN  1.665 MAX  2.931 | Flutter SF min:  3.806 | Root: 0.322, Tip: 0.083, Span: 0.118
+ 757 | Stab MIN  1.675 MAX  2.933 | Flutter SF min:  3.853 | Root: 0.322, Tip: 0.089, Span: 0.118
+ 758 | Stab MIN  1.684 MAX  2.934 | Flutter SF min:  3.899 | Root: 0.322, Tip: 0.094, Span: 0.118
+ 759 | Stab MIN  1.692 MAX  2.934 | Flutter SF min:  3.945 | Root: 0.322, Tip: 0.1, Span: 0.118
+ 760 | Stab MIN  1.464 MAX  2.777 | Flutter SF min:  3.427 | Root: 0.367, Tip: 0.05, Span: 0.118
+ 761 | Stab MIN  1.480 MAX  2.783 | Flutter SF min:  3.466 | Root: 0.367, Tip: 0.056, Span: 0.118
+ 762 | Stab MIN  1.494 MAX  2.788 | Flutter SF min:  3.507 | Root: 0.367, Tip: 0.061, Span: 0.118
+ 763 | Stab MIN  1.507 MAX  2.793 | Flutter SF min:  3.548 | Root: 0.367, Tip: 0.067, Span: 0.118
+ 764 | Stab MIN  1.520 MAX  2.796 | Flutter SF min:  3.589 | Root: 0.367, Tip: 0.072, Span: 0.118
+ 765 | Stab MIN  1.531 MAX  2.799 | Flutter SF min:  3.630 | Root: 0.367, Tip: 0.078, Span: 0.118
+ 766 | Stab MIN  1.541 MAX  2.802 | Flutter SF min:  3.670 | Root: 0.367, Tip: 0.083, Span: 0.118
+ 767 | Stab MIN  1.550 MAX  2.803 | Flutter SF min:  3.711 | Root: 0.367, Tip: 0.089, Span: 0.118
+ 768 | Stab MIN  1.559 MAX  2.804 | Flutter SF min:  3.751 | Root: 0.367, Tip: 0.094, Span: 0.118
+ 769 | Stab MIN  1.566 MAX  2.805 | Flutter SF min:  3.792 | Root: 0.367, Tip: 0.1, Span: 0.118
+ 770 | Stab MIN  1.342 MAX  2.647 | Flutter SF min:  3.345 | Root: 0.411, Tip: 0.05, Span: 0.118
+ 771 | Stab MIN  1.355 MAX  2.652 | Flutter SF min:  3.382 | Root: 0.411, Tip: 0.056, Span: 0.118
+ 772 | Stab MIN  1.368 MAX  2.657 | Flutter SF min:  3.418 | Root: 0.411, Tip: 0.061, Span: 0.118
+ 773 | Stab MIN  1.380 MAX  2.661 | Flutter SF min:  3.454 | Root: 0.411, Tip: 0.067, Span: 0.118
+ 774 | Stab MIN  1.391 MAX  2.664 | Flutter SF min:  3.490 | Root: 0.411, Tip: 0.072, Span: 0.118
+ 775 | Stab MIN  1.402 MAX  2.667 | Flutter SF min:  3.527 | Root: 0.411, Tip: 0.078, Span: 0.118
+ 776 | Stab MIN  1.411 MAX  2.669 | Flutter SF min:  3.563 | Root: 0.411, Tip: 0.083, Span: 0.118
+ 777 | Stab MIN  1.420 MAX  2.670 | Flutter SF min:  3.599 | Root: 0.411, Tip: 0.089, Span: 0.118
+ 778 | Stab MIN  1.428 MAX  2.671 | Flutter SF min:  3.635 | Root: 0.411, Tip: 0.094, Span: 0.118
+ 779 | Stab MIN  1.435 MAX  2.672 | Flutter SF min:  3.671 | Root: 0.411, Tip: 0.1, Span: 0.118
+ 780 | Stab MIN  1.214 MAX  2.514 | Flutter SF min:  3.280 | Root: 0.456, Tip: 0.05, Span: 0.118
+ 781 | Stab MIN  1.227 MAX  2.519 | Flutter SF min:  3.313 | Root: 0.456, Tip: 0.056, Span: 0.118
+ 782 | Stab MIN  1.238 MAX  2.523 | Flutter SF min:  3.346 | Root: 0.456, Tip: 0.061, Span: 0.118
+ 783 | Stab MIN  1.249 MAX  2.527 | Flutter SF min:  3.378 | Root: 0.456, Tip: 0.067, Span: 0.118
+ 784 | Stab MIN  1.260 MAX  2.529 | Flutter SF min:  3.411 | Root: 0.456, Tip: 0.072, Span: 0.118
+ 785 | Stab MIN  1.269 MAX  2.532 | Flutter SF min:  3.443 | Root: 0.456, Tip: 0.078, Span: 0.118
+ 786 | Stab MIN  1.278 MAX  2.534 | Flutter SF min:  3.476 | Root: 0.456, Tip: 0.083, Span: 0.118
+ 787 | Stab MIN  1.286 MAX  2.535 | Flutter SF min:  3.508 | Root: 0.456, Tip: 0.089, Span: 0.118
+ 788 | Stab MIN  1.293 MAX  2.536 | Flutter SF min:  3.540 | Root: 0.456, Tip: 0.094, Span: 0.118
+ 789 | Stab MIN  1.300 MAX  2.537 | Flutter SF min:  3.574 | Root: 0.456, Tip: 0.1, Span: 0.118
+ 790 | Stab MIN  1.083 MAX  2.379 | Flutter SF min:  3.226 | Root: 0.5, Tip: 0.05, Span: 0.118
+ 791 | Stab MIN  1.095 MAX  2.384 | Flutter SF min:  3.256 | Root: 0.5, Tip: 0.056, Span: 0.118
+ 792 | Stab MIN  1.106 MAX  2.387 | Flutter SF min:  3.286 | Root: 0.5, Tip: 0.061, Span: 0.118
+ 793 | Stab MIN  1.116 MAX  2.391 | Flutter SF min:  3.316 | Root: 0.5, Tip: 0.067, Span: 0.118
+ 794 | Stab MIN  1.125 MAX  2.394 | Flutter SF min:  3.345 | Root: 0.5, Tip: 0.072, Span: 0.118
+ 795 | Stab MIN  1.134 MAX  2.396 | Flutter SF min:  3.375 | Root: 0.5, Tip: 0.078, Span: 0.118
+ 796 | Stab MIN  1.142 MAX  2.398 | Flutter SF min:  3.404 | Root: 0.5, Tip: 0.083, Span: 0.118
+ 797 | Stab MIN  1.150 MAX  2.399 | Flutter SF min:  3.434 | Root: 0.5, Tip: 0.089, Span: 0.118
+ 798 | Stab MIN  1.157 MAX  2.400 | Flutter SF min:  3.464 | Root: 0.5, Tip: 0.094, Span: 0.118
+ 799 | Stab MIN  1.163 MAX  2.401 | Flutter SF min:  3.494 | Root: 0.5, Tip: 0.1, Span: 0.118
+ 800 | Stab MIN  1.701 MAX  3.315 | Flutter SF min:  5.191 | Root: 0.1, Tip: 0.05, Span: 0.121
+ 801 | Stab MIN  1.756 MAX  3.344 | Flutter SF min:  5.340 | Root: 0.1, Tip: 0.056, Span: 0.121
+ 802 | Stab MIN  1.806 MAX  3.369 | Flutter SF min:  5.488 | Root: 0.1, Tip: 0.061, Span: 0.121
+ 803 | Stab MIN  1.850 MAX  3.389 | Flutter SF min:  5.638 | Root: 0.1, Tip: 0.067, Span: 0.121
+ 804 | Stab MIN  1.890 MAX  3.407 | Flutter SF min:  5.785 | Root: 0.1, Tip: 0.072, Span: 0.121
+ 805 | Stab MIN  1.925 MAX  3.422 | Flutter SF min:  5.934 | Root: 0.1, Tip: 0.078, Span: 0.121
+ 806 | Stab MIN  1.955 MAX  3.434 | Flutter SF min:  6.082 | Root: 0.1, Tip: 0.083, Span: 0.121
+ 807 | Stab MIN  1.982 MAX  3.444 | Flutter SF min:  6.228 | Root: 0.1, Tip: 0.089, Span: 0.121
+ 808 | Stab MIN  2.006 MAX  3.451 | Flutter SF min:  6.376 | Root: 0.1, Tip: 0.094, Span: 0.121
+ 809 | Stab MIN  2.026 MAX  3.456 | Flutter SF min:  6.523 | Root: 0.1, Tip: 0.1, Span: 0.121
+ 810 | Stab MIN  1.885 MAX  3.367 | Flutter SF min:  4.414 | Root: 0.144, Tip: 0.05, Span: 0.121
+ 811 | Stab MIN  1.922 MAX  3.384 | Flutter SF min:  4.516 | Root: 0.144, Tip: 0.056, Span: 0.121
+ 812 | Stab MIN  1.955 MAX  3.399 | Flutter SF min:  4.618 | Root: 0.144, Tip: 0.061, Span: 0.121
+ 813 | Stab MIN  1.985 MAX  3.412 | Flutter SF min:  4.719 | Root: 0.144, Tip: 0.067, Span: 0.121
+ 814 | Stab MIN  2.012 MAX  3.422 | Flutter SF min:  4.821 | Root: 0.144, Tip: 0.072, Span: 0.121
+ 815 | Stab MIN  2.036 MAX  3.430 | Flutter SF min:  4.923 | Root: 0.144, Tip: 0.078, Span: 0.121
+ 816 | Stab MIN  2.057 MAX  3.436 | Flutter SF min:  5.024 | Root: 0.144, Tip: 0.083, Span: 0.121
+ 817 | Stab MIN  2.075 MAX  3.441 | Flutter SF min:  5.125 | Root: 0.144, Tip: 0.089, Span: 0.121
+ 818 | Stab MIN  2.091 MAX  3.444 | Flutter SF min:  5.226 | Root: 0.144, Tip: 0.094, Span: 0.121
+ 819 | Stab MIN  2.105 MAX  3.446 | Flutter SF min:  5.327 | Root: 0.144, Tip: 0.1, Span: 0.121
+ 820 | Stab MIN  1.917 MAX  3.325 | Flutter SF min:  3.996 | Root: 0.189, Tip: 0.05, Span: 0.121
+ 821 | Stab MIN  1.945 MAX  3.337 | Flutter SF min:  4.073 | Root: 0.189, Tip: 0.056, Span: 0.121
+ 822 | Stab MIN  1.970 MAX  3.347 | Flutter SF min:  4.151 | Root: 0.189, Tip: 0.061, Span: 0.121
+ 823 | Stab MIN  1.993 MAX  3.356 | Flutter SF min:  4.228 | Root: 0.189, Tip: 0.067, Span: 0.121
+ 824 | Stab MIN  2.013 MAX  3.363 | Flutter SF min:  4.305 | Root: 0.189, Tip: 0.072, Span: 0.121
+ 825 | Stab MIN  2.032 MAX  3.368 | Flutter SF min:  4.382 | Root: 0.189, Tip: 0.078, Span: 0.121
+ 826 | Stab MIN  2.048 MAX  3.372 | Flutter SF min:  4.460 | Root: 0.189, Tip: 0.083, Span: 0.121
+ 827 | Stab MIN  2.062 MAX  3.375 | Flutter SF min:  4.536 | Root: 0.189, Tip: 0.089, Span: 0.121
+ 828 | Stab MIN  2.075 MAX  3.377 | Flutter SF min:  4.614 | Root: 0.189, Tip: 0.094, Span: 0.121
+ 829 | Stab MIN  2.086 MAX  3.377 | Flutter SF min:  4.691 | Root: 0.189, Tip: 0.1, Span: 0.121
+ 830 | Stab MIN  1.874 MAX  3.239 | Flutter SF min:  3.735 | Root: 0.233, Tip: 0.05, Span: 0.121
+ 831 | Stab MIN  1.897 MAX  3.248 | Flutter SF min:  3.797 | Root: 0.233, Tip: 0.056, Span: 0.121
+ 832 | Stab MIN  1.918 MAX  3.256 | Flutter SF min:  3.859 | Root: 0.233, Tip: 0.061, Span: 0.121
+ 833 | Stab MIN  1.936 MAX  3.263 | Flutter SF min:  3.921 | Root: 0.233, Tip: 0.067, Span: 0.121
+ 834 | Stab MIN  1.954 MAX  3.268 | Flutter SF min:  3.984 | Root: 0.233, Tip: 0.072, Span: 0.121
+ 835 | Stab MIN  1.969 MAX  3.272 | Flutter SF min:  4.046 | Root: 0.233, Tip: 0.078, Span: 0.121
+ 836 | Stab MIN  1.983 MAX  3.275 | Flutter SF min:  4.108 | Root: 0.233, Tip: 0.083, Span: 0.121
+ 837 | Stab MIN  1.995 MAX  3.277 | Flutter SF min:  4.170 | Root: 0.233, Tip: 0.089, Span: 0.121
+ 838 | Stab MIN  2.005 MAX  3.279 | Flutter SF min:  4.232 | Root: 0.233, Tip: 0.094, Span: 0.121
+ 839 | Stab MIN  2.015 MAX  3.279 | Flutter SF min:  4.294 | Root: 0.233, Tip: 0.1, Span: 0.121
+ 840 | Stab MIN  1.793 MAX  3.131 | Flutter SF min:  3.555 | Root: 0.278, Tip: 0.05, Span: 0.121
+ 841 | Stab MIN  1.812 MAX  3.139 | Flutter SF min:  3.607 | Root: 0.278, Tip: 0.056, Span: 0.121
+ 842 | Stab MIN  1.830 MAX  3.145 | Flutter SF min:  3.659 | Root: 0.278, Tip: 0.061, Span: 0.121
+ 843 | Stab MIN  1.846 MAX  3.151 | Flutter SF min:  3.711 | Root: 0.278, Tip: 0.067, Span: 0.121
+ 844 | Stab MIN  1.861 MAX  3.155 | Flutter SF min:  3.763 | Root: 0.278, Tip: 0.072, Span: 0.121
+ 845 | Stab MIN  1.874 MAX  3.159 | Flutter SF min:  3.815 | Root: 0.278, Tip: 0.078, Span: 0.121
+ 846 | Stab MIN  1.886 MAX  3.161 | Flutter SF min:  3.867 | Root: 0.278, Tip: 0.083, Span: 0.121
+ 847 | Stab MIN  1.897 MAX  3.163 | Flutter SF min:  3.919 | Root: 0.278, Tip: 0.089, Span: 0.121
+ 848 | Stab MIN  1.907 MAX  3.164 | Flutter SF min:  3.971 | Root: 0.278, Tip: 0.094, Span: 0.121
+ 849 | Stab MIN  1.915 MAX  3.164 | Flutter SF min:  4.023 | Root: 0.278, Tip: 0.1, Span: 0.121
+ 850 | Stab MIN  1.690 MAX  3.011 | Flutter SF min:  3.423 | Root: 0.322, Tip: 0.05, Span: 0.121
+ 851 | Stab MIN  1.707 MAX  3.018 | Flutter SF min:  3.468 | Root: 0.322, Tip: 0.056, Span: 0.121
+ 852 | Stab MIN  1.722 MAX  3.023 | Flutter SF min:  3.513 | Root: 0.322, Tip: 0.061, Span: 0.121
+ 853 | Stab MIN  1.737 MAX  3.028 | Flutter SF min:  3.558 | Root: 0.322, Tip: 0.067, Span: 0.121
+ 854 | Stab MIN  1.750 MAX  3.032 | Flutter SF min:  3.603 | Root: 0.322, Tip: 0.072, Span: 0.121
+ 855 | Stab MIN  1.762 MAX  3.035 | Flutter SF min:  3.647 | Root: 0.322, Tip: 0.078, Span: 0.121
+ 856 | Stab MIN  1.773 MAX  3.037 | Flutter SF min:  3.692 | Root: 0.322, Tip: 0.083, Span: 0.121
+ 857 | Stab MIN  1.782 MAX  3.039 | Flutter SF min:  3.737 | Root: 0.322, Tip: 0.089, Span: 0.121
+ 858 | Stab MIN  1.791 MAX  3.040 | Flutter SF min:  3.782 | Root: 0.322, Tip: 0.094, Span: 0.121
+ 859 | Stab MIN  1.799 MAX  3.040 | Flutter SF min:  3.826 | Root: 0.322, Tip: 0.1, Span: 0.121
+ 860 | Stab MIN  1.575 MAX  2.884 | Flutter SF min:  3.323 | Root: 0.367, Tip: 0.05, Span: 0.121
+ 861 | Stab MIN  1.590 MAX  2.890 | Flutter SF min:  3.363 | Root: 0.367, Tip: 0.056, Span: 0.121
+ 862 | Stab MIN  1.603 MAX  2.895 | Flutter SF min:  3.402 | Root: 0.367, Tip: 0.061, Span: 0.121
+ 863 | Stab MIN  1.616 MAX  2.899 | Flutter SF min:  3.441 | Root: 0.367, Tip: 0.067, Span: 0.121
+ 864 | Stab MIN  1.628 MAX  2.903 | Flutter SF min:  3.480 | Root: 0.367, Tip: 0.072, Span: 0.121
+ 865 | Stab MIN  1.639 MAX  2.905 | Flutter SF min:  3.521 | Root: 0.367, Tip: 0.078, Span: 0.121
+ 866 | Stab MIN  1.649 MAX  2.907 | Flutter SF min:  3.559 | Root: 0.367, Tip: 0.083, Span: 0.121
+ 867 | Stab MIN  1.658 MAX  2.909 | Flutter SF min:  3.599 | Root: 0.367, Tip: 0.089, Span: 0.121
+ 868 | Stab MIN  1.666 MAX  2.910 | Flutter SF min:  3.637 | Root: 0.367, Tip: 0.094, Span: 0.121
+ 869 | Stab MIN  1.673 MAX  2.910 | Flutter SF min:  3.677 | Root: 0.367, Tip: 0.1, Span: 0.121
+ 870 | Stab MIN  1.451 MAX  2.753 | Flutter SF min:  3.244 | Root: 0.411, Tip: 0.05, Span: 0.121
+ 871 | Stab MIN  1.465 MAX  2.758 | Flutter SF min:  3.279 | Root: 0.411, Tip: 0.056, Span: 0.121
+ 872 | Stab MIN  1.477 MAX  2.763 | Flutter SF min:  3.315 | Root: 0.411, Tip: 0.061, Span: 0.121
+ 873 | Stab MIN  1.489 MAX  2.767 | Flutter SF min:  3.349 | Root: 0.411, Tip: 0.067, Span: 0.121
+ 874 | Stab MIN  1.500 MAX  2.770 | Flutter SF min:  3.385 | Root: 0.411, Tip: 0.072, Span: 0.121
+ 875 | Stab MIN  1.510 MAX  2.772 | Flutter SF min:  3.420 | Root: 0.411, Tip: 0.078, Span: 0.121
+ 876 | Stab MIN  1.519 MAX  2.774 | Flutter SF min:  3.454 | Root: 0.411, Tip: 0.083, Span: 0.121
+ 877 | Stab MIN  1.527 MAX  2.776 | Flutter SF min:  3.490 | Root: 0.411, Tip: 0.089, Span: 0.121
+ 878 | Stab MIN  1.535 MAX  2.776 | Flutter SF min:  3.524 | Root: 0.411, Tip: 0.094, Span: 0.121
+ 879 | Stab MIN  1.542 MAX  2.777 | Flutter SF min:  3.559 | Root: 0.411, Tip: 0.1, Span: 0.121
+ 880 | Stab MIN  1.323 MAX  2.620 | Flutter SF min:  3.180 | Root: 0.456, Tip: 0.05, Span: 0.121
+ 881 | Stab MIN  1.336 MAX  2.624 | Flutter SF min:  3.212 | Root: 0.456, Tip: 0.056, Span: 0.121
+ 882 | Stab MIN  1.347 MAX  2.628 | Flutter SF min:  3.244 | Root: 0.456, Tip: 0.061, Span: 0.121
+ 883 | Stab MIN  1.358 MAX  2.632 | Flutter SF min:  3.275 | Root: 0.456, Tip: 0.067, Span: 0.121
+ 884 | Stab MIN  1.368 MAX  2.635 | Flutter SF min:  3.306 | Root: 0.456, Tip: 0.072, Span: 0.121
+ 885 | Stab MIN  1.377 MAX  2.637 | Flutter SF min:  3.338 | Root: 0.456, Tip: 0.078, Span: 0.121
+ 886 | Stab MIN  1.385 MAX  2.639 | Flutter SF min:  3.370 | Root: 0.456, Tip: 0.083, Span: 0.121
+ 887 | Stab MIN  1.393 MAX  2.640 | Flutter SF min:  3.401 | Root: 0.456, Tip: 0.089, Span: 0.121
+ 888 | Stab MIN  1.400 MAX  2.641 | Flutter SF min:  3.432 | Root: 0.456, Tip: 0.094, Span: 0.121
+ 889 | Stab MIN  1.407 MAX  2.641 | Flutter SF min:  3.464 | Root: 0.456, Tip: 0.1, Span: 0.121
+ 890 | Stab MIN  1.192 MAX  2.484 | Flutter SF min:  3.128 | Root: 0.5, Tip: 0.05, Span: 0.121
+ 891 | Stab MIN  1.204 MAX  2.489 | Flutter SF min:  3.156 | Root: 0.5, Tip: 0.056, Span: 0.121
+ 892 | Stab MIN  1.214 MAX  2.492 | Flutter SF min:  3.186 | Root: 0.5, Tip: 0.061, Span: 0.121
+ 893 | Stab MIN  1.224 MAX  2.495 | Flutter SF min:  3.214 | Root: 0.5, Tip: 0.067, Span: 0.121
+ 894 | Stab MIN  1.233 MAX  2.498 | Flutter SF min:  3.243 | Root: 0.5, Tip: 0.072, Span: 0.121
+ 895 | Stab MIN  1.242 MAX  2.500 | Flutter SF min:  3.272 | Root: 0.5, Tip: 0.078, Span: 0.121
+ 896 | Stab MIN  1.250 MAX  2.502 | Flutter SF min:  3.301 | Root: 0.5, Tip: 0.083, Span: 0.121
+ 897 | Stab MIN  1.257 MAX  2.503 | Flutter SF min:  3.329 | Root: 0.5, Tip: 0.089, Span: 0.121
+ 898 | Stab MIN  1.263 MAX  2.504 | Flutter SF min:  3.358 | Root: 0.5, Tip: 0.094, Span: 0.121
+ 899 | Stab MIN  1.269 MAX  2.504 | Flutter SF min:  3.386 | Root: 0.5, Tip: 0.1, Span: 0.121
+ 900 | Stab MIN  1.800 MAX  3.415 | Flutter SF min:  5.050 | Root: 0.1, Tip: 0.05, Span: 0.124
+ 901 | Stab MIN  1.855 MAX  3.444 | Flutter SF min:  5.195 | Root: 0.1, Tip: 0.056, Span: 0.124
+ 902 | Stab MIN  1.904 MAX  3.469 | Flutter SF min:  5.339 | Root: 0.1, Tip: 0.061, Span: 0.124
+ 903 | Stab MIN  1.948 MAX  3.490 | Flutter SF min:  5.484 | Root: 0.1, Tip: 0.067, Span: 0.124
+ 904 | Stab MIN  1.988 MAX  3.507 | Flutter SF min:  5.627 | Root: 0.1, Tip: 0.072, Span: 0.124
+ 905 | Stab MIN  2.022 MAX  3.522 | Flutter SF min:  5.771 | Root: 0.1, Tip: 0.078, Span: 0.124
+ 906 | Stab MIN  2.053 MAX  3.534 | Flutter SF min:  5.914 | Root: 0.1, Tip: 0.083, Span: 0.124
+ 907 | Stab MIN  2.080 MAX  3.544 | Flutter SF min:  6.056 | Root: 0.1, Tip: 0.089, Span: 0.124
+ 908 | Stab MIN  2.104 MAX  3.551 | Flutter SF min:  6.200 | Root: 0.1, Tip: 0.094, Span: 0.124
+ 909 | Stab MIN  2.124 MAX  3.557 | Flutter SF min:  6.342 | Root: 0.1, Tip: 0.1, Span: 0.124
+ 910 | Stab MIN  1.986 MAX  3.469 | Flutter SF min:  4.291 | Root: 0.144, Tip: 0.05, Span: 0.124
+ 911 | Stab MIN  2.022 MAX  3.486 | Flutter SF min:  4.391 | Root: 0.144, Tip: 0.056, Span: 0.124
+ 912 | Stab MIN  2.055 MAX  3.500 | Flutter SF min:  4.489 | Root: 0.144, Tip: 0.061, Span: 0.124
+ 913 | Stab MIN  2.085 MAX  3.513 | Flutter SF min:  4.588 | Root: 0.144, Tip: 0.067, Span: 0.124
+ 914 | Stab MIN  2.112 MAX  3.523 | Flutter SF min:  4.687 | Root: 0.144, Tip: 0.072, Span: 0.124
+ 915 | Stab MIN  2.135 MAX  3.531 | Flutter SF min:  4.783 | Root: 0.144, Tip: 0.078, Span: 0.124
+ 916 | Stab MIN  2.156 MAX  3.537 | Flutter SF min:  4.882 | Root: 0.144, Tip: 0.083, Span: 0.124
+ 917 | Stab MIN  2.174 MAX  3.542 | Flutter SF min:  4.981 | Root: 0.144, Tip: 0.089, Span: 0.124
+ 918 | Stab MIN  2.190 MAX  3.545 | Flutter SF min:  5.079 | Root: 0.144, Tip: 0.094, Span: 0.124
+ 919 | Stab MIN  2.203 MAX  3.547 | Flutter SF min:  5.177 | Root: 0.144, Tip: 0.1, Span: 0.124
+ 920 | Stab MIN  2.019 MAX  3.427 | Flutter SF min:  3.884 | Root: 0.189, Tip: 0.05, Span: 0.124
+ 921 | Stab MIN  2.047 MAX  3.439 | Flutter SF min:  3.959 | Root: 0.189, Tip: 0.056, Span: 0.124
+ 922 | Stab MIN  2.072 MAX  3.449 | Flutter SF min:  4.033 | Root: 0.189, Tip: 0.061, Span: 0.124
+ 923 | Stab MIN  2.094 MAX  3.457 | Flutter SF min:  4.108 | Root: 0.189, Tip: 0.067, Span: 0.124
+ 924 | Stab MIN  2.114 MAX  3.464 | Flutter SF min:  4.182 | Root: 0.189, Tip: 0.072, Span: 0.124
+ 925 | Stab MIN  2.133 MAX  3.470 | Flutter SF min:  4.258 | Root: 0.189, Tip: 0.078, Span: 0.124
+ 926 | Stab MIN  2.149 MAX  3.474 | Flutter SF min:  4.332 | Root: 0.189, Tip: 0.083, Span: 0.124
+ 927 | Stab MIN  2.163 MAX  3.476 | Flutter SF min:  4.407 | Root: 0.189, Tip: 0.089, Span: 0.124
+ 928 | Stab MIN  2.175 MAX  3.478 | Flutter SF min:  4.481 | Root: 0.189, Tip: 0.094, Span: 0.124
+ 929 | Stab MIN  2.186 MAX  3.478 | Flutter SF min:  4.556 | Root: 0.189, Tip: 0.1, Span: 0.124
+ 930 | Stab MIN  1.978 MAX  3.342 | Flutter SF min:  3.628 | Root: 0.233, Tip: 0.05, Span: 0.124
+ 931 | Stab MIN  2.000 MAX  3.351 | Flutter SF min:  3.688 | Root: 0.233, Tip: 0.056, Span: 0.124
+ 932 | Stab MIN  2.021 MAX  3.358 | Flutter SF min:  3.749 | Root: 0.233, Tip: 0.061, Span: 0.124
+ 933 | Stab MIN  2.039 MAX  3.365 | Flutter SF min:  3.809 | Root: 0.233, Tip: 0.067, Span: 0.124
+ 934 | Stab MIN  2.056 MAX  3.370 | Flutter SF min:  3.869 | Root: 0.233, Tip: 0.072, Span: 0.124
+ 935 | Stab MIN  2.071 MAX  3.374 | Flutter SF min:  3.929 | Root: 0.233, Tip: 0.078, Span: 0.124
+ 936 | Stab MIN  2.084 MAX  3.377 | Flutter SF min:  3.989 | Root: 0.233, Tip: 0.083, Span: 0.124
+ 937 | Stab MIN  2.096 MAX  3.379 | Flutter SF min:  4.050 | Root: 0.233, Tip: 0.089, Span: 0.124
+ 938 | Stab MIN  2.106 MAX  3.380 | Flutter SF min:  4.110 | Root: 0.233, Tip: 0.094, Span: 0.124
+ 939 | Stab MIN  2.115 MAX  3.380 | Flutter SF min:  4.169 | Root: 0.233, Tip: 0.1, Span: 0.124
+ 940 | Stab MIN  1.898 MAX  3.234 | Flutter SF min:  3.452 | Root: 0.278, Tip: 0.05, Span: 0.124
+ 941 | Stab MIN  1.916 MAX  3.241 | Flutter SF min:  3.503 | Root: 0.278, Tip: 0.056, Span: 0.124
+ 942 | Stab MIN  1.934 MAX  3.248 | Flutter SF min:  3.552 | Root: 0.278, Tip: 0.061, Span: 0.124
+ 943 | Stab MIN  1.950 MAX  3.253 | Flutter SF min:  3.604 | Root: 0.278, Tip: 0.067, Span: 0.124
+ 944 | Stab MIN  1.964 MAX  3.257 | Flutter SF min:  3.654 | Root: 0.278, Tip: 0.072, Span: 0.124
+ 945 | Stab MIN  1.977 MAX  3.260 | Flutter SF min:  3.704 | Root: 0.278, Tip: 0.078, Span: 0.124
+ 946 | Stab MIN  1.989 MAX  3.263 | Flutter SF min:  3.754 | Root: 0.278, Tip: 0.083, Span: 0.124
+ 947 | Stab MIN  1.999 MAX  3.264 | Flutter SF min:  3.805 | Root: 0.278, Tip: 0.089, Span: 0.124
+ 948 | Stab MIN  2.008 MAX  3.265 | Flutter SF min:  3.855 | Root: 0.278, Tip: 0.094, Span: 0.124
+ 949 | Stab MIN  2.016 MAX  3.265 | Flutter SF min:  3.906 | Root: 0.278, Tip: 0.1, Span: 0.124
+ 950 | Stab MIN  1.795 MAX  3.114 | Flutter SF min:  3.324 | Root: 0.322, Tip: 0.05, Span: 0.124
+ 951 | Stab MIN  1.812 MAX  3.120 | Flutter SF min:  3.367 | Root: 0.322, Tip: 0.056, Span: 0.124
+ 952 | Stab MIN  1.827 MAX  3.125 | Flutter SF min:  3.410 | Root: 0.322, Tip: 0.061, Span: 0.124
+ 953 | Stab MIN  1.841 MAX  3.130 | Flutter SF min:  3.454 | Root: 0.322, Tip: 0.067, Span: 0.124
+ 954 | Stab MIN  1.853 MAX  3.134 | Flutter SF min:  3.497 | Root: 0.322, Tip: 0.072, Span: 0.124
+ 955 | Stab MIN  1.865 MAX  3.136 | Flutter SF min:  3.540 | Root: 0.322, Tip: 0.078, Span: 0.124
+ 956 | Stab MIN  1.875 MAX  3.139 | Flutter SF min:  3.584 | Root: 0.322, Tip: 0.083, Span: 0.124
+ 957 | Stab MIN  1.885 MAX  3.140 | Flutter SF min:  3.627 | Root: 0.322, Tip: 0.089, Span: 0.124
+ 958 | Stab MIN  1.893 MAX  3.141 | Flutter SF min:  3.670 | Root: 0.322, Tip: 0.094, Span: 0.124
+ 959 | Stab MIN  1.901 MAX  3.141 | Flutter SF min:  3.714 | Root: 0.322, Tip: 0.1, Span: 0.124
+ 960 | Stab MIN  1.680 MAX  2.987 | Flutter SF min:  3.226 | Root: 0.367, Tip: 0.05, Span: 0.124
+ 961 | Stab MIN  1.694 MAX  2.992 | Flutter SF min:  3.265 | Root: 0.367, Tip: 0.056, Span: 0.124
+ 962 | Stab MIN  1.708 MAX  2.997 | Flutter SF min:  3.302 | Root: 0.367, Tip: 0.061, Span: 0.124
+ 963 | Stab MIN  1.720 MAX  3.001 | Flutter SF min:  3.340 | Root: 0.367, Tip: 0.067, Span: 0.124
+ 964 | Stab MIN  1.732 MAX  3.004 | Flutter SF min:  3.378 | Root: 0.367, Tip: 0.072, Span: 0.124
+ 965 | Stab MIN  1.742 MAX  3.007 | Flutter SF min:  3.416 | Root: 0.367, Tip: 0.078, Span: 0.124
+ 966 | Stab MIN  1.752 MAX  3.008 | Flutter SF min:  3.454 | Root: 0.367, Tip: 0.083, Span: 0.124
+ 967 | Stab MIN  1.760 MAX  3.010 | Flutter SF min:  3.491 | Root: 0.367, Tip: 0.089, Span: 0.124
+ 968 | Stab MIN  1.768 MAX  3.010 | Flutter SF min:  3.530 | Root: 0.367, Tip: 0.094, Span: 0.124
+ 969 | Stab MIN  1.775 MAX  3.010 | Flutter SF min:  3.568 | Root: 0.367, Tip: 0.1, Span: 0.124
+ 970 | Stab MIN  1.556 MAX  2.855 | Flutter SF min:  3.148 | Root: 0.411, Tip: 0.05, Span: 0.124
+ 971 | Stab MIN  1.569 MAX  2.860 | Flutter SF min:  3.183 | Root: 0.411, Tip: 0.056, Span: 0.124
+ 972 | Stab MIN  1.582 MAX  2.864 | Flutter SF min:  3.216 | Root: 0.411, Tip: 0.061, Span: 0.124
+ 973 | Stab MIN  1.593 MAX  2.868 | Flutter SF min:  3.250 | Root: 0.411, Tip: 0.067, Span: 0.124
+ 974 | Stab MIN  1.603 MAX  2.870 | Flutter SF min:  3.285 | Root: 0.411, Tip: 0.072, Span: 0.124
+ 975 | Stab MIN  1.613 MAX  2.873 | Flutter SF min:  3.318 | Root: 0.411, Tip: 0.078, Span: 0.124
+ 976 | Stab MIN  1.622 MAX  2.875 | Flutter SF min:  3.352 | Root: 0.411, Tip: 0.083, Span: 0.124
+ 977 | Stab MIN  1.630 MAX  2.876 | Flutter SF min:  3.386 | Root: 0.411, Tip: 0.089, Span: 0.124
+ 978 | Stab MIN  1.637 MAX  2.877 | Flutter SF min:  3.419 | Root: 0.411, Tip: 0.094, Span: 0.124
+ 979 | Stab MIN  1.644 MAX  2.877 | Flutter SF min:  3.454 | Root: 0.411, Tip: 0.1, Span: 0.124
+ 980 | Stab MIN  1.428 MAX  2.721 | Flutter SF min:  3.086 | Root: 0.456, Tip: 0.05, Span: 0.124
+ 981 | Stab MIN  1.440 MAX  2.725 | Flutter SF min:  3.117 | Root: 0.456, Tip: 0.056, Span: 0.124
+ 982 | Stab MIN  1.451 MAX  2.729 | Flutter SF min:  3.148 | Root: 0.456, Tip: 0.061, Span: 0.124
+ 983 | Stab MIN  1.461 MAX  2.732 | Flutter SF min:  3.178 | Root: 0.456, Tip: 0.067, Span: 0.124
+ 984 | Stab MIN  1.471 MAX  2.735 | Flutter SF min:  3.208 | Root: 0.456, Tip: 0.072, Span: 0.124
+ 985 | Stab MIN  1.480 MAX  2.737 | Flutter SF min:  3.239 | Root: 0.456, Tip: 0.078, Span: 0.124
+ 986 | Stab MIN  1.488 MAX  2.739 | Flutter SF min:  3.269 | Root: 0.456, Tip: 0.083, Span: 0.124
+ 987 | Stab MIN  1.495 MAX  2.740 | Flutter SF min:  3.300 | Root: 0.456, Tip: 0.089, Span: 0.124
+ 988 | Stab MIN  1.502 MAX  2.740 | Flutter SF min:  3.331 | Root: 0.456, Tip: 0.094, Span: 0.124
+ 989 | Stab MIN  1.508 MAX  2.741 | Flutter SF min:  3.361 | Root: 0.456, Tip: 0.1, Span: 0.124
+ 990 | Stab MIN  1.296 MAX  2.585 | Flutter SF min:  3.034 | Root: 0.5, Tip: 0.05, Span: 0.124
+ 991 | Stab MIN  1.307 MAX  2.589 | Flutter SF min:  3.062 | Root: 0.5, Tip: 0.056, Span: 0.124
+ 992 | Stab MIN  1.318 MAX  2.592 | Flutter SF min:  3.091 | Root: 0.5, Tip: 0.061, Span: 0.124
+ 993 | Stab MIN  1.327 MAX  2.595 | Flutter SF min:  3.118 | Root: 0.5, Tip: 0.067, Span: 0.124
+ 994 | Stab MIN  1.336 MAX  2.597 | Flutter SF min:  3.146 | Root: 0.5, Tip: 0.072, Span: 0.124
+ 995 | Stab MIN  1.344 MAX  2.599 | Flutter SF min:  3.174 | Root: 0.5, Tip: 0.078, Span: 0.124
+ 996 | Stab MIN  1.352 MAX  2.601 | Flutter SF min:  3.201 | Root: 0.5, Tip: 0.083, Span: 0.124
+ 997 | Stab MIN  1.359 MAX  2.602 | Flutter SF min:  3.229 | Root: 0.5, Tip: 0.089, Span: 0.124
+ 998 | Stab MIN  1.365 MAX  2.603 | Flutter SF min:  3.257 | Root: 0.5, Tip: 0.094, Span: 0.124
+ 999 | Stab MIN  1.371 MAX  2.603 | Flutter SF min:  3.285 | Root: 0.5, Tip: 0.1, Span: 0.124
+1000 | Stab MIN  1.894 MAX  3.510 | Flutter SF min:  4.917 | Root: 0.1, Tip: 0.05, Span: 0.126
+1001 | Stab MIN  1.949 MAX  3.539 | Flutter SF min:  5.057 | Root: 0.1, Tip: 0.056, Span: 0.126
+1002 | Stab MIN  1.998 MAX  3.564 | Flutter SF min:  5.198 | Root: 0.1, Tip: 0.061, Span: 0.126
+1003 | Stab MIN  2.042 MAX  3.585 | Flutter SF min:  5.337 | Root: 0.1, Tip: 0.067, Span: 0.126
+1004 | Stab MIN  2.081 MAX  3.603 | Flutter SF min:  5.476 | Root: 0.1, Tip: 0.072, Span: 0.126
+1005 | Stab MIN  2.116 MAX  3.617 | Flutter SF min:  5.615 | Root: 0.1, Tip: 0.078, Span: 0.126
+1006 | Stab MIN  2.147 MAX  3.629 | Flutter SF min:  5.755 | Root: 0.1, Tip: 0.083, Span: 0.126
+1007 | Stab MIN  2.174 MAX  3.639 | Flutter SF min:  5.894 | Root: 0.1, Tip: 0.089, Span: 0.126
+1008 | Stab MIN  2.197 MAX  3.647 | Flutter SF min:  6.032 | Root: 0.1, Tip: 0.094, Span: 0.126
+1009 | Stab MIN  2.218 MAX  3.652 | Flutter SF min:  6.170 | Root: 0.1, Tip: 0.1, Span: 0.126
+1010 | Stab MIN  2.082 MAX  3.566 | Flutter SF min:  4.176 | Root: 0.144, Tip: 0.05, Span: 0.126
+1011 | Stab MIN  2.118 MAX  3.583 | Flutter SF min:  4.271 | Root: 0.144, Tip: 0.056, Span: 0.126
+1012 | Stab MIN  2.151 MAX  3.597 | Flutter SF min:  4.367 | Root: 0.144, Tip: 0.061, Span: 0.126
+1013 | Stab MIN  2.180 MAX  3.609 | Flutter SF min:  4.462 | Root: 0.144, Tip: 0.067, Span: 0.126
+1014 | Stab MIN  2.207 MAX  3.619 | Flutter SF min:  4.558 | Root: 0.144, Tip: 0.072, Span: 0.126
+1015 | Stab MIN  2.230 MAX  3.627 | Flutter SF min:  4.653 | Root: 0.144, Tip: 0.078, Span: 0.126
+1016 | Stab MIN  2.250 MAX  3.633 | Flutter SF min:  4.749 | Root: 0.144, Tip: 0.083, Span: 0.126
+1017 | Stab MIN  2.268 MAX  3.638 | Flutter SF min:  4.843 | Root: 0.144, Tip: 0.089, Span: 0.126
+1018 | Stab MIN  2.284 MAX  3.641 | Flutter SF min:  4.939 | Root: 0.144, Tip: 0.094, Span: 0.126
+1019 | Stab MIN  2.298 MAX  3.643 | Flutter SF min:  5.034 | Root: 0.144, Tip: 0.1, Span: 0.126
+1020 | Stab MIN  2.117 MAX  3.525 | Flutter SF min:  3.777 | Root: 0.189, Tip: 0.05, Span: 0.126
+1021 | Stab MIN  2.144 MAX  3.537 | Flutter SF min:  3.849 | Root: 0.189, Tip: 0.056, Span: 0.126
+1022 | Stab MIN  2.169 MAX  3.546 | Flutter SF min:  3.922 | Root: 0.189, Tip: 0.061, Span: 0.126
+1023 | Stab MIN  2.191 MAX  3.555 | Flutter SF min:  3.995 | Root: 0.189, Tip: 0.067, Span: 0.126
+1024 | Stab MIN  2.211 MAX  3.561 | Flutter SF min:  4.067 | Root: 0.189, Tip: 0.072, Span: 0.126
+1025 | Stab MIN  2.229 MAX  3.566 | Flutter SF min:  4.139 | Root: 0.189, Tip: 0.078, Span: 0.126
+1026 | Stab MIN  2.244 MAX  3.570 | Flutter SF min:  4.211 | Root: 0.189, Tip: 0.083, Span: 0.126
+1027 | Stab MIN  2.258 MAX  3.573 | Flutter SF min:  4.283 | Root: 0.189, Tip: 0.089, Span: 0.126
+1028 | Stab MIN  2.270 MAX  3.574 | Flutter SF min:  4.356 | Root: 0.189, Tip: 0.094, Span: 0.126
+1029 | Stab MIN  2.281 MAX  3.575 | Flutter SF min:  4.428 | Root: 0.189, Tip: 0.1, Span: 0.126
+1030 | Stab MIN  2.077 MAX  3.440 | Flutter SF min:  3.526 | Root: 0.233, Tip: 0.05, Span: 0.126
+1031 | Stab MIN  2.099 MAX  3.449 | Flutter SF min:  3.584 | Root: 0.233, Tip: 0.056, Span: 0.126
+1032 | Stab MIN  2.119 MAX  3.456 | Flutter SF min:  3.643 | Root: 0.233, Tip: 0.061, Span: 0.126
+1033 | Stab MIN  2.137 MAX  3.462 | Flutter SF min:  3.701 | Root: 0.233, Tip: 0.067, Span: 0.126
+1034 | Stab MIN  2.153 MAX  3.467 | Flutter SF min:  3.760 | Root: 0.233, Tip: 0.072, Span: 0.126
+1035 | Stab MIN  2.168 MAX  3.471 | Flutter SF min:  3.819 | Root: 0.233, Tip: 0.078, Span: 0.126
+1036 | Stab MIN  2.181 MAX  3.474 | Flutter SF min:  3.877 | Root: 0.233, Tip: 0.083, Span: 0.126
+1037 | Stab MIN  2.193 MAX  3.476 | Flutter SF min:  3.935 | Root: 0.233, Tip: 0.089, Span: 0.126
+1038 | Stab MIN  2.203 MAX  3.477 | Flutter SF min:  3.993 | Root: 0.233, Tip: 0.094, Span: 0.126
+1039 | Stab MIN  2.212 MAX  3.477 | Flutter SF min:  4.051 | Root: 0.233, Tip: 0.1, Span: 0.126
+1040 | Stab MIN  1.998 MAX  3.332 | Flutter SF min:  3.354 | Root: 0.278, Tip: 0.05, Span: 0.126
+1041 | Stab MIN  2.016 MAX  3.339 | Flutter SF min:  3.403 | Root: 0.278, Tip: 0.056, Span: 0.126
+1042 | Stab MIN  2.033 MAX  3.345 | Flutter SF min:  3.452 | Root: 0.278, Tip: 0.061, Span: 0.126
+1043 | Stab MIN  2.048 MAX  3.350 | Flutter SF min:  3.501 | Root: 0.278, Tip: 0.067, Span: 0.126
+1044 | Stab MIN  2.062 MAX  3.354 | Flutter SF min:  3.550 | Root: 0.278, Tip: 0.072, Span: 0.126
+1045 | Stab MIN  2.075 MAX  3.357 | Flutter SF min:  3.599 | Root: 0.278, Tip: 0.078, Span: 0.126
+1046 | Stab MIN  2.086 MAX  3.360 | Flutter SF min:  3.648 | Root: 0.278, Tip: 0.083, Span: 0.126
+1047 | Stab MIN  2.096 MAX  3.361 | Flutter SF min:  3.696 | Root: 0.278, Tip: 0.089, Span: 0.126
+1048 | Stab MIN  2.105 MAX  3.362 | Flutter SF min:  3.745 | Root: 0.278, Tip: 0.094, Span: 0.126
+1049 | Stab MIN  2.113 MAX  3.362 | Flutter SF min:  3.794 | Root: 0.278, Tip: 0.1, Span: 0.126
+1050 | Stab MIN  1.895 MAX  3.212 | Flutter SF min:  3.229 | Root: 0.322, Tip: 0.05, Span: 0.126
+1051 | Stab MIN  1.911 MAX  3.218 | Flutter SF min:  3.271 | Root: 0.322, Tip: 0.056, Span: 0.126
+1052 | Stab MIN  1.926 MAX  3.223 | Flutter SF min:  3.313 | Root: 0.322, Tip: 0.061, Span: 0.126
+1053 | Stab MIN  1.940 MAX  3.227 | Flutter SF min:  3.355 | Root: 0.322, Tip: 0.067, Span: 0.126
+1054 | Stab MIN  1.952 MAX  3.231 | Flutter SF min:  3.397 | Root: 0.322, Tip: 0.072, Span: 0.126
+1055 | Stab MIN  1.963 MAX  3.233 | Flutter SF min:  3.439 | Root: 0.322, Tip: 0.078, Span: 0.126
+1056 | Stab MIN  1.973 MAX  3.235 | Flutter SF min:  3.481 | Root: 0.322, Tip: 0.083, Span: 0.126
+1057 | Stab MIN  1.983 MAX  3.237 | Flutter SF min:  3.523 | Root: 0.322, Tip: 0.089, Span: 0.126
+1058 | Stab MIN  1.991 MAX  3.237 | Flutter SF min:  3.565 | Root: 0.322, Tip: 0.094, Span: 0.126
+1059 | Stab MIN  1.998 MAX  3.237 | Flutter SF min:  3.607 | Root: 0.322, Tip: 0.1, Span: 0.126
+1060 | Stab MIN  1.780 MAX  3.084 | Flutter SF min:  3.133 | Root: 0.367, Tip: 0.05, Span: 0.126
+1061 | Stab MIN  1.794 MAX  3.089 | Flutter SF min:  3.170 | Root: 0.367, Tip: 0.056, Span: 0.126
+1062 | Stab MIN  1.807 MAX  3.094 | Flutter SF min:  3.207 | Root: 0.367, Tip: 0.061, Span: 0.126
+1063 | Stab MIN  1.819 MAX  3.098 | Flutter SF min:  3.243 | Root: 0.367, Tip: 0.067, Span: 0.126
+1064 | Stab MIN  1.831 MAX  3.101 | Flutter SF min:  3.281 | Root: 0.367, Tip: 0.072, Span: 0.126
+1065 | Stab MIN  1.841 MAX  3.103 | Flutter SF min:  3.317 | Root: 0.367, Tip: 0.078, Span: 0.126
+1066 | Stab MIN  1.850 MAX  3.105 | Flutter SF min:  3.355 | Root: 0.367, Tip: 0.083, Span: 0.126
+1067 | Stab MIN  1.858 MAX  3.106 | Flutter SF min:  3.391 | Root: 0.367, Tip: 0.089, Span: 0.126
+1068 | Stab MIN  1.866 MAX  3.107 | Flutter SF min:  3.428 | Root: 0.367, Tip: 0.094, Span: 0.126
+1069 | Stab MIN  1.872 MAX  3.106 | Flutter SF min:  3.465 | Root: 0.367, Tip: 0.1, Span: 0.126
+1070 | Stab MIN  1.657 MAX  2.952 | Flutter SF min:  3.057 | Root: 0.411, Tip: 0.05, Span: 0.126
+1071 | Stab MIN  1.669 MAX  2.957 | Flutter SF min:  3.090 | Root: 0.411, Tip: 0.056, Span: 0.126
+1072 | Stab MIN  1.681 MAX  2.961 | Flutter SF min:  3.123 | Root: 0.411, Tip: 0.061, Span: 0.126
+1073 | Stab MIN  1.692 MAX  2.964 | Flutter SF min:  3.156 | Root: 0.411, Tip: 0.067, Span: 0.126
+1074 | Stab MIN  1.702 MAX  2.967 | Flutter SF min:  3.189 | Root: 0.411, Tip: 0.072, Span: 0.126
+1075 | Stab MIN  1.712 MAX  2.969 | Flutter SF min:  3.222 | Root: 0.411, Tip: 0.078, Span: 0.126
+1076 | Stab MIN  1.720 MAX  2.971 | Flutter SF min:  3.255 | Root: 0.411, Tip: 0.083, Span: 0.126
+1077 | Stab MIN  1.728 MAX  2.972 | Flutter SF min:  3.288 | Root: 0.411, Tip: 0.089, Span: 0.126
+1078 | Stab MIN  1.735 MAX  2.972 | Flutter SF min:  3.320 | Root: 0.411, Tip: 0.094, Span: 0.126
+1079 | Stab MIN  1.741 MAX  2.972 | Flutter SF min:  3.353 | Root: 0.411, Tip: 0.1, Span: 0.126
+1080 | Stab MIN  1.528 MAX  2.817 | Flutter SF min:  2.996 | Root: 0.456, Tip: 0.05, Span: 0.126
+1081 | Stab MIN  1.540 MAX  2.821 | Flutter SF min:  3.026 | Root: 0.456, Tip: 0.056, Span: 0.126
+1082 | Stab MIN  1.550 MAX  2.825 | Flutter SF min:  3.056 | Root: 0.456, Tip: 0.061, Span: 0.126
+1083 | Stab MIN  1.560 MAX  2.828 | Flutter SF min:  3.086 | Root: 0.456, Tip: 0.067, Span: 0.126
+1084 | Stab MIN  1.570 MAX  2.831 | Flutter SF min:  3.114 | Root: 0.456, Tip: 0.072, Span: 0.126
+1085 | Stab MIN  1.578 MAX  2.832 | Flutter SF min:  3.145 | Root: 0.456, Tip: 0.078, Span: 0.126
+1086 | Stab MIN  1.586 MAX  2.834 | Flutter SF min:  3.174 | Root: 0.456, Tip: 0.083, Span: 0.126
+1087 | Stab MIN  1.593 MAX  2.835 | Flutter SF min:  3.204 | Root: 0.456, Tip: 0.089, Span: 0.126
+1088 | Stab MIN  1.600 MAX  2.835 | Flutter SF min:  3.234 | Root: 0.456, Tip: 0.094, Span: 0.126
+1089 | Stab MIN  1.606 MAX  2.835 | Flutter SF min:  3.264 | Root: 0.456, Tip: 0.1, Span: 0.126
+1090 | Stab MIN  1.396 MAX  2.680 | Flutter SF min:  2.945 | Root: 0.5, Tip: 0.05, Span: 0.126
+1091 | Stab MIN  1.407 MAX  2.684 | Flutter SF min:  2.973 | Root: 0.5, Tip: 0.056, Span: 0.126
+1092 | Stab MIN  1.416 MAX  2.687 | Flutter SF min:  3.000 | Root: 0.5, Tip: 0.061, Span: 0.126
+1093 | Stab MIN  1.426 MAX  2.690 | Flutter SF min:  3.027 | Root: 0.5, Tip: 0.067, Span: 0.126
+1094 | Stab MIN  1.434 MAX  2.693 | Flutter SF min:  3.054 | Root: 0.5, Tip: 0.072, Span: 0.126
+1095 | Stab MIN  1.442 MAX  2.694 | Flutter SF min:  3.081 | Root: 0.5, Tip: 0.078, Span: 0.126
+1096 | Stab MIN  1.449 MAX  2.696 | Flutter SF min:  3.108 | Root: 0.5, Tip: 0.083, Span: 0.126
+1097 | Stab MIN  1.456 MAX  2.697 | Flutter SF min:  3.135 | Root: 0.5, Tip: 0.089, Span: 0.126
+1098 | Stab MIN  1.462 MAX  2.697 | Flutter SF min:  3.162 | Root: 0.5, Tip: 0.094, Span: 0.126
+1099 | Stab MIN  1.468 MAX  2.697 | Flutter SF min:  3.189 | Root: 0.5, Tip: 0.1, Span: 0.126
+1100 | Stab MIN  1.985 MAX  3.602 | Flutter SF min:  4.790 | Root: 0.1, Tip: 0.05, Span: 0.129
+1101 | Stab MIN  2.040 MAX  3.630 | Flutter SF min:  4.927 | Root: 0.1, Tip: 0.056, Span: 0.129
+1102 | Stab MIN  2.089 MAX  3.655 | Flutter SF min:  5.062 | Root: 0.1, Tip: 0.061, Span: 0.129
+1103 | Stab MIN  2.132 MAX  3.676 | Flutter SF min:  5.198 | Root: 0.1, Tip: 0.067, Span: 0.129
+1104 | Stab MIN  2.171 MAX  3.694 | Flutter SF min:  5.332 | Root: 0.1, Tip: 0.072, Span: 0.129
+1105 | Stab MIN  2.206 MAX  3.709 | Flutter SF min:  5.468 | Root: 0.1, Tip: 0.078, Span: 0.129
+1106 | Stab MIN  2.236 MAX  3.721 | Flutter SF min:  5.603 | Root: 0.1, Tip: 0.083, Span: 0.129
+1107 | Stab MIN  2.263 MAX  3.730 | Flutter SF min:  5.738 | Root: 0.1, Tip: 0.089, Span: 0.129
+1108 | Stab MIN  2.287 MAX  3.738 | Flutter SF min:  5.873 | Root: 0.1, Tip: 0.094, Span: 0.129
+1109 | Stab MIN  2.307 MAX  3.743 | Flutter SF min:  6.006 | Root: 0.1, Tip: 0.1, Span: 0.129
+1110 | Stab MIN  2.174 MAX  3.658 | Flutter SF min:  4.065 | Root: 0.144, Tip: 0.05, Span: 0.129
+1111 | Stab MIN  2.210 MAX  3.675 | Flutter SF min:  4.158 | Root: 0.144, Tip: 0.056, Span: 0.129
+1112 | Stab MIN  2.243 MAX  3.689 | Flutter SF min:  4.250 | Root: 0.144, Tip: 0.061, Span: 0.129
+1113 | Stab MIN  2.272 MAX  3.701 | Flutter SF min:  4.344 | Root: 0.144, Tip: 0.067, Span: 0.129
+1114 | Stab MIN  2.298 MAX  3.711 | Flutter SF min:  4.436 | Root: 0.144, Tip: 0.072, Span: 0.129
+1115 | Stab MIN  2.321 MAX  3.719 | Flutter SF min:  4.528 | Root: 0.144, Tip: 0.078, Span: 0.129
+1116 | Stab MIN  2.341 MAX  3.725 | Flutter SF min:  4.622 | Root: 0.144, Tip: 0.083, Span: 0.129
+1117 | Stab MIN  2.359 MAX  3.730 | Flutter SF min:  4.714 | Root: 0.144, Tip: 0.089, Span: 0.129
+1118 | Stab MIN  2.374 MAX  3.733 | Flutter SF min:  4.805 | Root: 0.144, Tip: 0.094, Span: 0.129
+1119 | Stab MIN  2.388 MAX  3.735 | Flutter SF min:  4.897 | Root: 0.144, Tip: 0.1, Span: 0.129
+1120 | Stab MIN  2.211 MAX  3.618 | Flutter SF min:  3.675 | Root: 0.189, Tip: 0.05, Span: 0.129
+1121 | Stab MIN  2.238 MAX  3.630 | Flutter SF min:  3.745 | Root: 0.189, Tip: 0.056, Span: 0.129
+1122 | Stab MIN  2.262 MAX  3.639 | Flutter SF min:  3.815 | Root: 0.189, Tip: 0.061, Span: 0.129
+1123 | Stab MIN  2.284 MAX  3.647 | Flutter SF min:  3.886 | Root: 0.189, Tip: 0.067, Span: 0.129
+1124 | Stab MIN  2.303 MAX  3.654 | Flutter SF min:  3.956 | Root: 0.189, Tip: 0.072, Span: 0.129
+1125 | Stab MIN  2.321 MAX  3.659 | Flutter SF min:  4.026 | Root: 0.189, Tip: 0.078, Span: 0.129
+1126 | Stab MIN  2.336 MAX  3.663 | Flutter SF min:  4.097 | Root: 0.189, Tip: 0.083, Span: 0.129
+1127 | Stab MIN  2.350 MAX  3.665 | Flutter SF min:  4.167 | Root: 0.189, Tip: 0.089, Span: 0.129
+1128 | Stab MIN  2.362 MAX  3.667 | Flutter SF min:  4.237 | Root: 0.189, Tip: 0.094, Span: 0.129
+1129 | Stab MIN  2.372 MAX  3.667 | Flutter SF min:  4.307 | Root: 0.189, Tip: 0.1, Span: 0.129
+1130 | Stab MIN  2.172 MAX  3.533 | Flutter SF min:  3.430 | Root: 0.233, Tip: 0.05, Span: 0.129
+1131 | Stab MIN  2.194 MAX  3.542 | Flutter SF min:  3.486 | Root: 0.233, Tip: 0.056, Span: 0.129
+1132 | Stab MIN  2.213 MAX  3.549 | Flutter SF min:  3.543 | Root: 0.233, Tip: 0.061, Span: 0.129
+1133 | Stab MIN  2.231 MAX  3.555 | Flutter SF min:  3.600 | Root: 0.233, Tip: 0.067, Span: 0.129
+1134 | Stab MIN  2.247 MAX  3.560 | Flutter SF min:  3.657 | Root: 0.233, Tip: 0.072, Span: 0.129
+1135 | Stab MIN  2.261 MAX  3.564 | Flutter SF min:  3.712 | Root: 0.233, Tip: 0.078, Span: 0.129
+1136 | Stab MIN  2.274 MAX  3.567 | Flutter SF min:  3.770 | Root: 0.233, Tip: 0.083, Span: 0.129
+1137 | Stab MIN  2.285 MAX  3.568 | Flutter SF min:  3.826 | Root: 0.233, Tip: 0.089, Span: 0.129
+1138 | Stab MIN  2.295 MAX  3.569 | Flutter SF min:  3.882 | Root: 0.233, Tip: 0.094, Span: 0.129
+1139 | Stab MIN  2.304 MAX  3.569 | Flutter SF min:  3.939 | Root: 0.233, Tip: 0.1, Span: 0.129
+1140 | Stab MIN  2.093 MAX  3.426 | Flutter SF min:  3.262 | Root: 0.278, Tip: 0.05, Span: 0.129
+1141 | Stab MIN  2.111 MAX  3.433 | Flutter SF min:  3.309 | Root: 0.278, Tip: 0.056, Span: 0.129
+1142 | Stab MIN  2.128 MAX  3.439 | Flutter SF min:  3.356 | Root: 0.278, Tip: 0.061, Span: 0.129
+1143 | Stab MIN  2.143 MAX  3.443 | Flutter SF min:  3.404 | Root: 0.278, Tip: 0.067, Span: 0.129
+1144 | Stab MIN  2.156 MAX  3.447 | Flutter SF min:  3.451 | Root: 0.278, Tip: 0.072, Span: 0.129
+1145 | Stab MIN  2.169 MAX  3.450 | Flutter SF min:  3.498 | Root: 0.278, Tip: 0.078, Span: 0.129
+1146 | Stab MIN  2.180 MAX  3.452 | Flutter SF min:  3.547 | Root: 0.278, Tip: 0.083, Span: 0.129
+1147 | Stab MIN  2.190 MAX  3.454 | Flutter SF min:  3.593 | Root: 0.278, Tip: 0.089, Span: 0.129
+1148 | Stab MIN  2.198 MAX  3.454 | Flutter SF min:  3.642 | Root: 0.278, Tip: 0.094, Span: 0.129
+1149 | Stab MIN  2.206 MAX  3.454 | Flutter SF min:  3.688 | Root: 0.278, Tip: 0.1, Span: 0.129
+1150 | Stab MIN  1.991 MAX  3.305 | Flutter SF min:  3.139 | Root: 0.322, Tip: 0.05, Span: 0.129
+1151 | Stab MIN  2.007 MAX  3.311 | Flutter SF min:  3.179 | Root: 0.322, Tip: 0.056, Span: 0.129
+1152 | Stab MIN  2.021 MAX  3.316 | Flutter SF min:  3.221 | Root: 0.322, Tip: 0.061, Span: 0.129
+1153 | Stab MIN  2.035 MAX  3.320 | Flutter SF min:  3.261 | Root: 0.322, Tip: 0.067, Span: 0.129
+1154 | Stab MIN  2.047 MAX  3.324 | Flutter SF min:  3.301 | Root: 0.322, Tip: 0.072, Span: 0.129
+1155 | Stab MIN  2.057 MAX  3.326 | Flutter SF min:  3.342 | Root: 0.322, Tip: 0.078, Span: 0.129
+1156 | Stab MIN  2.067 MAX  3.328 | Flutter SF min:  3.384 | Root: 0.322, Tip: 0.083, Span: 0.129
+1157 | Stab MIN  2.076 MAX  3.329 | Flutter SF min:  3.424 | Root: 0.322, Tip: 0.089, Span: 0.129
+1158 | Stab MIN  2.084 MAX  3.329 | Flutter SF min:  3.465 | Root: 0.322, Tip: 0.094, Span: 0.129
+1159 | Stab MIN  2.091 MAX  3.329 | Flutter SF min:  3.505 | Root: 0.322, Tip: 0.1, Span: 0.129
+1160 | Stab MIN  1.876 MAX  3.177 | Flutter SF min:  3.045 | Root: 0.367, Tip: 0.05, Span: 0.129
+1161 | Stab MIN  1.890 MAX  3.182 | Flutter SF min:  3.081 | Root: 0.367, Tip: 0.056, Span: 0.129
+1162 | Stab MIN  1.903 MAX  3.187 | Flutter SF min:  3.117 | Root: 0.367, Tip: 0.061, Span: 0.129
+1163 | Stab MIN  1.914 MAX  3.190 | Flutter SF min:  3.152 | Root: 0.367, Tip: 0.067, Span: 0.129
+1164 | Stab MIN  1.925 MAX  3.193 | Flutter SF min:  3.188 | Root: 0.367, Tip: 0.072, Span: 0.129
+1165 | Stab MIN  1.935 MAX  3.195 | Flutter SF min:  3.224 | Root: 0.367, Tip: 0.078, Span: 0.129
+1166 | Stab MIN  1.944 MAX  3.197 | Flutter SF min:  3.260 | Root: 0.367, Tip: 0.083, Span: 0.129
+1167 | Stab MIN  1.952 MAX  3.198 | Flutter SF min:  3.296 | Root: 0.367, Tip: 0.089, Span: 0.129
+1168 | Stab MIN  1.959 MAX  3.198 | Flutter SF min:  3.331 | Root: 0.367, Tip: 0.094, Span: 0.129
+1169 | Stab MIN  1.966 MAX  3.198 | Flutter SF min:  3.367 | Root: 0.367, Tip: 0.1, Span: 0.129
+1170 | Stab MIN  1.752 MAX  3.045 | Flutter SF min:  2.971 | Root: 0.411, Tip: 0.05, Span: 0.129
+1171 | Stab MIN  1.765 MAX  3.049 | Flutter SF min:  3.003 | Root: 0.411, Tip: 0.056, Span: 0.129
+1172 | Stab MIN  1.776 MAX  3.053 | Flutter SF min:  3.035 | Root: 0.411, Tip: 0.061, Span: 0.129
+1173 | Stab MIN  1.787 MAX  3.056 | Flutter SF min:  3.067 | Root: 0.411, Tip: 0.067, Span: 0.129
+1174 | Stab MIN  1.797 MAX  3.059 | Flutter SF min:  3.099 | Root: 0.411, Tip: 0.072, Span: 0.129
+1175 | Stab MIN  1.806 MAX  3.061 | Flutter SF min:  3.131 | Root: 0.411, Tip: 0.078, Span: 0.129
+1176 | Stab MIN  1.814 MAX  3.062 | Flutter SF min:  3.162 | Root: 0.411, Tip: 0.083, Span: 0.129
+1177 | Stab MIN  1.821 MAX  3.063 | Flutter SF min:  3.194 | Root: 0.411, Tip: 0.089, Span: 0.129
+1178 | Stab MIN  1.828 MAX  3.063 | Flutter SF min:  3.226 | Root: 0.411, Tip: 0.094, Span: 0.129
+1179 | Stab MIN  1.834 MAX  3.063 | Flutter SF min:  3.258 | Root: 0.411, Tip: 0.1, Span: 0.129
+1180 | Stab MIN  1.624 MAX  2.909 | Flutter SF min:  2.911 | Root: 0.456, Tip: 0.05, Span: 0.129
+1181 | Stab MIN  1.635 MAX  2.913 | Flutter SF min:  2.940 | Root: 0.456, Tip: 0.056, Span: 0.129
+1182 | Stab MIN  1.645 MAX  2.917 | Flutter SF min:  2.969 | Root: 0.456, Tip: 0.061, Span: 0.129
+1183 | Stab MIN  1.655 MAX  2.920 | Flutter SF min:  2.998 | Root: 0.456, Tip: 0.067, Span: 0.129
+1184 | Stab MIN  1.664 MAX  2.922 | Flutter SF min:  3.027 | Root: 0.456, Tip: 0.072, Span: 0.129
+1185 | Stab MIN  1.672 MAX  2.924 | Flutter SF min:  3.054 | Root: 0.456, Tip: 0.078, Span: 0.129
+1186 | Stab MIN  1.680 MAX  2.925 | Flutter SF min:  3.084 | Root: 0.456, Tip: 0.083, Span: 0.129
+1187 | Stab MIN  1.687 MAX  2.926 | Flutter SF min:  3.112 | Root: 0.456, Tip: 0.089, Span: 0.129
+1188 | Stab MIN  1.693 MAX  2.926 | Flutter SF min:  3.141 | Root: 0.456, Tip: 0.094, Span: 0.129
+1189 | Stab MIN  1.698 MAX  2.926 | Flutter SF min:  3.170 | Root: 0.456, Tip: 0.1, Span: 0.129
+1190 | Stab MIN  1.491 MAX  2.772 | Flutter SF min:  2.862 | Root: 0.5, Tip: 0.05, Span: 0.129
+1191 | Stab MIN  1.501 MAX  2.775 | Flutter SF min:  2.888 | Root: 0.5, Tip: 0.056, Span: 0.129
+1192 | Stab MIN  1.511 MAX  2.779 | Flutter SF min:  2.914 | Root: 0.5, Tip: 0.061, Span: 0.129
+1193 | Stab MIN  1.520 MAX  2.781 | Flutter SF min:  2.941 | Root: 0.5, Tip: 0.067, Span: 0.129
+1194 | Stab MIN  1.528 MAX  2.783 | Flutter SF min:  2.966 | Root: 0.5, Tip: 0.072, Span: 0.129
+1195 | Stab MIN  1.536 MAX  2.785 | Flutter SF min:  2.993 | Root: 0.5, Tip: 0.078, Span: 0.129
+1196 | Stab MIN  1.543 MAX  2.786 | Flutter SF min:  3.019 | Root: 0.5, Tip: 0.083, Span: 0.129
+1197 | Stab MIN  1.549 MAX  2.787 | Flutter SF min:  3.045 | Root: 0.5, Tip: 0.089, Span: 0.129
+1198 | Stab MIN  1.555 MAX  2.787 | Flutter SF min:  3.071 | Root: 0.5, Tip: 0.094, Span: 0.129
+1199 | Stab MIN  1.560 MAX  2.787 | Flutter SF min:  3.097 | Root: 0.5, Tip: 0.1, Span: 0.129
+1200 | Stab MIN  2.072 MAX  3.689 | Flutter SF min:  4.669 | Root: 0.1, Tip: 0.05, Span: 0.132
+1201 | Stab MIN  2.127 MAX  3.718 | Flutter SF min:  4.800 | Root: 0.1, Tip: 0.056, Span: 0.132
+1202 | Stab MIN  2.175 MAX  3.742 | Flutter SF min:  4.932 | Root: 0.1, Tip: 0.061, Span: 0.132
+1203 | Stab MIN  2.219 MAX  3.763 | Flutter SF min:  5.065 | Root: 0.1, Tip: 0.067, Span: 0.132
+1204 | Stab MIN  2.257 MAX  3.781 | Flutter SF min:  5.196 | Root: 0.1, Tip: 0.072, Span: 0.132
+1205 | Stab MIN  2.292 MAX  3.796 | Flutter SF min:  5.327 | Root: 0.1, Tip: 0.078, Span: 0.132
+1206 | Stab MIN  2.322 MAX  3.808 | Flutter SF min:  5.458 | Root: 0.1, Tip: 0.083, Span: 0.132
+1207 | Stab MIN  2.349 MAX  3.817 | Flutter SF min:  5.590 | Root: 0.1, Tip: 0.089, Span: 0.132
+1208 | Stab MIN  2.373 MAX  3.825 | Flutter SF min:  5.720 | Root: 0.1, Tip: 0.094, Span: 0.132
+1209 | Stab MIN  2.393 MAX  3.831 | Flutter SF min:  5.850 | Root: 0.1, Tip: 0.1, Span: 0.132
+1210 | Stab MIN  2.263 MAX  3.747 | Flutter SF min:  3.960 | Root: 0.144, Tip: 0.05, Span: 0.132
+1211 | Stab MIN  2.298 MAX  3.763 | Flutter SF min:  4.051 | Root: 0.144, Tip: 0.056, Span: 0.132
+1212 | Stab MIN  2.330 MAX  3.777 | Flutter SF min:  4.140 | Root: 0.144, Tip: 0.061, Span: 0.132
+1213 | Stab MIN  2.359 MAX  3.789 | Flutter SF min:  4.230 | Root: 0.144, Tip: 0.067, Span: 0.132
+1214 | Stab MIN  2.385 MAX  3.799 | Flutter SF min:  4.320 | Root: 0.144, Tip: 0.072, Span: 0.132
+1215 | Stab MIN  2.408 MAX  3.807 | Flutter SF min:  4.410 | Root: 0.144, Tip: 0.078, Span: 0.132
+1216 | Stab MIN  2.428 MAX  3.813 | Flutter SF min:  4.500 | Root: 0.144, Tip: 0.083, Span: 0.132
+1217 | Stab MIN  2.445 MAX  3.817 | Flutter SF min:  4.589 | Root: 0.144, Tip: 0.089, Span: 0.132
+1218 | Stab MIN  2.461 MAX  3.820 | Flutter SF min:  4.679 | Root: 0.144, Tip: 0.094, Span: 0.132
+1219 | Stab MIN  2.474 MAX  3.822 | Flutter SF min:  4.768 | Root: 0.144, Tip: 0.1, Span: 0.132
+1220 | Stab MIN  2.301 MAX  3.708 | Flutter SF min:  3.578 | Root: 0.189, Tip: 0.05, Span: 0.132
+1221 | Stab MIN  2.327 MAX  3.719 | Flutter SF min:  3.646 | Root: 0.189, Tip: 0.056, Span: 0.132
+1222 | Stab MIN  2.351 MAX  3.728 | Flutter SF min:  3.715 | Root: 0.189, Tip: 0.061, Span: 0.132
+1223 | Stab MIN  2.372 MAX  3.736 | Flutter SF min:  3.782 | Root: 0.189, Tip: 0.067, Span: 0.132
+1224 | Stab MIN  2.392 MAX  3.742 | Flutter SF min:  3.851 | Root: 0.189, Tip: 0.072, Span: 0.132
+1225 | Stab MIN  2.409 MAX  3.747 | Flutter SF min:  3.919 | Root: 0.189, Tip: 0.078, Span: 0.132
+1226 | Stab MIN  2.424 MAX  3.751 | Flutter SF min:  3.988 | Root: 0.189, Tip: 0.083, Span: 0.132
+1227 | Stab MIN  2.437 MAX  3.754 | Flutter SF min:  4.054 | Root: 0.189, Tip: 0.089, Span: 0.132
+1228 | Stab MIN  2.449 MAX  3.755 | Flutter SF min:  4.124 | Root: 0.189, Tip: 0.094, Span: 0.132
+1229 | Stab MIN  2.459 MAX  3.755 | Flutter SF min:  4.192 | Root: 0.189, Tip: 0.1, Span: 0.132
+1230 | Stab MIN  2.263 MAX  3.623 | Flutter SF min:  3.338 | Root: 0.233, Tip: 0.05, Span: 0.132
+1231 | Stab MIN  2.284 MAX  3.631 | Flutter SF min:  3.393 | Root: 0.233, Tip: 0.056, Span: 0.132
+1232 | Stab MIN  2.303 MAX  3.639 | Flutter SF min:  3.448 | Root: 0.233, Tip: 0.061, Span: 0.132
+1233 | Stab MIN  2.321 MAX  3.644 | Flutter SF min:  3.504 | Root: 0.233, Tip: 0.067, Span: 0.132
+1234 | Stab MIN  2.336 MAX  3.649 | Flutter SF min:  3.558 | Root: 0.233, Tip: 0.072, Span: 0.132
+1235 | Stab MIN  2.350 MAX  3.653 | Flutter SF min:  3.613 | Root: 0.233, Tip: 0.078, Span: 0.132
+1236 | Stab MIN  2.363 MAX  3.655 | Flutter SF min:  3.667 | Root: 0.233, Tip: 0.083, Span: 0.132
+1237 | Stab MIN  2.374 MAX  3.657 | Flutter SF min:  3.723 | Root: 0.233, Tip: 0.089, Span: 0.132
+1238 | Stab MIN  2.383 MAX  3.657 | Flutter SF min:  3.778 | Root: 0.233, Tip: 0.094, Span: 0.132
+1239 | Stab MIN  2.391 MAX  3.657 | Flutter SF min:  3.832 | Root: 0.233, Tip: 0.1, Span: 0.132
+1240 | Stab MIN  2.185 MAX  3.515 | Flutter SF min:  3.174 | Root: 0.278, Tip: 0.05, Span: 0.132
+1241 | Stab MIN  2.202 MAX  3.522 | Flutter SF min:  3.219 | Root: 0.278, Tip: 0.056, Span: 0.132
+1242 | Stab MIN  2.218 MAX  3.528 | Flutter SF min:  3.266 | Root: 0.278, Tip: 0.061, Span: 0.132
+1243 | Stab MIN  2.233 MAX  3.532 | Flutter SF min:  3.311 | Root: 0.278, Tip: 0.067, Span: 0.132
+1244 | Stab MIN  2.246 MAX  3.536 | Flutter SF min:  3.358 | Root: 0.278, Tip: 0.072, Span: 0.132
+1245 | Stab MIN  2.258 MAX  3.539 | Flutter SF min:  3.404 | Root: 0.278, Tip: 0.078, Span: 0.132
+1246 | Stab MIN  2.269 MAX  3.541 | Flutter SF min:  3.449 | Root: 0.278, Tip: 0.083, Span: 0.132
+1247 | Stab MIN  2.279 MAX  3.542 | Flutter SF min:  3.495 | Root: 0.278, Tip: 0.089, Span: 0.132
+1248 | Stab MIN  2.287 MAX  3.542 | Flutter SF min:  3.541 | Root: 0.278, Tip: 0.094, Span: 0.132
+1249 | Stab MIN  2.294 MAX  3.542 | Flutter SF min:  3.587 | Root: 0.278, Tip: 0.1, Span: 0.132
+1250 | Stab MIN  2.083 MAX  3.395 | Flutter SF min:  3.053 | Root: 0.322, Tip: 0.05, Span: 0.132
+1251 | Stab MIN  2.098 MAX  3.400 | Flutter SF min:  3.093 | Root: 0.322, Tip: 0.056, Span: 0.132
+1252 | Stab MIN  2.112 MAX  3.405 | Flutter SF min:  3.132 | Root: 0.322, Tip: 0.061, Span: 0.132
+1253 | Stab MIN  2.125 MAX  3.409 | Flutter SF min:  3.172 | Root: 0.322, Tip: 0.067, Span: 0.132
+1254 | Stab MIN  2.137 MAX  3.412 | Flutter SF min:  3.212 | Root: 0.322, Tip: 0.072, Span: 0.132
+1255 | Stab MIN  2.147 MAX  3.414 | Flutter SF min:  3.251 | Root: 0.322, Tip: 0.078, Span: 0.132
+1256 | Stab MIN  2.157 MAX  3.416 | Flutter SF min:  3.290 | Root: 0.322, Tip: 0.083, Span: 0.132
+1257 | Stab MIN  2.165 MAX  3.417 | Flutter SF min:  3.330 | Root: 0.322, Tip: 0.089, Span: 0.132
+1258 | Stab MIN  2.173 MAX  3.417 | Flutter SF min:  3.370 | Root: 0.322, Tip: 0.094, Span: 0.132
+1259 | Stab MIN  2.180 MAX  3.417 | Flutter SF min:  3.409 | Root: 0.322, Tip: 0.1, Span: 0.132
+1260 | Stab MIN  1.968 MAX  3.266 | Flutter SF min:  2.961 | Root: 0.367, Tip: 0.05, Span: 0.132
+1261 | Stab MIN  1.981 MAX  3.271 | Flutter SF min:  2.995 | Root: 0.367, Tip: 0.056, Span: 0.132
+1262 | Stab MIN  1.994 MAX  3.275 | Flutter SF min:  3.031 | Root: 0.367, Tip: 0.061, Span: 0.132
+1263 | Stab MIN  2.005 MAX  3.279 | Flutter SF min:  3.065 | Root: 0.367, Tip: 0.067, Span: 0.132
+1264 | Stab MIN  2.016 MAX  3.282 | Flutter SF min:  3.100 | Root: 0.367, Tip: 0.072, Span: 0.132
+1265 | Stab MIN  2.025 MAX  3.284 | Flutter SF min:  3.135 | Root: 0.367, Tip: 0.078, Span: 0.132
+1266 | Stab MIN  2.034 MAX  3.285 | Flutter SF min:  3.170 | Root: 0.367, Tip: 0.083, Span: 0.132
+1267 | Stab MIN  2.042 MAX  3.286 | Flutter SF min:  3.204 | Root: 0.367, Tip: 0.089, Span: 0.132
+1268 | Stab MIN  2.048 MAX  3.286 | Flutter SF min:  3.239 | Root: 0.367, Tip: 0.094, Span: 0.132
+1269 | Stab MIN  2.055 MAX  3.286 | Flutter SF min:  3.274 | Root: 0.367, Tip: 0.1, Span: 0.132
+1270 | Stab MIN  1.844 MAX  3.133 | Flutter SF min:  2.889 | Root: 0.411, Tip: 0.05, Span: 0.132
+1271 | Stab MIN  1.856 MAX  3.138 | Flutter SF min:  2.919 | Root: 0.411, Tip: 0.056, Span: 0.132
+1272 | Stab MIN  1.867 MAX  3.141 | Flutter SF min:  2.950 | Root: 0.411, Tip: 0.061, Span: 0.132
+1273 | Stab MIN  1.878 MAX  3.144 | Flutter SF min:  2.982 | Root: 0.411, Tip: 0.067, Span: 0.132
+1274 | Stab MIN  1.887 MAX  3.147 | Flutter SF min:  3.013 | Root: 0.411, Tip: 0.072, Span: 0.132
+1275 | Stab MIN  1.896 MAX  3.149 | Flutter SF min:  3.043 | Root: 0.411, Tip: 0.078, Span: 0.132
+1276 | Stab MIN  1.904 MAX  3.150 | Flutter SF min:  3.074 | Root: 0.411, Tip: 0.083, Span: 0.132
+1277 | Stab MIN  1.911 MAX  3.151 | Flutter SF min:  3.105 | Root: 0.411, Tip: 0.089, Span: 0.132
+1278 | Stab MIN  1.917 MAX  3.151 | Flutter SF min:  3.136 | Root: 0.411, Tip: 0.094, Span: 0.132
+1279 | Stab MIN  1.923 MAX  3.150 | Flutter SF min:  3.167 | Root: 0.411, Tip: 0.1, Span: 0.132
+1280 | Stab MIN  1.715 MAX  2.997 | Flutter SF min:  2.830 | Root: 0.456, Tip: 0.05, Span: 0.132
+1281 | Stab MIN  1.726 MAX  3.001 | Flutter SF min:  2.858 | Root: 0.456, Tip: 0.056, Span: 0.132
+1282 | Stab MIN  1.736 MAX  3.004 | Flutter SF min:  2.886 | Root: 0.456, Tip: 0.061, Span: 0.132
+1283 | Stab MIN  1.745 MAX  3.007 | Flutter SF min:  2.914 | Root: 0.456, Tip: 0.067, Span: 0.132
+1284 | Stab MIN  1.754 MAX  3.009 | Flutter SF min:  2.942 | Root: 0.456, Tip: 0.072, Span: 0.132
+1285 | Stab MIN  1.762 MAX  3.011 | Flutter SF min:  2.970 | Root: 0.456, Tip: 0.078, Span: 0.132
+1286 | Stab MIN  1.769 MAX  3.012 | Flutter SF min:  2.998 | Root: 0.456, Tip: 0.083, Span: 0.132
+1287 | Stab MIN  1.776 MAX  3.013 | Flutter SF min:  3.026 | Root: 0.456, Tip: 0.089, Span: 0.132
+1288 | Stab MIN  1.782 MAX  3.013 | Flutter SF min:  3.053 | Root: 0.456, Tip: 0.094, Span: 0.132
+1289 | Stab MIN  1.787 MAX  3.013 | Flutter SF min:  3.081 | Root: 0.456, Tip: 0.1, Span: 0.132
+1290 | Stab MIN  1.582 MAX  2.859 | Flutter SF min:  2.782 | Root: 0.5, Tip: 0.05, Span: 0.132
+1291 | Stab MIN  1.592 MAX  2.863 | Flutter SF min:  2.808 | Root: 0.5, Tip: 0.056, Span: 0.132
+1292 | Stab MIN  1.601 MAX  2.866 | Flutter SF min:  2.833 | Root: 0.5, Tip: 0.061, Span: 0.132
+1293 | Stab MIN  1.610 MAX  2.868 | Flutter SF min:  2.858 | Root: 0.5, Tip: 0.067, Span: 0.132
+1294 | Stab MIN  1.618 MAX  2.870 | Flutter SF min:  2.883 | Root: 0.5, Tip: 0.072, Span: 0.132
+1295 | Stab MIN  1.625 MAX  2.872 | Flutter SF min:  2.909 | Root: 0.5, Tip: 0.078, Span: 0.132
+1296 | Stab MIN  1.632 MAX  2.873 | Flutter SF min:  2.934 | Root: 0.5, Tip: 0.083, Span: 0.132
+1297 | Stab MIN  1.638 MAX  2.873 | Flutter SF min:  2.960 | Root: 0.5, Tip: 0.089, Span: 0.132
+1298 | Stab MIN  1.644 MAX  2.874 | Flutter SF min:  2.984 | Root: 0.5, Tip: 0.094, Span: 0.132
+1299 | Stab MIN  1.649 MAX  2.873 | Flutter SF min:  3.010 | Root: 0.5, Tip: 0.1, Span: 0.132
+1300 | Stab MIN  2.156 MAX  3.773 | Flutter SF min:  4.553 | Root: 0.1, Tip: 0.05, Span: 0.134
+1301 | Stab MIN  2.210 MAX  3.802 | Flutter SF min:  4.682 | Root: 0.1, Tip: 0.056, Span: 0.134
+1302 | Stab MIN  2.258 MAX  3.826 | Flutter SF min:  4.809 | Root: 0.1, Tip: 0.061, Span: 0.134
+1303 | Stab MIN  2.301 MAX  3.847 | Flutter SF min:  4.938 | Root: 0.1, Tip: 0.067, Span: 0.134
+1304 | Stab MIN  2.340 MAX  3.865 | Flutter SF min:  5.066 | Root: 0.1, Tip: 0.072, Span: 0.134
+1305 | Stab MIN  2.374 MAX  3.879 | Flutter SF min:  5.194 | Root: 0.1, Tip: 0.078, Span: 0.134
+1306 | Stab MIN  2.405 MAX  3.891 | Flutter SF min:  5.321 | Root: 0.1, Tip: 0.083, Span: 0.134
+1307 | Stab MIN  2.431 MAX  3.901 | Flutter SF min:  5.447 | Root: 0.1, Tip: 0.089, Span: 0.134
+1308 | Stab MIN  2.455 MAX  3.909 | Flutter SF min:  5.575 | Root: 0.1, Tip: 0.094, Span: 0.134
+1309 | Stab MIN  2.475 MAX  3.914 | Flutter SF min:  5.701 | Root: 0.1, Tip: 0.1, Span: 0.134
+1310 | Stab MIN  2.348 MAX  3.831 | Flutter SF min:  3.859 | Root: 0.144, Tip: 0.05, Span: 0.134
+1311 | Stab MIN  2.383 MAX  3.848 | Flutter SF min:  3.947 | Root: 0.144, Tip: 0.056, Span: 0.134
+1312 | Stab MIN  2.414 MAX  3.862 | Flutter SF min:  4.034 | Root: 0.144, Tip: 0.061, Span: 0.134
+1313 | Stab MIN  2.443 MAX  3.874 | Flutter SF min:  4.122 | Root: 0.144, Tip: 0.067, Span: 0.134
+1314 | Stab MIN  2.468 MAX  3.883 | Flutter SF min:  4.210 | Root: 0.144, Tip: 0.072, Span: 0.134
+1315 | Stab MIN  2.491 MAX  3.891 | Flutter SF min:  4.296 | Root: 0.144, Tip: 0.078, Span: 0.134
+1316 | Stab MIN  2.511 MAX  3.897 | Flutter SF min:  4.384 | Root: 0.144, Tip: 0.083, Span: 0.134
+1317 | Stab MIN  2.528 MAX  3.901 | Flutter SF min:  4.472 | Root: 0.144, Tip: 0.089, Span: 0.134
+1318 | Stab MIN  2.543 MAX  3.904 | Flutter SF min:  4.558 | Root: 0.144, Tip: 0.094, Span: 0.134
+1319 | Stab MIN  2.557 MAX  3.906 | Flutter SF min:  4.645 | Root: 0.144, Tip: 0.1, Span: 0.134
+1320 | Stab MIN  2.387 MAX  3.793 | Flutter SF min:  3.485 | Root: 0.189, Tip: 0.05, Span: 0.134
+1321 | Stab MIN  2.413 MAX  3.804 | Flutter SF min:  3.552 | Root: 0.189, Tip: 0.056, Span: 0.134
+1322 | Stab MIN  2.436 MAX  3.813 | Flutter SF min:  3.618 | Root: 0.189, Tip: 0.061, Span: 0.134
+1323 | Stab MIN  2.457 MAX  3.821 | Flutter SF min:  3.685 | Root: 0.189, Tip: 0.067, Span: 0.134
+1324 | Stab MIN  2.476 MAX  3.827 | Flutter SF min:  3.751 | Root: 0.189, Tip: 0.072, Span: 0.134
+1325 | Stab MIN  2.493 MAX  3.832 | Flutter SF min:  3.817 | Root: 0.189, Tip: 0.078, Span: 0.134
+1326 | Stab MIN  2.508 MAX  3.835 | Flutter SF min:  3.883 | Root: 0.189, Tip: 0.083, Span: 0.134
+1327 | Stab MIN  2.521 MAX  3.838 | Flutter SF min:  3.949 | Root: 0.189, Tip: 0.089, Span: 0.134
+1328 | Stab MIN  2.532 MAX  3.839 | Flutter SF min:  4.015 | Root: 0.189, Tip: 0.094, Span: 0.134
+1329 | Stab MIN  2.542 MAX  3.839 | Flutter SF min:  4.081 | Root: 0.189, Tip: 0.1, Span: 0.134
+1330 | Stab MIN  2.350 MAX  3.709 | Flutter SF min:  3.251 | Root: 0.233, Tip: 0.05, Span: 0.134
+1331 | Stab MIN  2.371 MAX  3.717 | Flutter SF min:  3.304 | Root: 0.233, Tip: 0.056, Span: 0.134
+1332 | Stab MIN  2.389 MAX  3.724 | Flutter SF min:  3.358 | Root: 0.233, Tip: 0.061, Span: 0.134
+1333 | Stab MIN  2.406 MAX  3.730 | Flutter SF min:  3.411 | Root: 0.233, Tip: 0.067, Span: 0.134
+1334 | Stab MIN  2.422 MAX  3.734 | Flutter SF min:  3.464 | Root: 0.233, Tip: 0.072, Span: 0.134
+1335 | Stab MIN  2.435 MAX  3.738 | Flutter SF min:  3.517 | Root: 0.233, Tip: 0.078, Span: 0.134
+1336 | Stab MIN  2.447 MAX  3.740 | Flutter SF min:  3.571 | Root: 0.233, Tip: 0.083, Span: 0.134
+1337 | Stab MIN  2.458 MAX  3.741 | Flutter SF min:  3.625 | Root: 0.233, Tip: 0.089, Span: 0.134
+1338 | Stab MIN  2.467 MAX  3.742 | Flutter SF min:  3.678 | Root: 0.233, Tip: 0.094, Span: 0.134
+1339 | Stab MIN  2.475 MAX  3.741 | Flutter SF min:  3.730 | Root: 0.233, Tip: 0.1, Span: 0.134
+1340 | Stab MIN  2.272 MAX  3.601 | Flutter SF min:  3.089 | Root: 0.278, Tip: 0.05, Span: 0.134
+1341 | Stab MIN  2.289 MAX  3.607 | Flutter SF min:  3.134 | Root: 0.278, Tip: 0.056, Span: 0.134
+1342 | Stab MIN  2.305 MAX  3.613 | Flutter SF min:  3.178 | Root: 0.278, Tip: 0.061, Span: 0.134
+1343 | Stab MIN  2.319 MAX  3.617 | Flutter SF min:  3.224 | Root: 0.278, Tip: 0.067, Span: 0.134
+1344 | Stab MIN  2.332 MAX  3.621 | Flutter SF min:  3.269 | Root: 0.278, Tip: 0.072, Span: 0.134
+1345 | Stab MIN  2.344 MAX  3.624 | Flutter SF min:  3.313 | Root: 0.278, Tip: 0.078, Span: 0.134
+1346 | Stab MIN  2.354 MAX  3.625 | Flutter SF min:  3.358 | Root: 0.278, Tip: 0.083, Span: 0.134
+1347 | Stab MIN  2.364 MAX  3.626 | Flutter SF min:  3.402 | Root: 0.278, Tip: 0.089, Span: 0.134
+1348 | Stab MIN  2.372 MAX  3.627 | Flutter SF min:  3.446 | Root: 0.278, Tip: 0.094, Span: 0.134
+1349 | Stab MIN  2.379 MAX  3.626 | Flutter SF min:  3.491 | Root: 0.278, Tip: 0.1, Span: 0.134
+1350 | Stab MIN  2.171 MAX  3.480 | Flutter SF min:  2.972 | Root: 0.322, Tip: 0.05, Span: 0.134
+1351 | Stab MIN  2.186 MAX  3.486 | Flutter SF min:  3.010 | Root: 0.322, Tip: 0.056, Span: 0.134
+1352 | Stab MIN  2.200 MAX  3.490 | Flutter SF min:  3.049 | Root: 0.322, Tip: 0.061, Span: 0.134
+1353 | Stab MIN  2.212 MAX  3.494 | Flutter SF min:  3.086 | Root: 0.322, Tip: 0.067, Span: 0.134
+1354 | Stab MIN  2.223 MAX  3.497 | Flutter SF min:  3.125 | Root: 0.322, Tip: 0.072, Span: 0.134
+1355 | Stab MIN  2.234 MAX  3.499 | Flutter SF min:  3.164 | Root: 0.322, Tip: 0.078, Span: 0.134
+1356 | Stab MIN  2.243 MAX  3.500 | Flutter SF min:  3.202 | Root: 0.322, Tip: 0.083, Span: 0.134
+1357 | Stab MIN  2.251 MAX  3.501 | Flutter SF min:  3.240 | Root: 0.322, Tip: 0.089, Span: 0.134
+1358 | Stab MIN  2.258 MAX  3.501 | Flutter SF min:  3.279 | Root: 0.322, Tip: 0.094, Span: 0.134
+1359 | Stab MIN  2.265 MAX  3.501 | Flutter SF min:  3.316 | Root: 0.322, Tip: 0.1, Span: 0.134
+1360 | Stab MIN  2.056 MAX  3.352 | Flutter SF min:  2.881 | Root: 0.367, Tip: 0.05, Span: 0.134
+1361 | Stab MIN  2.069 MAX  3.356 | Flutter SF min:  2.915 | Root: 0.367, Tip: 0.056, Span: 0.134
+1362 | Stab MIN  2.081 MAX  3.360 | Flutter SF min:  2.949 | Root: 0.367, Tip: 0.061, Span: 0.134
+1363 | Stab MIN  2.092 MAX  3.363 | Flutter SF min:  2.983 | Root: 0.367, Tip: 0.067, Span: 0.134
+1364 | Stab MIN  2.102 MAX  3.366 | Flutter SF min:  3.016 | Root: 0.367, Tip: 0.072, Span: 0.134
+1365 | Stab MIN  2.111 MAX  3.368 | Flutter SF min:  3.050 | Root: 0.367, Tip: 0.078, Span: 0.134
+1366 | Stab MIN  2.120 MAX  3.369 | Flutter SF min:  3.084 | Root: 0.367, Tip: 0.083, Span: 0.134
+1367 | Stab MIN  2.127 MAX  3.370 | Flutter SF min:  3.117 | Root: 0.367, Tip: 0.089, Span: 0.134
+1368 | Stab MIN  2.134 MAX  3.370 | Flutter SF min:  3.151 | Root: 0.367, Tip: 0.094, Span: 0.134
+1369 | Stab MIN  2.140 MAX  3.369 | Flutter SF min:  3.185 | Root: 0.367, Tip: 0.1, Span: 0.134
+1370 | Stab MIN  1.932 MAX  3.218 | Flutter SF min:  2.810 | Root: 0.411, Tip: 0.05, Span: 0.134
+1371 | Stab MIN  1.944 MAX  3.222 | Flutter SF min:  2.841 | Root: 0.411, Tip: 0.056, Span: 0.134
+1372 | Stab MIN  1.955 MAX  3.226 | Flutter SF min:  2.871 | Root: 0.411, Tip: 0.061, Span: 0.134
+1373 | Stab MIN  1.965 MAX  3.229 | Flutter SF min:  2.901 | Root: 0.411, Tip: 0.067, Span: 0.134
+1374 | Stab MIN  1.974 MAX  3.231 | Flutter SF min:  2.930 | Root: 0.411, Tip: 0.072, Span: 0.134
+1375 | Stab MIN  1.982 MAX  3.232 | Flutter SF min:  2.961 | Root: 0.411, Tip: 0.078, Span: 0.134
+1376 | Stab MIN  1.990 MAX  3.234 | Flutter SF min:  2.990 | Root: 0.411, Tip: 0.083, Span: 0.134
+1377 | Stab MIN  1.996 MAX  3.234 | Flutter SF min:  3.020 | Root: 0.411, Tip: 0.089, Span: 0.134
+1378 | Stab MIN  2.003 MAX  3.234 | Flutter SF min:  3.050 | Root: 0.411, Tip: 0.094, Span: 0.134
+1379 | Stab MIN  2.008 MAX  3.234 | Flutter SF min:  3.081 | Root: 0.411, Tip: 0.1, Span: 0.134
+1380 | Stab MIN  1.802 MAX  3.082 | Flutter SF min:  2.753 | Root: 0.456, Tip: 0.05, Span: 0.134
+1381 | Stab MIN  1.813 MAX  3.085 | Flutter SF min:  2.780 | Root: 0.456, Tip: 0.056, Span: 0.134
+1382 | Stab MIN  1.823 MAX  3.088 | Flutter SF min:  2.807 | Root: 0.456, Tip: 0.061, Span: 0.134
+1383 | Stab MIN  1.832 MAX  3.091 | Flutter SF min:  2.834 | Root: 0.456, Tip: 0.067, Span: 0.134
+1384 | Stab MIN  1.840 MAX  3.093 | Flutter SF min:  2.861 | Root: 0.456, Tip: 0.072, Span: 0.134
+1385 | Stab MIN  1.848 MAX  3.094 | Flutter SF min:  2.889 | Root: 0.456, Tip: 0.078, Span: 0.134
+1386 | Stab MIN  1.855 MAX  3.095 | Flutter SF min:  2.915 | Root: 0.456, Tip: 0.083, Span: 0.134
+1387 | Stab MIN  1.861 MAX  3.096 | Flutter SF min:  2.942 | Root: 0.456, Tip: 0.089, Span: 0.134
+1388 | Stab MIN  1.867 MAX  3.096 | Flutter SF min:  2.970 | Root: 0.456, Tip: 0.094, Span: 0.134
+1389 | Stab MIN  1.872 MAX  3.096 | Flutter SF min:  2.997 | Root: 0.456, Tip: 0.1, Span: 0.134
+1390 | Stab MIN  1.669 MAX  2.943 | Flutter SF min:  2.706 | Root: 0.5, Tip: 0.05, Span: 0.134
+1391 | Stab MIN  1.679 MAX  2.946 | Flutter SF min:  2.730 | Root: 0.5, Tip: 0.056, Span: 0.134
+1392 | Stab MIN  1.688 MAX  2.949 | Flutter SF min:  2.755 | Root: 0.5, Tip: 0.061, Span: 0.134
+1393 | Stab MIN  1.696 MAX  2.951 | Flutter SF min:  2.779 | Root: 0.5, Tip: 0.067, Span: 0.134
+1394 | Stab MIN  1.704 MAX  2.953 | Flutter SF min:  2.804 | Root: 0.5, Tip: 0.072, Span: 0.134
+1395 | Stab MIN  1.711 MAX  2.955 | Flutter SF min:  2.829 | Root: 0.5, Tip: 0.078, Span: 0.134
+1396 | Stab MIN  1.718 MAX  2.956 | Flutter SF min:  2.853 | Root: 0.5, Tip: 0.083, Span: 0.134
+1397 | Stab MIN  1.723 MAX  2.956 | Flutter SF min:  2.878 | Root: 0.5, Tip: 0.089, Span: 0.134
+1398 | Stab MIN  1.729 MAX  2.956 | Flutter SF min:  2.903 | Root: 0.5, Tip: 0.094, Span: 0.134
+1399 | Stab MIN  1.734 MAX  2.956 | Flutter SF min:  2.927 | Root: 0.5, Tip: 0.1, Span: 0.134
+1400 | Stab MIN  2.236 MAX  3.853 | Flutter SF min:  4.442 | Root: 0.1, Tip: 0.05, Span: 0.137
+1401 | Stab MIN  2.290 MAX  3.881 | Flutter SF min:  4.568 | Root: 0.1, Tip: 0.056, Span: 0.137
+1402 | Stab MIN  2.338 MAX  3.906 | Flutter SF min:  4.693 | Root: 0.1, Tip: 0.061, Span: 0.137
+1403 | Stab MIN  2.381 MAX  3.927 | Flutter SF min:  4.818 | Root: 0.1, Tip: 0.067, Span: 0.137
+1404 | Stab MIN  2.419 MAX  3.944 | Flutter SF min:  4.942 | Root: 0.1, Tip: 0.072, Span: 0.137
+1405 | Stab MIN  2.453 MAX  3.959 | Flutter SF min:  5.066 | Root: 0.1, Tip: 0.078, Span: 0.137
+1406 | Stab MIN  2.484 MAX  3.971 | Flutter SF min:  5.190 | Root: 0.1, Tip: 0.083, Span: 0.137
+1407 | Stab MIN  2.510 MAX  3.981 | Flutter SF min:  5.313 | Root: 0.1, Tip: 0.089, Span: 0.137
+1408 | Stab MIN  2.534 MAX  3.989 | Flutter SF min:  5.435 | Root: 0.1, Tip: 0.094, Span: 0.137
+1409 | Stab MIN  2.554 MAX  3.994 | Flutter SF min:  5.561 | Root: 0.1, Tip: 0.1, Span: 0.137
+1410 | Stab MIN  2.429 MAX  3.912 | Flutter SF min:  3.764 | Root: 0.144, Tip: 0.05, Span: 0.137
+1411 | Stab MIN  2.464 MAX  3.929 | Flutter SF min:  3.848 | Root: 0.144, Tip: 0.056, Span: 0.137
+1412 | Stab MIN  2.495 MAX  3.943 | Flutter SF min:  3.934 | Root: 0.144, Tip: 0.061, Span: 0.137
+1413 | Stab MIN  2.523 MAX  3.954 | Flutter SF min:  4.019 | Root: 0.144, Tip: 0.067, Span: 0.137
+1414 | Stab MIN  2.548 MAX  3.964 | Flutter SF min:  4.103 | Root: 0.144, Tip: 0.072, Span: 0.137
+1415 | Stab MIN  2.570 MAX  3.971 | Flutter SF min:  4.189 | Root: 0.144, Tip: 0.078, Span: 0.137
+1416 | Stab MIN  2.590 MAX  3.978 | Flutter SF min:  4.273 | Root: 0.144, Tip: 0.083, Span: 0.137
+1417 | Stab MIN  2.608 MAX  3.982 | Flutter SF min:  4.358 | Root: 0.144, Tip: 0.089, Span: 0.137
+1418 | Stab MIN  2.623 MAX  3.985 | Flutter SF min:  4.443 | Root: 0.144, Tip: 0.094, Span: 0.137
+1419 | Stab MIN  2.636 MAX  3.986 | Flutter SF min:  4.527 | Root: 0.144, Tip: 0.1, Span: 0.137
+1420 | Stab MIN  2.469 MAX  3.874 | Flutter SF min:  3.398 | Root: 0.189, Tip: 0.05, Span: 0.137
+1421 | Stab MIN  2.495 MAX  3.885 | Flutter SF min:  3.462 | Root: 0.189, Tip: 0.056, Span: 0.137
+1422 | Stab MIN  2.518 MAX  3.894 | Flutter SF min:  3.527 | Root: 0.189, Tip: 0.061, Span: 0.137
+1423 | Stab MIN  2.539 MAX  3.902 | Flutter SF min:  3.591 | Root: 0.189, Tip: 0.067, Span: 0.137
+1424 | Stab MIN  2.557 MAX  3.908 | Flutter SF min:  3.655 | Root: 0.189, Tip: 0.072, Span: 0.137
+1425 | Stab MIN  2.574 MAX  3.913 | Flutter SF min:  3.719 | Root: 0.189, Tip: 0.078, Span: 0.137
+1426 | Stab MIN  2.588 MAX  3.916 | Flutter SF min:  3.784 | Root: 0.189, Tip: 0.083, Span: 0.137
+1427 | Stab MIN  2.601 MAX  3.918 | Flutter SF min:  3.848 | Root: 0.189, Tip: 0.089, Span: 0.137
+1428 | Stab MIN  2.612 MAX  3.919 | Flutter SF min:  3.913 | Root: 0.189, Tip: 0.094, Span: 0.137
+1429 | Stab MIN  2.622 MAX  3.919 | Flutter SF min:  3.977 | Root: 0.189, Tip: 0.1, Span: 0.137
+1430 | Stab MIN  2.433 MAX  3.791 | Flutter SF min:  3.167 | Root: 0.233, Tip: 0.05, Span: 0.137
+1431 | Stab MIN  2.454 MAX  3.799 | Flutter SF min:  3.219 | Root: 0.233, Tip: 0.056, Span: 0.137
+1432 | Stab MIN  2.472 MAX  3.805 | Flutter SF min:  3.271 | Root: 0.233, Tip: 0.061, Span: 0.137
+1433 | Stab MIN  2.488 MAX  3.811 | Flutter SF min:  3.323 | Root: 0.233, Tip: 0.067, Span: 0.137
+1434 | Stab MIN  2.503 MAX  3.815 | Flutter SF min:  3.375 | Root: 0.233, Tip: 0.072, Span: 0.137
+1435 | Stab MIN  2.517 MAX  3.818 | Flutter SF min:  3.427 | Root: 0.233, Tip: 0.078, Span: 0.137
+1436 | Stab MIN  2.529 MAX  3.821 | Flutter SF min:  3.478 | Root: 0.233, Tip: 0.083, Span: 0.137
+1437 | Stab MIN  2.539 MAX  3.822 | Flutter SF min:  3.530 | Root: 0.233, Tip: 0.089, Span: 0.137
+1438 | Stab MIN  2.548 MAX  3.822 | Flutter SF min:  3.582 | Root: 0.233, Tip: 0.094, Span: 0.137
+1439 | Stab MIN  2.556 MAX  3.822 | Flutter SF min:  3.634 | Root: 0.233, Tip: 0.1, Span: 0.137
+1440 | Stab MIN  2.356 MAX  3.683 | Flutter SF min:  3.009 | Root: 0.278, Tip: 0.05, Span: 0.137
+1441 | Stab MIN  2.373 MAX  3.690 | Flutter SF min:  3.052 | Root: 0.278, Tip: 0.056, Span: 0.137
+1442 | Stab MIN  2.388 MAX  3.695 | Flutter SF min:  3.096 | Root: 0.278, Tip: 0.061, Span: 0.137
+1443 | Stab MIN  2.402 MAX  3.699 | Flutter SF min:  3.139 | Root: 0.278, Tip: 0.067, Span: 0.137
+1444 | Stab MIN  2.415 MAX  3.702 | Flutter SF min:  3.183 | Root: 0.278, Tip: 0.072, Span: 0.137
+1445 | Stab MIN  2.426 MAX  3.705 | Flutter SF min:  3.226 | Root: 0.278, Tip: 0.078, Span: 0.137
+1446 | Stab MIN  2.436 MAX  3.706 | Flutter SF min:  3.269 | Root: 0.278, Tip: 0.083, Span: 0.137
+1447 | Stab MIN  2.445 MAX  3.707 | Flutter SF min:  3.313 | Root: 0.278, Tip: 0.089, Span: 0.137
+1448 | Stab MIN  2.453 MAX  3.707 | Flutter SF min:  3.356 | Root: 0.278, Tip: 0.094, Span: 0.137
+1449 | Stab MIN  2.460 MAX  3.707 | Flutter SF min:  3.400 | Root: 0.278, Tip: 0.1, Span: 0.137
+1450 | Stab MIN  2.255 MAX  3.562 | Flutter SF min:  2.894 | Root: 0.322, Tip: 0.05, Span: 0.137
+1451 | Stab MIN  2.270 MAX  3.567 | Flutter SF min:  2.931 | Root: 0.322, Tip: 0.056, Span: 0.137
+1452 | Stab MIN  2.283 MAX  3.572 | Flutter SF min:  2.968 | Root: 0.322, Tip: 0.061, Span: 0.137
+1453 | Stab MIN  2.295 MAX  3.575 | Flutter SF min:  3.006 | Root: 0.322, Tip: 0.067, Span: 0.137
+1454 | Stab MIN  2.306 MAX  3.578 | Flutter SF min:  3.043 | Root: 0.322, Tip: 0.072, Span: 0.137
+1455 | Stab MIN  2.316 MAX  3.580 | Flutter SF min:  3.080 | Root: 0.322, Tip: 0.078, Span: 0.137
+1456 | Stab MIN  2.325 MAX  3.581 | Flutter SF min:  3.118 | Root: 0.322, Tip: 0.083, Span: 0.137
+1457 | Stab MIN  2.333 MAX  3.582 | Flutter SF min:  3.155 | Root: 0.322, Tip: 0.089, Span: 0.137
+1458 | Stab MIN  2.340 MAX  3.582 | Flutter SF min:  3.192 | Root: 0.322, Tip: 0.094, Span: 0.137
+1459 | Stab MIN  2.346 MAX  3.581 | Flutter SF min:  3.229 | Root: 0.322, Tip: 0.1, Span: 0.137
+1460 | Stab MIN  2.140 MAX  3.433 | Flutter SF min:  2.806 | Root: 0.367, Tip: 0.05, Span: 0.137
+1461 | Stab MIN  2.153 MAX  3.438 | Flutter SF min:  2.838 | Root: 0.367, Tip: 0.056, Span: 0.137
+1462 | Stab MIN  2.165 MAX  3.441 | Flutter SF min:  2.871 | Root: 0.367, Tip: 0.061, Span: 0.137
+1463 | Stab MIN  2.175 MAX  3.444 | Flutter SF min:  2.904 | Root: 0.367, Tip: 0.067, Span: 0.137
+1464 | Stab MIN  2.185 MAX  3.447 | Flutter SF min:  2.936 | Root: 0.367, Tip: 0.072, Span: 0.137
+1465 | Stab MIN  2.194 MAX  3.449 | Flutter SF min:  2.969 | Root: 0.367, Tip: 0.078, Span: 0.137
+1466 | Stab MIN  2.202 MAX  3.450 | Flutter SF min:  3.002 | Root: 0.367, Tip: 0.083, Span: 0.137
+1467 | Stab MIN  2.209 MAX  3.450 | Flutter SF min:  3.035 | Root: 0.367, Tip: 0.089, Span: 0.137
+1468 | Stab MIN  2.216 MAX  3.450 | Flutter SF min:  3.068 | Root: 0.367, Tip: 0.094, Span: 0.137
+1469 | Stab MIN  2.221 MAX  3.449 | Flutter SF min:  3.100 | Root: 0.367, Tip: 0.1, Span: 0.137
+1470 | Stab MIN  2.016 MAX  3.299 | Flutter SF min:  2.735 | Root: 0.411, Tip: 0.05, Span: 0.137
+1471 | Stab MIN  2.027 MAX  3.303 | Flutter SF min:  2.765 | Root: 0.411, Tip: 0.056, Span: 0.137
+1472 | Stab MIN  2.038 MAX  3.306 | Flutter SF min:  2.795 | Root: 0.411, Tip: 0.061, Span: 0.137
+1473 | Stab MIN  2.048 MAX  3.309 | Flutter SF min:  2.823 | Root: 0.411, Tip: 0.067, Span: 0.137
+1474 | Stab MIN  2.056 MAX  3.311 | Flutter SF min:  2.853 | Root: 0.411, Tip: 0.072, Span: 0.137
+1475 | Stab MIN  2.065 MAX  3.313 | Flutter SF min:  2.882 | Root: 0.411, Tip: 0.078, Span: 0.137
+1476 | Stab MIN  2.072 MAX  3.314 | Flutter SF min:  2.911 | Root: 0.411, Tip: 0.083, Span: 0.137
+1477 | Stab MIN  2.078 MAX  3.314 | Flutter SF min:  2.940 | Root: 0.411, Tip: 0.089, Span: 0.137
+1478 | Stab MIN  2.084 MAX  3.314 | Flutter SF min:  2.969 | Root: 0.411, Tip: 0.094, Span: 0.137
+1479 | Stab MIN  2.089 MAX  3.314 | Flutter SF min:  2.999 | Root: 0.411, Tip: 0.1, Span: 0.137
+1480 | Stab MIN  1.886 MAX  3.162 | Flutter SF min:  2.680 | Root: 0.456, Tip: 0.05, Span: 0.137
+1481 | Stab MIN  1.897 MAX  3.166 | Flutter SF min:  2.706 | Root: 0.456, Tip: 0.056, Span: 0.137
+1482 | Stab MIN  1.906 MAX  3.169 | Flutter SF min:  2.732 | Root: 0.456, Tip: 0.061, Span: 0.137
+1483 | Stab MIN  1.915 MAX  3.171 | Flutter SF min:  2.759 | Root: 0.456, Tip: 0.067, Span: 0.137
+1484 | Stab MIN  1.923 MAX  3.173 | Flutter SF min:  2.785 | Root: 0.456, Tip: 0.072, Span: 0.137
+1485 | Stab MIN  1.930 MAX  3.174 | Flutter SF min:  2.810 | Root: 0.456, Tip: 0.078, Span: 0.137
+1486 | Stab MIN  1.937 MAX  3.175 | Flutter SF min:  2.838 | Root: 0.456, Tip: 0.083, Span: 0.137
+1487 | Stab MIN  1.943 MAX  3.176 | Flutter SF min:  2.863 | Root: 0.456, Tip: 0.089, Span: 0.137
+1488 | Stab MIN  1.949 MAX  3.176 | Flutter SF min:  2.890 | Root: 0.456, Tip: 0.094, Span: 0.137
+1489 | Stab MIN  1.953 MAX  3.175 | Flutter SF min:  2.917 | Root: 0.456, Tip: 0.1, Span: 0.137
+1490 | Stab MIN  1.753 MAX  3.023 | Flutter SF min:  2.633 | Root: 0.5, Tip: 0.05, Span: 0.137
+1491 | Stab MIN  1.762 MAX  3.026 | Flutter SF min:  2.657 | Root: 0.5, Tip: 0.056, Span: 0.137
+1492 | Stab MIN  1.771 MAX  3.029 | Flutter SF min:  2.681 | Root: 0.5, Tip: 0.061, Span: 0.137
+1493 | Stab MIN  1.779 MAX  3.031 | Flutter SF min:  2.705 | Root: 0.5, Tip: 0.067, Span: 0.137
+1494 | Stab MIN  1.786 MAX  3.033 | Flutter SF min:  2.729 | Root: 0.5, Tip: 0.072, Span: 0.137
+1495 | Stab MIN  1.793 MAX  3.034 | Flutter SF min:  2.753 | Root: 0.5, Tip: 0.078, Span: 0.137
+1496 | Stab MIN  1.799 MAX  3.035 | Flutter SF min:  2.777 | Root: 0.5, Tip: 0.083, Span: 0.137
+1497 | Stab MIN  1.805 MAX  3.035 | Flutter SF min:  2.800 | Root: 0.5, Tip: 0.089, Span: 0.137
+1498 | Stab MIN  1.810 MAX  3.035 | Flutter SF min:  2.824 | Root: 0.5, Tip: 0.094, Span: 0.137
+1499 | Stab MIN  1.815 MAX  3.035 | Flutter SF min:  2.849 | Root: 0.5, Tip: 0.1, Span: 0.137
+1500 | Stab MIN  2.314 MAX  3.930 | Flutter SF min:  4.338 | Root: 0.1, Tip: 0.05, Span: 0.139
+1501 | Stab MIN  2.367 MAX  3.958 | Flutter SF min:  4.460 | Root: 0.1, Tip: 0.056, Span: 0.139
+1502 | Stab MIN  2.415 MAX  3.983 | Flutter SF min:  4.580 | Root: 0.1, Tip: 0.061, Span: 0.139
+1503 | Stab MIN  2.457 MAX  4.004 | Flutter SF min:  4.702 | Root: 0.1, Tip: 0.067, Span: 0.139
+1504 | Stab MIN  2.496 MAX  4.021 | Flutter SF min:  4.822 | Root: 0.1, Tip: 0.072, Span: 0.139
+1505 | Stab MIN  2.529 MAX  4.036 | Flutter SF min:  4.944 | Root: 0.1, Tip: 0.078, Span: 0.139
+1506 | Stab MIN  2.559 MAX  4.048 | Flutter SF min:  5.064 | Root: 0.1, Tip: 0.083, Span: 0.139
+1507 | Stab MIN  2.586 MAX  4.058 | Flutter SF min:  5.184 | Root: 0.1, Tip: 0.089, Span: 0.139
+1508 | Stab MIN  2.609 MAX  4.065 | Flutter SF min:  5.303 | Root: 0.1, Tip: 0.094, Span: 0.139
+1509 | Stab MIN  2.630 MAX  4.071 | Flutter SF min:  5.424 | Root: 0.1, Tip: 0.1, Span: 0.139
+1510 | Stab MIN  2.507 MAX  3.990 | Flutter SF min:  3.672 | Root: 0.144, Tip: 0.05, Span: 0.139
+1511 | Stab MIN  2.541 MAX  4.006 | Flutter SF min:  3.755 | Root: 0.144, Tip: 0.056, Span: 0.139
+1512 | Stab MIN  2.572 MAX  4.020 | Flutter SF min:  3.838 | Root: 0.144, Tip: 0.061, Span: 0.139
+1513 | Stab MIN  2.600 MAX  4.032 | Flutter SF min:  3.919 | Root: 0.144, Tip: 0.067, Span: 0.139
+1514 | Stab MIN  2.625 MAX  4.041 | Flutter SF min:  4.003 | Root: 0.144, Tip: 0.072, Span: 0.139
+1515 | Stab MIN  2.647 MAX  4.049 | Flutter SF min:  4.085 | Root: 0.144, Tip: 0.078, Span: 0.139
+1516 | Stab MIN  2.667 MAX  4.054 | Flutter SF min:  4.168 | Root: 0.144, Tip: 0.083, Span: 0.139
+1517 | Stab MIN  2.684 MAX  4.059 | Flutter SF min:  4.251 | Root: 0.144, Tip: 0.089, Span: 0.139
+1518 | Stab MIN  2.699 MAX  4.061 | Flutter SF min:  4.333 | Root: 0.144, Tip: 0.094, Span: 0.139
+1519 | Stab MIN  2.712 MAX  4.063 | Flutter SF min:  4.414 | Root: 0.144, Tip: 0.1, Span: 0.139
+1520 | Stab MIN  2.548 MAX  3.953 | Flutter SF min:  3.313 | Root: 0.189, Tip: 0.05, Span: 0.139
+1521 | Stab MIN  2.573 MAX  3.963 | Flutter SF min:  3.376 | Root: 0.189, Tip: 0.056, Span: 0.139
+1522 | Stab MIN  2.596 MAX  3.972 | Flutter SF min:  3.438 | Root: 0.189, Tip: 0.061, Span: 0.139
+1523 | Stab MIN  2.617 MAX  3.980 | Flutter SF min:  3.501 | Root: 0.189, Tip: 0.067, Span: 0.139
+1524 | Stab MIN  2.635 MAX  3.986 | Flutter SF min:  3.564 | Root: 0.189, Tip: 0.072, Span: 0.139
+1525 | Stab MIN  2.651 MAX  3.990 | Flutter SF min:  3.627 | Root: 0.189, Tip: 0.078, Span: 0.139
+1526 | Stab MIN  2.665 MAX  3.993 | Flutter SF min:  3.690 | Root: 0.189, Tip: 0.083, Span: 0.139
+1527 | Stab MIN  2.678 MAX  3.995 | Flutter SF min:  3.752 | Root: 0.189, Tip: 0.089, Span: 0.139
+1528 | Stab MIN  2.689 MAX  3.997 | Flutter SF min:  3.814 | Root: 0.189, Tip: 0.094, Span: 0.139
+1529 | Stab MIN  2.698 MAX  3.996 | Flutter SF min:  3.877 | Root: 0.189, Tip: 0.1, Span: 0.139
+1530 | Stab MIN  2.513 MAX  3.869 | Flutter SF min:  3.088 | Root: 0.233, Tip: 0.05, Span: 0.139
+1531 | Stab MIN  2.533 MAX  3.877 | Flutter SF min:  3.138 | Root: 0.233, Tip: 0.056, Span: 0.139
+1532 | Stab MIN  2.551 MAX  3.884 | Flutter SF min:  3.189 | Root: 0.233, Tip: 0.061, Span: 0.139
+1533 | Stab MIN  2.567 MAX  3.889 | Flutter SF min:  3.240 | Root: 0.233, Tip: 0.067, Span: 0.139
+1534 | Stab MIN  2.582 MAX  3.893 | Flutter SF min:  3.290 | Root: 0.233, Tip: 0.072, Span: 0.139
+1535 | Stab MIN  2.595 MAX  3.896 | Flutter SF min:  3.340 | Root: 0.233, Tip: 0.078, Span: 0.139
+1536 | Stab MIN  2.606 MAX  3.898 | Flutter SF min:  3.390 | Root: 0.233, Tip: 0.083, Span: 0.139
+1537 | Stab MIN  2.617 MAX  3.899 | Flutter SF min:  3.441 | Root: 0.233, Tip: 0.089, Span: 0.139
+1538 | Stab MIN  2.625 MAX  3.900 | Flutter SF min:  3.491 | Root: 0.233, Tip: 0.094, Span: 0.139
+1539 | Stab MIN  2.633 MAX  3.899 | Flutter SF min:  3.542 | Root: 0.233, Tip: 0.1, Span: 0.139
+1540 | Stab MIN  2.436 MAX  3.762 | Flutter SF min:  2.933 | Root: 0.278, Tip: 0.05, Span: 0.139
+1541 | Stab MIN  2.453 MAX  3.768 | Flutter SF min:  2.975 | Root: 0.278, Tip: 0.056, Span: 0.139
+1542 | Stab MIN  2.468 MAX  3.773 | Flutter SF min:  3.017 | Root: 0.278, Tip: 0.061, Span: 0.139
+1543 | Stab MIN  2.481 MAX  3.777 | Flutter SF min:  3.059 | Root: 0.278, Tip: 0.067, Span: 0.139
+1544 | Stab MIN  2.494 MAX  3.780 | Flutter SF min:  3.102 | Root: 0.278, Tip: 0.072, Span: 0.139
+1545 | Stab MIN  2.505 MAX  3.782 | Flutter SF min:  3.144 | Root: 0.278, Tip: 0.078, Span: 0.139
+1546 | Stab MIN  2.515 MAX  3.784 | Flutter SF min:  3.186 | Root: 0.278, Tip: 0.083, Span: 0.139
+1547 | Stab MIN  2.523 MAX  3.785 | Flutter SF min:  3.228 | Root: 0.278, Tip: 0.089, Span: 0.139
+1548 | Stab MIN  2.531 MAX  3.785 | Flutter SF min:  3.270 | Root: 0.278, Tip: 0.094, Span: 0.139
+1549 | Stab MIN  2.537 MAX  3.784 | Flutter SF min:  3.313 | Root: 0.278, Tip: 0.1, Span: 0.139
+1550 | Stab MIN  2.336 MAX  3.640 | Flutter SF min:  2.819 | Root: 0.322, Tip: 0.05, Span: 0.139
+1551 | Stab MIN  2.350 MAX  3.645 | Flutter SF min:  2.856 | Root: 0.322, Tip: 0.056, Span: 0.139
+1552 | Stab MIN  2.363 MAX  3.650 | Flutter SF min:  2.892 | Root: 0.322, Tip: 0.061, Span: 0.139
+1553 | Stab MIN  2.375 MAX  3.653 | Flutter SF min:  2.928 | Root: 0.322, Tip: 0.067, Span: 0.139
+1554 | Stab MIN  2.385 MAX  3.656 | Flutter SF min:  2.965 | Root: 0.322, Tip: 0.072, Span: 0.139
+1555 | Stab MIN  2.395 MAX  3.658 | Flutter SF min:  3.001 | Root: 0.322, Tip: 0.078, Span: 0.139
+1556 | Stab MIN  2.404 MAX  3.659 | Flutter SF min:  3.037 | Root: 0.322, Tip: 0.083, Span: 0.139
+1557 | Stab MIN  2.411 MAX  3.659 | Flutter SF min:  3.073 | Root: 0.322, Tip: 0.089, Span: 0.139
+1558 | Stab MIN  2.418 MAX  3.659 | Flutter SF min:  3.110 | Root: 0.322, Tip: 0.094, Span: 0.139
+1559 | Stab MIN  2.424 MAX  3.658 | Flutter SF min:  3.146 | Root: 0.322, Tip: 0.1, Span: 0.139
+1560 | Stab MIN  2.221 MAX  3.511 | Flutter SF min:  2.733 | Root: 0.367, Tip: 0.05, Span: 0.139
+1561 | Stab MIN  2.233 MAX  3.515 | Flutter SF min:  2.765 | Root: 0.367, Tip: 0.056, Span: 0.139
+1562 | Stab MIN  2.244 MAX  3.519 | Flutter SF min:  2.797 | Root: 0.367, Tip: 0.061, Span: 0.139
+1563 | Stab MIN  2.255 MAX  3.522 | Flutter SF min:  2.828 | Root: 0.367, Tip: 0.067, Span: 0.139
+1564 | Stab MIN  2.264 MAX  3.524 | Flutter SF min:  2.861 | Root: 0.367, Tip: 0.072, Span: 0.139
+1565 | Stab MIN  2.273 MAX  3.526 | Flutter SF min:  2.892 | Root: 0.367, Tip: 0.078, Span: 0.139
+1566 | Stab MIN  2.281 MAX  3.527 | Flutter SF min:  2.924 | Root: 0.367, Tip: 0.083, Span: 0.139
+1567 | Stab MIN  2.288 MAX  3.527 | Flutter SF min:  2.956 | Root: 0.367, Tip: 0.089, Span: 0.139
+1568 | Stab MIN  2.294 MAX  3.527 | Flutter SF min:  2.988 | Root: 0.367, Tip: 0.094, Span: 0.139
+1569 | Stab MIN  2.299 MAX  3.526 | Flutter SF min:  3.019 | Root: 0.367, Tip: 0.1, Span: 0.139
+1570 | Stab MIN  2.097 MAX  3.377 | Flutter SF min:  2.664 | Root: 0.411, Tip: 0.05, Span: 0.139
+1571 | Stab MIN  2.108 MAX  3.381 | Flutter SF min:  2.693 | Root: 0.411, Tip: 0.056, Span: 0.139
+1572 | Stab MIN  2.118 MAX  3.384 | Flutter SF min:  2.721 | Root: 0.411, Tip: 0.061, Span: 0.139
+1573 | Stab MIN  2.127 MAX  3.386 | Flutter SF min:  2.750 | Root: 0.411, Tip: 0.067, Span: 0.139
+1574 | Stab MIN  2.136 MAX  3.388 | Flutter SF min:  2.778 | Root: 0.411, Tip: 0.072, Span: 0.139
+1575 | Stab MIN  2.144 MAX  3.390 | Flutter SF min:  2.806 | Root: 0.411, Tip: 0.078, Span: 0.139
+1576 | Stab MIN  2.151 MAX  3.391 | Flutter SF min:  2.834 | Root: 0.411, Tip: 0.083, Span: 0.139
+1577 | Stab MIN  2.157 MAX  3.391 | Flutter SF min:  2.863 | Root: 0.411, Tip: 0.089, Span: 0.139
+1578 | Stab MIN  2.163 MAX  3.391 | Flutter SF min:  2.892 | Root: 0.411, Tip: 0.094, Span: 0.139
+1579 | Stab MIN  2.168 MAX  3.390 | Flutter SF min:  2.920 | Root: 0.411, Tip: 0.1, Span: 0.139
+1580 | Stab MIN  1.967 MAX  3.239 | Flutter SF min:  2.609 | Root: 0.456, Tip: 0.05, Span: 0.139
+1581 | Stab MIN  1.977 MAX  3.243 | Flutter SF min:  2.635 | Root: 0.456, Tip: 0.056, Span: 0.139
+1582 | Stab MIN  1.986 MAX  3.245 | Flutter SF min:  2.661 | Root: 0.456, Tip: 0.061, Span: 0.139
+1583 | Stab MIN  1.994 MAX  3.248 | Flutter SF min:  2.686 | Root: 0.456, Tip: 0.067, Span: 0.139
+1584 | Stab MIN  2.002 MAX  3.250 | Flutter SF min:  2.712 | Root: 0.456, Tip: 0.072, Span: 0.139
+1585 | Stab MIN  2.009 MAX  3.251 | Flutter SF min:  2.737 | Root: 0.456, Tip: 0.078, Span: 0.139
+1586 | Stab MIN  2.016 MAX  3.252 | Flutter SF min:  2.763 | Root: 0.456, Tip: 0.083, Span: 0.139
+1587 | Stab MIN  2.022 MAX  3.252 | Flutter SF min:  2.788 | Root: 0.456, Tip: 0.089, Span: 0.139
+1588 | Stab MIN  2.027 MAX  3.252 | Flutter SF min:  2.814 | Root: 0.456, Tip: 0.094, Span: 0.139
+1589 | Stab MIN  2.031 MAX  3.251 | Flutter SF min:  2.839 | Root: 0.456, Tip: 0.1, Span: 0.139
+1590 | Stab MIN  1.833 MAX  3.100 | Flutter SF min:  2.563 | Root: 0.5, Tip: 0.05, Span: 0.139
+1591 | Stab MIN  1.842 MAX  3.103 | Flutter SF min:  2.587 | Root: 0.5, Tip: 0.056, Span: 0.139
+1592 | Stab MIN  1.850 MAX  3.105 | Flutter SF min:  2.610 | Root: 0.5, Tip: 0.061, Span: 0.139
+1593 | Stab MIN  1.858 MAX  3.107 | Flutter SF min:  2.634 | Root: 0.5, Tip: 0.067, Span: 0.139
+1594 | Stab MIN  1.865 MAX  3.109 | Flutter SF min:  2.657 | Root: 0.5, Tip: 0.072, Span: 0.139
+1595 | Stab MIN  1.872 MAX  3.110 | Flutter SF min:  2.680 | Root: 0.5, Tip: 0.078, Span: 0.139
+1596 | Stab MIN  1.878 MAX  3.111 | Flutter SF min:  2.703 | Root: 0.5, Tip: 0.083, Span: 0.139
+1597 | Stab MIN  1.883 MAX  3.111 | Flutter SF min:  2.726 | Root: 0.5, Tip: 0.089, Span: 0.139
+1598 | Stab MIN  1.888 MAX  3.111 | Flutter SF min:  2.750 | Root: 0.5, Tip: 0.094, Span: 0.139
+1599 | Stab MIN  1.892 MAX  3.110 | Flutter SF min:  2.773 | Root: 0.5, Tip: 0.1, Span: 0.139
+1600 | Stab MIN  2.388 MAX  4.004 | Flutter SF min:  4.237 | Root: 0.1, Tip: 0.05, Span: 0.142
+1601 | Stab MIN  2.441 MAX  4.032 | Flutter SF min:  4.356 | Root: 0.1, Tip: 0.056, Span: 0.142
+1602 | Stab MIN  2.488 MAX  4.057 | Flutter SF min:  4.473 | Root: 0.1, Tip: 0.061, Span: 0.142
+1603 | Stab MIN  2.531 MAX  4.077 | Flutter SF min:  4.592 | Root: 0.1, Tip: 0.067, Span: 0.142
+1604 | Stab MIN  2.569 MAX  4.095 | Flutter SF min:  4.709 | Root: 0.1, Tip: 0.072, Span: 0.142
+1605 | Stab MIN  2.602 MAX  4.109 | Flutter SF min:  4.827 | Root: 0.1, Tip: 0.078, Span: 0.142
+1606 | Stab MIN  2.632 MAX  4.121 | Flutter SF min:  4.944 | Root: 0.1, Tip: 0.083, Span: 0.142
+1607 | Stab MIN  2.659 MAX  4.131 | Flutter SF min:  5.061 | Root: 0.1, Tip: 0.089, Span: 0.142
+1608 | Stab MIN  2.682 MAX  4.138 | Flutter SF min:  5.178 | Root: 0.1, Tip: 0.094, Span: 0.142
+1609 | Stab MIN  2.702 MAX  4.144 | Flutter SF min:  5.294 | Root: 0.1, Tip: 0.1, Span: 0.142
+1610 | Stab MIN  2.582 MAX  4.065 | Flutter SF min:  3.584 | Root: 0.144, Tip: 0.05, Span: 0.142
+1611 | Stab MIN  2.616 MAX  4.081 | Flutter SF min:  3.665 | Root: 0.144, Tip: 0.056, Span: 0.142
+1612 | Stab MIN  2.647 MAX  4.094 | Flutter SF min:  3.746 | Root: 0.144, Tip: 0.061, Span: 0.142
+1613 | Stab MIN  2.674 MAX  4.105 | Flutter SF min:  3.827 | Root: 0.144, Tip: 0.067, Span: 0.142
+1614 | Stab MIN  2.699 MAX  4.115 | Flutter SF min:  3.907 | Root: 0.144, Tip: 0.072, Span: 0.142
+1615 | Stab MIN  2.720 MAX  4.122 | Flutter SF min:  3.987 | Root: 0.144, Tip: 0.078, Span: 0.142
+1616 | Stab MIN  2.740 MAX  4.128 | Flutter SF min:  4.067 | Root: 0.144, Tip: 0.083, Span: 0.142
+1617 | Stab MIN  2.757 MAX  4.132 | Flutter SF min:  4.148 | Root: 0.144, Tip: 0.089, Span: 0.142
+1618 | Stab MIN  2.771 MAX  4.135 | Flutter SF min:  4.228 | Root: 0.144, Tip: 0.094, Span: 0.142
+1619 | Stab MIN  2.784 MAX  4.137 | Flutter SF min:  4.307 | Root: 0.144, Tip: 0.1, Span: 0.142
+1620 | Stab MIN  2.624 MAX  4.028 | Flutter SF min:  3.233 | Root: 0.189, Tip: 0.05, Span: 0.142
+1621 | Stab MIN  2.649 MAX  4.038 | Flutter SF min:  3.294 | Root: 0.189, Tip: 0.056, Span: 0.142
+1622 | Stab MIN  2.671 MAX  4.047 | Flutter SF min:  3.355 | Root: 0.189, Tip: 0.061, Span: 0.142
+1623 | Stab MIN  2.691 MAX  4.054 | Flutter SF min:  3.416 | Root: 0.189, Tip: 0.067, Span: 0.142
+1624 | Stab MIN  2.709 MAX  4.060 | Flutter SF min:  3.477 | Root: 0.189, Tip: 0.072, Span: 0.142
+1625 | Stab MIN  2.725 MAX  4.065 | Flutter SF min:  3.537 | Root: 0.189, Tip: 0.078, Span: 0.142
+1626 | Stab MIN  2.739 MAX  4.068 | Flutter SF min:  3.599 | Root: 0.189, Tip: 0.083, Span: 0.142
+1627 | Stab MIN  2.752 MAX  4.069 | Flutter SF min:  3.660 | Root: 0.189, Tip: 0.089, Span: 0.142
+1628 | Stab MIN  2.762 MAX  4.070 | Flutter SF min:  3.720 | Root: 0.189, Tip: 0.094, Span: 0.142
+1629 | Stab MIN  2.772 MAX  4.070 | Flutter SF min:  3.781 | Root: 0.189, Tip: 0.1, Span: 0.142
+1630 | Stab MIN  2.590 MAX  3.945 | Flutter SF min:  3.011 | Root: 0.233, Tip: 0.05, Span: 0.142
+1631 | Stab MIN  2.609 MAX  3.952 | Flutter SF min:  3.061 | Root: 0.233, Tip: 0.056, Span: 0.142
+1632 | Stab MIN  2.627 MAX  3.958 | Flutter SF min:  3.110 | Root: 0.233, Tip: 0.061, Span: 0.142
+1633 | Stab MIN  2.643 MAX  3.964 | Flutter SF min:  3.159 | Root: 0.233, Tip: 0.067, Span: 0.142
+1634 | Stab MIN  2.657 MAX  3.967 | Flutter SF min:  3.208 | Root: 0.233, Tip: 0.072, Span: 0.142
+1635 | Stab MIN  2.670 MAX  3.970 | Flutter SF min:  3.257 | Root: 0.233, Tip: 0.078, Span: 0.142
+1636 | Stab MIN  2.681 MAX  3.972 | Flutter SF min:  3.306 | Root: 0.233, Tip: 0.083, Span: 0.142
+1637 | Stab MIN  2.691 MAX  3.973 | Flutter SF min:  3.355 | Root: 0.233, Tip: 0.089, Span: 0.142
+1638 | Stab MIN  2.699 MAX  3.973 | Flutter SF min:  3.405 | Root: 0.233, Tip: 0.094, Span: 0.142
+1639 | Stab MIN  2.707 MAX  3.973 | Flutter SF min:  3.453 | Root: 0.233, Tip: 0.1, Span: 0.142
+1640 | Stab MIN  2.513 MAX  3.837 | Flutter SF min:  2.860 | Root: 0.278, Tip: 0.05, Span: 0.142
+1641 | Stab MIN  2.529 MAX  3.843 | Flutter SF min:  2.901 | Root: 0.278, Tip: 0.056, Span: 0.142
+1642 | Stab MIN  2.544 MAX  3.848 | Flutter SF min:  2.942 | Root: 0.278, Tip: 0.061, Span: 0.142
+1643 | Stab MIN  2.557 MAX  3.852 | Flutter SF min:  2.983 | Root: 0.278, Tip: 0.067, Span: 0.142
+1644 | Stab MIN  2.569 MAX  3.855 | Flutter SF min:  3.024 | Root: 0.278, Tip: 0.072, Span: 0.142
+1645 | Stab MIN  2.580 MAX  3.857 | Flutter SF min:  3.065 | Root: 0.278, Tip: 0.078, Span: 0.142
+1646 | Stab MIN  2.590 MAX  3.858 | Flutter SF min:  3.106 | Root: 0.278, Tip: 0.083, Span: 0.142
+1647 | Stab MIN  2.598 MAX  3.859 | Flutter SF min:  3.147 | Root: 0.278, Tip: 0.089, Span: 0.142
+1648 | Stab MIN  2.605 MAX  3.859 | Flutter SF min:  3.188 | Root: 0.278, Tip: 0.094, Span: 0.142
+1649 | Stab MIN  2.612 MAX  3.858 | Flutter SF min:  3.229 | Root: 0.278, Tip: 0.1, Span: 0.142
+1650 | Stab MIN  2.413 MAX  3.715 | Flutter SF min:  2.748 | Root: 0.322, Tip: 0.05, Span: 0.142
+1651 | Stab MIN  2.427 MAX  3.720 | Flutter SF min:  2.784 | Root: 0.322, Tip: 0.056, Span: 0.142
+1652 | Stab MIN  2.439 MAX  3.724 | Flutter SF min:  2.819 | Root: 0.322, Tip: 0.061, Span: 0.142
+1653 | Stab MIN  2.451 MAX  3.728 | Flutter SF min:  2.855 | Root: 0.322, Tip: 0.067, Span: 0.142
+1654 | Stab MIN  2.461 MAX  3.730 | Flutter SF min:  2.889 | Root: 0.322, Tip: 0.072, Span: 0.142
+1655 | Stab MIN  2.471 MAX  3.732 | Flutter SF min:  2.925 | Root: 0.322, Tip: 0.078, Span: 0.142
+1656 | Stab MIN  2.479 MAX  3.733 | Flutter SF min:  2.960 | Root: 0.322, Tip: 0.083, Span: 0.142
+1657 | Stab MIN  2.486 MAX  3.733 | Flutter SF min:  2.995 | Root: 0.322, Tip: 0.089, Span: 0.142
+1658 | Stab MIN  2.493 MAX  3.733 | Flutter SF min:  3.031 | Root: 0.322, Tip: 0.094, Span: 0.142
+1659 | Stab MIN  2.498 MAX  3.732 | Flutter SF min:  3.066 | Root: 0.322, Tip: 0.1, Span: 0.142
+1660 | Stab MIN  2.298 MAX  3.586 | Flutter SF min:  2.664 | Root: 0.367, Tip: 0.05, Span: 0.142
+1661 | Stab MIN  2.310 MAX  3.590 | Flutter SF min:  2.695 | Root: 0.367, Tip: 0.056, Span: 0.142
+1662 | Stab MIN  2.321 MAX  3.594 | Flutter SF min:  2.725 | Root: 0.367, Tip: 0.061, Span: 0.142
+1663 | Stab MIN  2.331 MAX  3.596 | Flutter SF min:  2.757 | Root: 0.367, Tip: 0.067, Span: 0.142
+1664 | Stab MIN  2.341 MAX  3.598 | Flutter SF min:  2.788 | Root: 0.367, Tip: 0.072, Span: 0.142
+1665 | Stab MIN  2.349 MAX  3.600 | Flutter SF min:  2.818 | Root: 0.367, Tip: 0.078, Span: 0.142
+1666 | Stab MIN  2.356 MAX  3.601 | Flutter SF min:  2.850 | Root: 0.367, Tip: 0.083, Span: 0.142
+1667 | Stab MIN  2.363 MAX  3.601 | Flutter SF min:  2.880 | Root: 0.367, Tip: 0.089, Span: 0.142
+1668 | Stab MIN  2.369 MAX  3.600 | Flutter SF min:  2.911 | Root: 0.367, Tip: 0.094, Span: 0.142
+1669 | Stab MIN  2.374 MAX  3.600 | Flutter SF min:  2.942 | Root: 0.367, Tip: 0.1, Span: 0.142
+1670 | Stab MIN  2.174 MAX  3.451 | Flutter SF min:  2.596 | Root: 0.411, Tip: 0.05, Span: 0.142
+1671 | Stab MIN  2.185 MAX  3.455 | Flutter SF min:  2.624 | Root: 0.411, Tip: 0.056, Span: 0.142
+1672 | Stab MIN  2.194 MAX  3.458 | Flutter SF min:  2.652 | Root: 0.411, Tip: 0.061, Span: 0.142
+1673 | Stab MIN  2.204 MAX  3.460 | Flutter SF min:  2.679 | Root: 0.411, Tip: 0.067, Span: 0.142
+1674 | Stab MIN  2.212 MAX  3.462 | Flutter SF min:  2.707 | Root: 0.411, Tip: 0.072, Span: 0.142
+1675 | Stab MIN  2.219 MAX  3.463 | Flutter SF min:  2.734 | Root: 0.411, Tip: 0.078, Span: 0.142
+1676 | Stab MIN  2.226 MAX  3.464 | Flutter SF min:  2.762 | Root: 0.411, Tip: 0.083, Span: 0.142
+1677 | Stab MIN  2.232 MAX  3.464 | Flutter SF min:  2.790 | Root: 0.411, Tip: 0.089, Span: 0.142
+1678 | Stab MIN  2.238 MAX  3.464 | Flutter SF min:  2.817 | Root: 0.411, Tip: 0.094, Span: 0.142
+1679 | Stab MIN  2.242 MAX  3.463 | Flutter SF min:  2.845 | Root: 0.411, Tip: 0.1, Span: 0.142
+1680 | Stab MIN  2.044 MAX  3.313 | Flutter SF min:  2.542 | Root: 0.456, Tip: 0.05, Span: 0.142
+1681 | Stab MIN  2.053 MAX  3.317 | Flutter SF min:  2.567 | Root: 0.456, Tip: 0.056, Span: 0.142
+1682 | Stab MIN  2.062 MAX  3.319 | Flutter SF min:  2.592 | Root: 0.456, Tip: 0.061, Span: 0.142
+1683 | Stab MIN  2.070 MAX  3.321 | Flutter SF min:  2.617 | Root: 0.456, Tip: 0.067, Span: 0.142
+1684 | Stab MIN  2.078 MAX  3.323 | Flutter SF min:  2.642 | Root: 0.456, Tip: 0.072, Span: 0.142
+1685 | Stab MIN  2.085 MAX  3.324 | Flutter SF min:  2.667 | Root: 0.456, Tip: 0.078, Span: 0.142
+1686 | Stab MIN  2.091 MAX  3.325 | Flutter SF min:  2.692 | Root: 0.456, Tip: 0.083, Span: 0.142
+1687 | Stab MIN  2.097 MAX  3.325 | Flutter SF min:  2.716 | Root: 0.456, Tip: 0.089, Span: 0.142
+1688 | Stab MIN  2.102 MAX  3.324 | Flutter SF min:  2.742 | Root: 0.456, Tip: 0.094, Span: 0.142
+1689 | Stab MIN  2.106 MAX  3.324 | Flutter SF min:  2.766 | Root: 0.456, Tip: 0.1, Span: 0.142
+1690 | Stab MIN  1.909 MAX  3.173 | Flutter SF min:  2.498 | Root: 0.5, Tip: 0.05, Span: 0.142
+1691 | Stab MIN  1.918 MAX  3.176 | Flutter SF min:  2.520 | Root: 0.5, Tip: 0.056, Span: 0.142
+1692 | Stab MIN  1.926 MAX  3.178 | Flutter SF min:  2.543 | Root: 0.5, Tip: 0.061, Span: 0.142
+1693 | Stab MIN  1.934 MAX  3.180 | Flutter SF min:  2.565 | Root: 0.5, Tip: 0.067, Span: 0.142
+1694 | Stab MIN  1.941 MAX  3.182 | Flutter SF min:  2.588 | Root: 0.5, Tip: 0.072, Span: 0.142
+1695 | Stab MIN  1.947 MAX  3.183 | Flutter SF min:  2.611 | Root: 0.5, Tip: 0.078, Span: 0.142
+1696 | Stab MIN  1.953 MAX  3.183 | Flutter SF min:  2.633 | Root: 0.5, Tip: 0.083, Span: 0.142
+1697 | Stab MIN  1.958 MAX  3.184 | Flutter SF min:  2.655 | Root: 0.5, Tip: 0.089, Span: 0.142
+1698 | Stab MIN  1.963 MAX  3.183 | Flutter SF min:  2.679 | Root: 0.5, Tip: 0.094, Span: 0.142
+1699 | Stab MIN  1.967 MAX  3.182 | Flutter SF min:  2.702 | Root: 0.5, Tip: 0.1, Span: 0.142
+1700 | Stab MIN  2.460 MAX  4.075 | Flutter SF min:  4.141 | Root: 0.1, Tip: 0.05, Span: 0.145
+1701 | Stab MIN  2.512 MAX  4.103 | Flutter SF min:  4.255 | Root: 0.1, Tip: 0.056, Span: 0.145
+1702 | Stab MIN  2.559 MAX  4.127 | Flutter SF min:  4.371 | Root: 0.1, Tip: 0.061, Span: 0.145
+1703 | Stab MIN  2.602 MAX  4.147 | Flutter SF min:  4.486 | Root: 0.1, Tip: 0.067, Span: 0.145
+1704 | Stab MIN  2.639 MAX  4.165 | Flutter SF min:  4.601 | Root: 0.1, Tip: 0.072, Span: 0.145
+1705 | Stab MIN  2.673 MAX  4.180 | Flutter SF min:  4.715 | Root: 0.1, Tip: 0.078, Span: 0.145
+1706 | Stab MIN  2.703 MAX  4.192 | Flutter SF min:  4.829 | Root: 0.1, Tip: 0.083, Span: 0.145
+1707 | Stab MIN  2.729 MAX  4.201 | Flutter SF min:  4.943 | Root: 0.1, Tip: 0.089, Span: 0.145
+1708 | Stab MIN  2.752 MAX  4.209 | Flutter SF min:  5.058 | Root: 0.1, Tip: 0.094, Span: 0.145
+1709 | Stab MIN  2.772 MAX  4.214 | Flutter SF min:  5.171 | Root: 0.1, Tip: 0.1, Span: 0.145
+1710 | Stab MIN  2.654 MAX  4.136 | Flutter SF min:  3.500 | Root: 0.144, Tip: 0.05, Span: 0.145
+1711 | Stab MIN  2.688 MAX  4.152 | Flutter SF min:  3.580 | Root: 0.144, Tip: 0.056, Span: 0.145
+1712 | Stab MIN  2.718 MAX  4.165 | Flutter SF min:  3.658 | Root: 0.144, Tip: 0.061, Span: 0.145
+1713 | Stab MIN  2.745 MAX  4.176 | Flutter SF min:  3.736 | Root: 0.144, Tip: 0.067, Span: 0.145
+1714 | Stab MIN  2.769 MAX  4.186 | Flutter SF min:  3.814 | Root: 0.144, Tip: 0.072, Span: 0.145
+1715 | Stab MIN  2.791 MAX  4.193 | Flutter SF min:  3.893 | Root: 0.144, Tip: 0.078, Span: 0.145
+1716 | Stab MIN  2.810 MAX  4.199 | Flutter SF min:  3.970 | Root: 0.144, Tip: 0.083, Span: 0.145
+1717 | Stab MIN  2.827 MAX  4.203 | Flutter SF min:  4.049 | Root: 0.144, Tip: 0.089, Span: 0.145
+1718 | Stab MIN  2.841 MAX  4.206 | Flutter SF min:  4.127 | Root: 0.144, Tip: 0.094, Span: 0.145
+1719 | Stab MIN  2.854 MAX  4.207 | Flutter SF min:  4.205 | Root: 0.144, Tip: 0.1, Span: 0.145
+1720 | Stab MIN  2.697 MAX  4.100 | Flutter SF min:  3.156 | Root: 0.189, Tip: 0.05, Span: 0.145
+1721 | Stab MIN  2.721 MAX  4.110 | Flutter SF min:  3.215 | Root: 0.189, Tip: 0.056, Span: 0.145
+1722 | Stab MIN  2.743 MAX  4.118 | Flutter SF min:  3.275 | Root: 0.189, Tip: 0.061, Span: 0.145
+1723 | Stab MIN  2.763 MAX  4.126 | Flutter SF min:  3.334 | Root: 0.189, Tip: 0.067, Span: 0.145
+1724 | Stab MIN  2.781 MAX  4.131 | Flutter SF min:  3.393 | Root: 0.189, Tip: 0.072, Span: 0.145
+1725 | Stab MIN  2.796 MAX  4.136 | Flutter SF min:  3.452 | Root: 0.189, Tip: 0.078, Span: 0.145
+1726 | Stab MIN  2.810 MAX  4.138 | Flutter SF min:  3.513 | Root: 0.189, Tip: 0.083, Span: 0.145
+1727 | Stab MIN  2.822 MAX  4.141 | Flutter SF min:  3.571 | Root: 0.189, Tip: 0.089, Span: 0.145
+1728 | Stab MIN  2.833 MAX  4.141 | Flutter SF min:  3.630 | Root: 0.189, Tip: 0.094, Span: 0.145
+1729 | Stab MIN  2.842 MAX  4.141 | Flutter SF min:  3.690 | Root: 0.189, Tip: 0.1, Span: 0.145
+1730 | Stab MIN  2.663 MAX  4.016 | Flutter SF min:  2.939 | Root: 0.233, Tip: 0.05, Span: 0.145
+1731 | Stab MIN  2.682 MAX  4.024 | Flutter SF min:  2.987 | Root: 0.233, Tip: 0.056, Span: 0.145
+1732 | Stab MIN  2.699 MAX  4.030 | Flutter SF min:  3.035 | Root: 0.233, Tip: 0.061, Span: 0.145
+1733 | Stab MIN  2.715 MAX  4.035 | Flutter SF min:  3.082 | Root: 0.233, Tip: 0.067, Span: 0.145
+1734 | Stab MIN  2.729 MAX  4.039 | Flutter SF min:  3.130 | Root: 0.233, Tip: 0.072, Span: 0.145
+1735 | Stab MIN  2.741 MAX  4.042 | Flutter SF min:  3.178 | Root: 0.233, Tip: 0.078, Span: 0.145
+1736 | Stab MIN  2.752 MAX  4.044 | Flutter SF min:  3.226 | Root: 0.233, Tip: 0.083, Span: 0.145
+1737 | Stab MIN  2.762 MAX  4.044 | Flutter SF min:  3.273 | Root: 0.233, Tip: 0.089, Span: 0.145
+1738 | Stab MIN  2.771 MAX  4.044 | Flutter SF min:  3.321 | Root: 0.233, Tip: 0.094, Span: 0.145
+1739 | Stab MIN  2.778 MAX  4.044 | Flutter SF min:  3.369 | Root: 0.233, Tip: 0.1, Span: 0.145
+1740 | Stab MIN  2.587 MAX  3.909 | Flutter SF min:  2.790 | Root: 0.278, Tip: 0.05, Span: 0.145
+1741 | Stab MIN  2.603 MAX  3.915 | Flutter SF min:  2.830 | Root: 0.278, Tip: 0.056, Span: 0.145
+1742 | Stab MIN  2.617 MAX  3.919 | Flutter SF min:  2.870 | Root: 0.278, Tip: 0.061, Span: 0.145
+1743 | Stab MIN  2.630 MAX  3.923 | Flutter SF min:  2.910 | Root: 0.278, Tip: 0.067, Span: 0.145
+1744 | Stab MIN  2.642 MAX  3.926 | Flutter SF min:  2.950 | Root: 0.278, Tip: 0.072, Span: 0.145
+1745 | Stab MIN  2.652 MAX  3.928 | Flutter SF min:  2.989 | Root: 0.278, Tip: 0.078, Span: 0.145
+1746 | Stab MIN  2.662 MAX  3.929 | Flutter SF min:  3.030 | Root: 0.278, Tip: 0.083, Span: 0.145
+1747 | Stab MIN  2.670 MAX  3.930 | Flutter SF min:  3.069 | Root: 0.278, Tip: 0.089, Span: 0.145
+1748 | Stab MIN  2.677 MAX  3.929 | Flutter SF min:  3.110 | Root: 0.278, Tip: 0.094, Span: 0.145
+1749 | Stab MIN  2.683 MAX  3.928 | Flutter SF min:  3.149 | Root: 0.278, Tip: 0.1, Span: 0.145
+1750 | Stab MIN  2.487 MAX  3.787 | Flutter SF min:  2.681 | Root: 0.322, Tip: 0.05, Span: 0.145
+1751 | Stab MIN  2.501 MAX  3.792 | Flutter SF min:  2.715 | Root: 0.322, Tip: 0.056, Span: 0.145
+1752 | Stab MIN  2.513 MAX  3.796 | Flutter SF min:  2.749 | Root: 0.322, Tip: 0.061, Span: 0.145
+1753 | Stab MIN  2.524 MAX  3.799 | Flutter SF min:  2.784 | Root: 0.322, Tip: 0.067, Span: 0.145
+1754 | Stab MIN  2.534 MAX  3.801 | Flutter SF min:  2.818 | Root: 0.322, Tip: 0.072, Span: 0.145
+1755 | Stab MIN  2.543 MAX  3.803 | Flutter SF min:  2.852 | Root: 0.322, Tip: 0.078, Span: 0.145
+1756 | Stab MIN  2.551 MAX  3.804 | Flutter SF min:  2.887 | Root: 0.322, Tip: 0.083, Span: 0.145
+1757 | Stab MIN  2.558 MAX  3.804 | Flutter SF min:  2.921 | Root: 0.322, Tip: 0.089, Span: 0.145
+1758 | Stab MIN  2.565 MAX  3.804 | Flutter SF min:  2.955 | Root: 0.322, Tip: 0.094, Span: 0.145
+1759 | Stab MIN  2.570 MAX  3.802 | Flutter SF min:  2.990 | Root: 0.322, Tip: 0.1, Span: 0.145
+1760 | Stab MIN  2.372 MAX  3.657 | Flutter SF min:  2.597 | Root: 0.367, Tip: 0.05, Span: 0.145
+1761 | Stab MIN  2.384 MAX  3.661 | Flutter SF min:  2.628 | Root: 0.367, Tip: 0.056, Span: 0.145
+1762 | Stab MIN  2.395 MAX  3.665 | Flutter SF min:  2.658 | Root: 0.367, Tip: 0.061, Span: 0.145
+1763 | Stab MIN  2.405 MAX  3.667 | Flutter SF min:  2.688 | Root: 0.367, Tip: 0.067, Span: 0.145
+1764 | Stab MIN  2.413 MAX  3.669 | Flutter SF min:  2.718 | Root: 0.367, Tip: 0.072, Span: 0.145
+1765 | Stab MIN  2.421 MAX  3.671 | Flutter SF min:  2.748 | Root: 0.367, Tip: 0.078, Span: 0.145
+1766 | Stab MIN  2.429 MAX  3.671 | Flutter SF min:  2.778 | Root: 0.367, Tip: 0.083, Span: 0.145
+1767 | Stab MIN  2.435 MAX  3.671 | Flutter SF min:  2.808 | Root: 0.367, Tip: 0.089, Span: 0.145
+1768 | Stab MIN  2.441 MAX  3.671 | Flutter SF min:  2.838 | Root: 0.367, Tip: 0.094, Span: 0.145
+1769 | Stab MIN  2.446 MAX  3.670 | Flutter SF min:  2.868 | Root: 0.367, Tip: 0.1, Span: 0.145
+1770 | Stab MIN  2.248 MAX  3.522 | Flutter SF min:  2.531 | Root: 0.411, Tip: 0.05, Span: 0.145
+1771 | Stab MIN  2.258 MAX  3.526 | Flutter SF min:  2.558 | Root: 0.411, Tip: 0.056, Span: 0.145
+1772 | Stab MIN  2.268 MAX  3.529 | Flutter SF min:  2.585 | Root: 0.411, Tip: 0.061, Span: 0.145
+1773 | Stab MIN  2.277 MAX  3.531 | Flutter SF min:  2.612 | Root: 0.411, Tip: 0.067, Span: 0.145
+1774 | Stab MIN  2.285 MAX  3.533 | Flutter SF min:  2.639 | Root: 0.411, Tip: 0.072, Span: 0.145
+1775 | Stab MIN  2.292 MAX  3.534 | Flutter SF min:  2.666 | Root: 0.411, Tip: 0.078, Span: 0.145
+1776 | Stab MIN  2.299 MAX  3.534 | Flutter SF min:  2.692 | Root: 0.411, Tip: 0.083, Span: 0.145
+1777 | Stab MIN  2.304 MAX  3.535 | Flutter SF min:  2.719 | Root: 0.411, Tip: 0.089, Span: 0.145
+1778 | Stab MIN  2.309 MAX  3.534 | Flutter SF min:  2.746 | Root: 0.411, Tip: 0.094, Span: 0.145
+1779 | Stab MIN  2.314 MAX  3.533 | Flutter SF min:  2.773 | Root: 0.411, Tip: 0.1, Span: 0.145
+1780 | Stab MIN  2.117 MAX  3.384 | Flutter SF min:  2.479 | Root: 0.456, Tip: 0.05, Span: 0.145
+1781 | Stab MIN  2.127 MAX  3.387 | Flutter SF min:  2.502 | Root: 0.456, Tip: 0.056, Span: 0.145
+1782 | Stab MIN  2.135 MAX  3.390 | Flutter SF min:  2.527 | Root: 0.456, Tip: 0.061, Span: 0.145
+1783 | Stab MIN  2.143 MAX  3.392 | Flutter SF min:  2.551 | Root: 0.456, Tip: 0.067, Span: 0.145
+1784 | Stab MIN  2.151 MAX  3.393 | Flutter SF min:  2.576 | Root: 0.456, Tip: 0.072, Span: 0.145
+1785 | Stab MIN  2.157 MAX  3.394 | Flutter SF min:  2.599 | Root: 0.456, Tip: 0.078, Span: 0.145
+1786 | Stab MIN  2.163 MAX  3.395 | Flutter SF min:  2.623 | Root: 0.456, Tip: 0.083, Span: 0.145
+1787 | Stab MIN  2.169 MAX  3.395 | Flutter SF min:  2.648 | Root: 0.456, Tip: 0.089, Span: 0.145
+1788 | Stab MIN  2.173 MAX  3.394 | Flutter SF min:  2.672 | Root: 0.456, Tip: 0.094, Span: 0.145
+1789 | Stab MIN  2.178 MAX  3.393 | Flutter SF min:  2.696 | Root: 0.456, Tip: 0.1, Span: 0.145
+1790 | Stab MIN  1.983 MAX  3.243 | Flutter SF min:  2.434 | Root: 0.5, Tip: 0.05, Span: 0.145
+1791 | Stab MIN  1.991 MAX  3.246 | Flutter SF min:  2.456 | Root: 0.5, Tip: 0.056, Span: 0.145
+1792 | Stab MIN  1.999 MAX  3.248 | Flutter SF min:  2.479 | Root: 0.5, Tip: 0.061, Span: 0.145
+1793 | Stab MIN  2.007 MAX  3.250 | Flutter SF min:  2.500 | Root: 0.5, Tip: 0.067, Span: 0.145
+1794 | Stab MIN  2.013 MAX  3.252 | Flutter SF min:  2.522 | Root: 0.5, Tip: 0.072, Span: 0.145
+1795 | Stab MIN  2.019 MAX  3.253 | Flutter SF min:  2.544 | Root: 0.5, Tip: 0.078, Span: 0.145
+1796 | Stab MIN  2.025 MAX  3.253 | Flutter SF min:  2.567 | Root: 0.5, Tip: 0.083, Span: 0.145
+1797 | Stab MIN  2.030 MAX  3.253 | Flutter SF min:  2.588 | Root: 0.5, Tip: 0.089, Span: 0.145
+1798 | Stab MIN  2.034 MAX  3.252 | Flutter SF min:  2.611 | Root: 0.5, Tip: 0.094, Span: 0.145
+1799 | Stab MIN  2.038 MAX  3.252 | Flutter SF min:  2.633 | Root: 0.5, Tip: 0.1, Span: 0.145
+1800 | Stab MIN  2.529 MAX  4.143 | Flutter SF min:  4.048 | Root: 0.1, Tip: 0.05, Span: 0.147
+1801 | Stab MIN  2.581 MAX  4.171 | Flutter SF min:  4.161 | Root: 0.1, Tip: 0.056, Span: 0.147
+1802 | Stab MIN  2.628 MAX  4.195 | Flutter SF min:  4.272 | Root: 0.1, Tip: 0.061, Span: 0.147
+1803 | Stab MIN  2.670 MAX  4.215 | Flutter SF min:  4.385 | Root: 0.1, Tip: 0.067, Span: 0.147
+1804 | Stab MIN  2.707 MAX  4.233 | Flutter SF min:  4.496 | Root: 0.1, Tip: 0.072, Span: 0.147
+1805 | Stab MIN  2.740 MAX  4.247 | Flutter SF min:  4.607 | Root: 0.1, Tip: 0.078, Span: 0.147
+1806 | Stab MIN  2.770 MAX  4.259 | Flutter SF min:  4.719 | Root: 0.1, Tip: 0.083, Span: 0.147
+1807 | Stab MIN  2.796 MAX  4.269 | Flutter SF min:  4.830 | Root: 0.1, Tip: 0.089, Span: 0.147
+1808 | Stab MIN  2.819 MAX  4.276 | Flutter SF min:  4.941 | Root: 0.1, Tip: 0.094, Span: 0.147
+1809 | Stab MIN  2.839 MAX  4.282 | Flutter SF min:  5.052 | Root: 0.1, Tip: 0.1, Span: 0.147
+1810 | Stab MIN  2.723 MAX  4.205 | Flutter SF min:  3.420 | Root: 0.144, Tip: 0.05, Span: 0.147
+1811 | Stab MIN  2.756 MAX  4.220 | Flutter SF min:  3.497 | Root: 0.144, Tip: 0.056, Span: 0.147
+1812 | Stab MIN  2.786 MAX  4.233 | Flutter SF min:  3.574 | Root: 0.144, Tip: 0.061, Span: 0.147
+1813 | Stab MIN  2.813 MAX  4.244 | Flutter SF min:  3.650 | Root: 0.144, Tip: 0.067, Span: 0.147
+1814 | Stab MIN  2.837 MAX  4.254 | Flutter SF min:  3.726 | Root: 0.144, Tip: 0.072, Span: 0.147
+1815 | Stab MIN  2.859 MAX  4.261 | Flutter SF min:  3.802 | Root: 0.144, Tip: 0.078, Span: 0.147
+1816 | Stab MIN  2.878 MAX  4.267 | Flutter SF min:  3.878 | Root: 0.144, Tip: 0.083, Span: 0.147
+1817 | Stab MIN  2.894 MAX  4.271 | Flutter SF min:  3.955 | Root: 0.144, Tip: 0.089, Span: 0.147
+1818 | Stab MIN  2.909 MAX  4.273 | Flutter SF min:  4.030 | Root: 0.144, Tip: 0.094, Span: 0.147
+1819 | Stab MIN  2.921 MAX  4.275 | Flutter SF min:  4.106 | Root: 0.144, Tip: 0.1, Span: 0.147
+1820 | Stab MIN  2.767 MAX  4.169 | Flutter SF min:  3.082 | Root: 0.189, Tip: 0.05, Span: 0.147
+1821 | Stab MIN  2.791 MAX  4.179 | Flutter SF min:  3.140 | Root: 0.189, Tip: 0.056, Span: 0.147
+1822 | Stab MIN  2.812 MAX  4.187 | Flutter SF min:  3.198 | Root: 0.189, Tip: 0.061, Span: 0.147
+1823 | Stab MIN  2.832 MAX  4.194 | Flutter SF min:  3.256 | Root: 0.189, Tip: 0.067, Span: 0.147
+1824 | Stab MIN  2.849 MAX  4.200 | Flutter SF min:  3.313 | Root: 0.189, Tip: 0.072, Span: 0.147
+1825 | Stab MIN  2.865 MAX  4.204 | Flutter SF min:  3.370 | Root: 0.189, Tip: 0.078, Span: 0.147
+1826 | Stab MIN  2.878 MAX  4.207 | Flutter SF min:  3.429 | Root: 0.189, Tip: 0.083, Span: 0.147
+1827 | Stab MIN  2.890 MAX  4.209 | Flutter SF min:  3.486 | Root: 0.189, Tip: 0.089, Span: 0.147
+1828 | Stab MIN  2.901 MAX  4.209 | Flutter SF min:  3.544 | Root: 0.189, Tip: 0.094, Span: 0.147
+1829 | Stab MIN  2.909 MAX  4.209 | Flutter SF min:  3.601 | Root: 0.189, Tip: 0.1, Span: 0.147
+1830 | Stab MIN  2.734 MAX  4.086 | Flutter SF min:  2.870 | Root: 0.233, Tip: 0.05, Span: 0.147
+1831 | Stab MIN  2.752 MAX  4.093 | Flutter SF min:  2.915 | Root: 0.233, Tip: 0.056, Span: 0.147
+1832 | Stab MIN  2.769 MAX  4.099 | Flutter SF min:  2.963 | Root: 0.233, Tip: 0.061, Span: 0.147
+1833 | Stab MIN  2.784 MAX  4.104 | Flutter SF min:  3.009 | Root: 0.233, Tip: 0.067, Span: 0.147
+1834 | Stab MIN  2.798 MAX  4.107 | Flutter SF min:  3.056 | Root: 0.233, Tip: 0.072, Span: 0.147
+1835 | Stab MIN  2.810 MAX  4.110 | Flutter SF min:  3.102 | Root: 0.233, Tip: 0.078, Span: 0.147
+1836 | Stab MIN  2.821 MAX  4.112 | Flutter SF min:  3.149 | Root: 0.233, Tip: 0.083, Span: 0.147
+1837 | Stab MIN  2.830 MAX  4.113 | Flutter SF min:  3.195 | Root: 0.233, Tip: 0.089, Span: 0.147
+1838 | Stab MIN  2.839 MAX  4.112 | Flutter SF min:  3.242 | Root: 0.233, Tip: 0.094, Span: 0.147
+1839 | Stab MIN  2.846 MAX  4.111 | Flutter SF min:  3.288 | Root: 0.233, Tip: 0.1, Span: 0.147
+1840 | Stab MIN  2.658 MAX  3.978 | Flutter SF min:  2.723 | Root: 0.278, Tip: 0.05, Span: 0.147
+1841 | Stab MIN  2.674 MAX  3.984 | Flutter SF min:  2.762 | Root: 0.278, Tip: 0.056, Span: 0.147
+1842 | Stab MIN  2.688 MAX  3.988 | Flutter SF min:  2.800 | Root: 0.278, Tip: 0.061, Span: 0.147
+1843 | Stab MIN  2.700 MAX  3.992 | Flutter SF min:  2.840 | Root: 0.278, Tip: 0.067, Span: 0.147
+1844 | Stab MIN  2.712 MAX  3.995 | Flutter SF min:  2.879 | Root: 0.278, Tip: 0.072, Span: 0.147
+1845 | Stab MIN  2.722 MAX  3.996 | Flutter SF min:  2.917 | Root: 0.278, Tip: 0.078, Span: 0.147
+1846 | Stab MIN  2.731 MAX  3.997 | Flutter SF min:  2.957 | Root: 0.278, Tip: 0.083, Span: 0.147
+1847 | Stab MIN  2.739 MAX  3.998 | Flutter SF min:  2.995 | Root: 0.278, Tip: 0.089, Span: 0.147
+1848 | Stab MIN  2.745 MAX  3.997 | Flutter SF min:  3.034 | Root: 0.278, Tip: 0.094, Span: 0.147
+1849 | Stab MIN  2.751 MAX  3.996 | Flutter SF min:  3.073 | Root: 0.278, Tip: 0.1, Span: 0.147
+1850 | Stab MIN  2.558 MAX  3.856 | Flutter SF min:  2.616 | Root: 0.322, Tip: 0.05, Span: 0.147
+1851 | Stab MIN  2.571 MAX  3.861 | Flutter SF min:  2.649 | Root: 0.322, Tip: 0.056, Span: 0.147
+1852 | Stab MIN  2.583 MAX  3.865 | Flutter SF min:  2.683 | Root: 0.322, Tip: 0.061, Span: 0.147
+1853 | Stab MIN  2.594 MAX  3.868 | Flutter SF min:  2.716 | Root: 0.322, Tip: 0.067, Span: 0.147
+1854 | Stab MIN  2.604 MAX  3.870 | Flutter SF min:  2.750 | Root: 0.322, Tip: 0.072, Span: 0.147
+1855 | Stab MIN  2.613 MAX  3.871 | Flutter SF min:  2.783 | Root: 0.322, Tip: 0.078, Span: 0.147
+1856 | Stab MIN  2.621 MAX  3.872 | Flutter SF min:  2.816 | Root: 0.322, Tip: 0.083, Span: 0.147
+1857 | Stab MIN  2.627 MAX  3.872 | Flutter SF min:  2.850 | Root: 0.322, Tip: 0.089, Span: 0.147
+1858 | Stab MIN  2.633 MAX  3.871 | Flutter SF min:  2.884 | Root: 0.322, Tip: 0.094, Span: 0.147
+1859 | Stab MIN  2.639 MAX  3.870 | Flutter SF min:  2.917 | Root: 0.322, Tip: 0.1, Span: 0.147
+1860 | Stab MIN  2.443 MAX  3.726 | Flutter SF min:  2.534 | Root: 0.367, Tip: 0.05, Span: 0.147
+1861 | Stab MIN  2.455 MAX  3.730 | Flutter SF min:  2.563 | Root: 0.367, Tip: 0.056, Span: 0.147
+1862 | Stab MIN  2.465 MAX  3.733 | Flutter SF min:  2.592 | Root: 0.367, Tip: 0.061, Span: 0.147
+1863 | Stab MIN  2.475 MAX  3.736 | Flutter SF min:  2.622 | Root: 0.367, Tip: 0.067, Span: 0.147
+1864 | Stab MIN  2.483 MAX  3.737 | Flutter SF min:  2.651 | Root: 0.367, Tip: 0.072, Span: 0.147
+1865 | Stab MIN  2.491 MAX  3.739 | Flutter SF min:  2.681 | Root: 0.367, Tip: 0.078, Span: 0.147
+1866 | Stab MIN  2.498 MAX  3.739 | Flutter SF min:  2.710 | Root: 0.367, Tip: 0.083, Span: 0.147
+1867 | Stab MIN  2.504 MAX  3.739 | Flutter SF min:  2.739 | Root: 0.367, Tip: 0.089, Span: 0.147
+1868 | Stab MIN  2.510 MAX  3.739 | Flutter SF min:  2.769 | Root: 0.367, Tip: 0.094, Span: 0.147
+1869 | Stab MIN  2.514 MAX  3.737 | Flutter SF min:  2.798 | Root: 0.367, Tip: 0.1, Span: 0.147
+1870 | Stab MIN  2.319 MAX  3.591 | Flutter SF min:  2.470 | Root: 0.411, Tip: 0.05, Span: 0.147
+1871 | Stab MIN  2.329 MAX  3.594 | Flutter SF min:  2.496 | Root: 0.411, Tip: 0.056, Span: 0.147
+1872 | Stab MIN  2.338 MAX  3.597 | Flutter SF min:  2.522 | Root: 0.411, Tip: 0.061, Span: 0.147
+1873 | Stab MIN  2.347 MAX  3.599 | Flutter SF min:  2.548 | Root: 0.411, Tip: 0.067, Span: 0.147
+1874 | Stab MIN  2.355 MAX  3.601 | Flutter SF min:  2.574 | Root: 0.411, Tip: 0.072, Span: 0.147
+1875 | Stab MIN  2.362 MAX  3.602 | Flutter SF min:  2.600 | Root: 0.411, Tip: 0.078, Span: 0.147
+1876 | Stab MIN  2.368 MAX  3.602 | Flutter SF min:  2.626 | Root: 0.411, Tip: 0.083, Span: 0.147
+1877 | Stab MIN  2.374 MAX  3.602 | Flutter SF min:  2.652 | Root: 0.411, Tip: 0.089, Span: 0.147
+1878 | Stab MIN  2.378 MAX  3.601 | Flutter SF min:  2.678 | Root: 0.411, Tip: 0.094, Span: 0.147
+1879 | Stab MIN  2.383 MAX  3.600 | Flutter SF min:  2.705 | Root: 0.411, Tip: 0.1, Span: 0.147
+1880 | Stab MIN  2.188 MAX  3.452 | Flutter SF min:  2.418 | Root: 0.456, Tip: 0.05, Span: 0.147
+1881 | Stab MIN  2.197 MAX  3.455 | Flutter SF min:  2.441 | Root: 0.456, Tip: 0.056, Span: 0.147
+1882 | Stab MIN  2.206 MAX  3.457 | Flutter SF min:  2.464 | Root: 0.456, Tip: 0.061, Span: 0.147
+1883 | Stab MIN  2.213 MAX  3.459 | Flutter SF min:  2.488 | Root: 0.456, Tip: 0.067, Span: 0.147
+1884 | Stab MIN  2.221 MAX  3.461 | Flutter SF min:  2.511 | Root: 0.456, Tip: 0.072, Span: 0.147
+1885 | Stab MIN  2.227 MAX  3.461 | Flutter SF min:  2.535 | Root: 0.456, Tip: 0.078, Span: 0.147
+1886 | Stab MIN  2.233 MAX  3.462 | Flutter SF min:  2.558 | Root: 0.456, Tip: 0.083, Span: 0.147
+1887 | Stab MIN  2.238 MAX  3.462 | Flutter SF min:  2.582 | Root: 0.456, Tip: 0.089, Span: 0.147
+1888 | Stab MIN  2.242 MAX  3.461 | Flutter SF min:  2.605 | Root: 0.456, Tip: 0.094, Span: 0.147
+1889 | Stab MIN  2.246 MAX  3.460 | Flutter SF min:  2.629 | Root: 0.456, Tip: 0.1, Span: 0.147
+1890 | Stab MIN  2.053 MAX  3.311 | Flutter SF min:  2.374 | Root: 0.5, Tip: 0.05, Span: 0.147
+1891 | Stab MIN  2.062 MAX  3.314 | Flutter SF min:  2.396 | Root: 0.5, Tip: 0.056, Span: 0.147
+1892 | Stab MIN  2.069 MAX  3.316 | Flutter SF min:  2.417 | Root: 0.5, Tip: 0.061, Span: 0.147
+1893 | Stab MIN  2.076 MAX  3.317 | Flutter SF min:  2.439 | Root: 0.5, Tip: 0.067, Span: 0.147
+1894 | Stab MIN  2.083 MAX  3.319 | Flutter SF min:  2.460 | Root: 0.5, Tip: 0.072, Span: 0.147
+1895 | Stab MIN  2.089 MAX  3.319 | Flutter SF min:  2.481 | Root: 0.5, Tip: 0.078, Span: 0.147
+1896 | Stab MIN  2.094 MAX  3.320 | Flutter SF min:  2.503 | Root: 0.5, Tip: 0.083, Span: 0.147
+1897 | Stab MIN  2.099 MAX  3.320 | Flutter SF min:  2.524 | Root: 0.5, Tip: 0.089, Span: 0.147
+1898 | Stab MIN  2.103 MAX  3.319 | Flutter SF min:  2.545 | Root: 0.5, Tip: 0.094, Span: 0.147
+1899 | Stab MIN  2.107 MAX  3.318 | Flutter SF min:  2.567 | Root: 0.5, Tip: 0.1, Span: 0.147
+1900 | Stab MIN  2.595 MAX  4.208 | Flutter SF min:  3.959 | Root: 0.1, Tip: 0.05, Span: 0.15
+1901 | Stab MIN  2.647 MAX  4.236 | Flutter SF min:  4.069 | Root: 0.1, Tip: 0.056, Span: 0.15
+1902 | Stab MIN  2.694 MAX  4.260 | Flutter SF min:  4.178 | Root: 0.1, Tip: 0.061, Span: 0.15
+1903 | Stab MIN  2.735 MAX  4.280 | Flutter SF min:  4.287 | Root: 0.1, Tip: 0.067, Span: 0.15
+1904 | Stab MIN  2.772 MAX  4.298 | Flutter SF min:  4.397 | Root: 0.1, Tip: 0.072, Span: 0.15
+1905 | Stab MIN  2.806 MAX  4.312 | Flutter SF min:  4.506 | Root: 0.1, Tip: 0.078, Span: 0.15
+1906 | Stab MIN  2.835 MAX  4.324 | Flutter SF min:  4.614 | Root: 0.1, Tip: 0.083, Span: 0.15
+1907 | Stab MIN  2.861 MAX  4.334 | Flutter SF min:  4.721 | Root: 0.1, Tip: 0.089, Span: 0.15
+1908 | Stab MIN  2.884 MAX  4.341 | Flutter SF min:  4.830 | Root: 0.1, Tip: 0.094, Span: 0.15
+1909 | Stab MIN  2.904 MAX  4.347 | Flutter SF min:  4.937 | Root: 0.1, Tip: 0.1, Span: 0.15
+1910 | Stab MIN  2.790 MAX  4.270 | Flutter SF min:  3.344 | Root: 0.144, Tip: 0.05, Span: 0.15
+1911 | Stab MIN  2.823 MAX  4.286 | Flutter SF min:  3.419 | Root: 0.144, Tip: 0.056, Span: 0.15
+1912 | Stab MIN  2.852 MAX  4.299 | Flutter SF min:  3.493 | Root: 0.144, Tip: 0.061, Span: 0.15
+1913 | Stab MIN  2.879 MAX  4.310 | Flutter SF min:  3.568 | Root: 0.144, Tip: 0.067, Span: 0.15
+1914 | Stab MIN  2.903 MAX  4.319 | Flutter SF min:  3.642 | Root: 0.144, Tip: 0.072, Span: 0.15
+1915 | Stab MIN  2.924 MAX  4.326 | Flutter SF min:  3.716 | Root: 0.144, Tip: 0.078, Span: 0.15
+1916 | Stab MIN  2.942 MAX  4.332 | Flutter SF min:  3.790 | Root: 0.144, Tip: 0.083, Span: 0.15
+1917 | Stab MIN  2.959 MAX  4.336 | Flutter SF min:  3.865 | Root: 0.144, Tip: 0.089, Span: 0.15
+1918 | Stab MIN  2.973 MAX  4.338 | Flutter SF min:  3.938 | Root: 0.144, Tip: 0.094, Span: 0.15
+1919 | Stab MIN  2.985 MAX  4.340 | Flutter SF min:  4.012 | Root: 0.144, Tip: 0.1, Span: 0.15
+1920 | Stab MIN  2.834 MAX  4.234 | Flutter SF min:  3.012 | Root: 0.189, Tip: 0.05, Span: 0.15
+1921 | Stab MIN  2.858 MAX  4.244 | Flutter SF min:  3.068 | Root: 0.189, Tip: 0.056, Span: 0.15
+1922 | Stab MIN  2.879 MAX  4.253 | Flutter SF min:  3.125 | Root: 0.189, Tip: 0.061, Span: 0.15
+1923 | Stab MIN  2.898 MAX  4.260 | Flutter SF min:  3.181 | Root: 0.189, Tip: 0.067, Span: 0.15
+1924 | Stab MIN  2.915 MAX  4.265 | Flutter SF min:  3.237 | Root: 0.189, Tip: 0.072, Span: 0.15
+1925 | Stab MIN  2.930 MAX  4.269 | Flutter SF min:  3.294 | Root: 0.189, Tip: 0.078, Span: 0.15
+1926 | Stab MIN  2.944 MAX  4.272 | Flutter SF min:  3.350 | Root: 0.189, Tip: 0.083, Span: 0.15
+1927 | Stab MIN  2.955 MAX  4.274 | Flutter SF min:  3.406 | Root: 0.189, Tip: 0.089, Span: 0.15
+1928 | Stab MIN  2.965 MAX  4.274 | Flutter SF min:  3.462 | Root: 0.189, Tip: 0.094, Span: 0.15
+1929 | Stab MIN  2.974 MAX  4.274 | Flutter SF min:  3.518 | Root: 0.189, Tip: 0.1, Span: 0.15
+1930 | Stab MIN  2.801 MAX  4.152 | Flutter SF min:  2.802 | Root: 0.233, Tip: 0.05, Span: 0.15
+1931 | Stab MIN  2.820 MAX  4.159 | Flutter SF min:  2.849 | Root: 0.233, Tip: 0.056, Span: 0.15
+1932 | Stab MIN  2.836 MAX  4.165 | Flutter SF min:  2.893 | Root: 0.233, Tip: 0.061, Span: 0.15
+1933 | Stab MIN  2.851 MAX  4.170 | Flutter SF min:  2.939 | Root: 0.233, Tip: 0.067, Span: 0.15
+1934 | Stab MIN  2.865 MAX  4.173 | Flutter SF min:  2.984 | Root: 0.233, Tip: 0.072, Span: 0.15
+1935 | Stab MIN  2.876 MAX  4.175 | Flutter SF min:  3.030 | Root: 0.233, Tip: 0.078, Span: 0.15
+1936 | Stab MIN  2.887 MAX  4.177 | Flutter SF min:  3.075 | Root: 0.233, Tip: 0.083, Span: 0.15
+1937 | Stab MIN  2.896 MAX  4.178 | Flutter SF min:  3.121 | Root: 0.233, Tip: 0.089, Span: 0.15
+1938 | Stab MIN  2.904 MAX  4.178 | Flutter SF min:  3.165 | Root: 0.233, Tip: 0.094, Span: 0.15
+1939 | Stab MIN  2.911 MAX  4.177 | Flutter SF min:  3.211 | Root: 0.233, Tip: 0.1, Span: 0.15
+1940 | Stab MIN  2.726 MAX  4.044 | Flutter SF min:  2.659 | Root: 0.278, Tip: 0.05, Span: 0.15
+1941 | Stab MIN  2.741 MAX  4.050 | Flutter SF min:  2.697 | Root: 0.278, Tip: 0.056, Span: 0.15
+1942 | Stab MIN  2.755 MAX  4.054 | Flutter SF min:  2.735 | Root: 0.278, Tip: 0.061, Span: 0.15
+1943 | Stab MIN  2.767 MAX  4.058 | Flutter SF min:  2.773 | Root: 0.278, Tip: 0.067, Span: 0.15
+1944 | Stab MIN  2.778 MAX  4.060 | Flutter SF min:  2.811 | Root: 0.278, Tip: 0.072, Span: 0.15
+1945 | Stab MIN  2.788 MAX  4.062 | Flutter SF min:  2.848 | Root: 0.278, Tip: 0.078, Span: 0.15
+1946 | Stab MIN  2.797 MAX  4.063 | Flutter SF min:  2.887 | Root: 0.278, Tip: 0.083, Span: 0.15
+1947 | Stab MIN  2.805 MAX  4.063 | Flutter SF min:  2.924 | Root: 0.278, Tip: 0.089, Span: 0.15
+1948 | Stab MIN  2.811 MAX  4.062 | Flutter SF min:  2.963 | Root: 0.278, Tip: 0.094, Span: 0.15
+1949 | Stab MIN  2.817 MAX  4.061 | Flutter SF min:  3.000 | Root: 0.278, Tip: 0.1, Span: 0.15
+1950 | Stab MIN  2.626 MAX  3.922 | Flutter SF min:  2.553 | Root: 0.322, Tip: 0.05, Span: 0.15
+1951 | Stab MIN  2.639 MAX  3.927 | Flutter SF min:  2.586 | Root: 0.322, Tip: 0.056, Span: 0.15
+1952 | Stab MIN  2.651 MAX  3.930 | Flutter SF min:  2.619 | Root: 0.322, Tip: 0.061, Span: 0.15
+1953 | Stab MIN  2.661 MAX  3.933 | Flutter SF min:  2.651 | Root: 0.322, Tip: 0.067, Span: 0.15
+1954 | Stab MIN  2.671 MAX  3.935 | Flutter SF min:  2.684 | Root: 0.322, Tip: 0.072, Span: 0.15
+1955 | Stab MIN  2.680 MAX  3.937 | Flutter SF min:  2.716 | Root: 0.322, Tip: 0.078, Span: 0.15
+1956 | Stab MIN  2.687 MAX  3.937 | Flutter SF min:  2.749 | Root: 0.322, Tip: 0.083, Span: 0.15
+1957 | Stab MIN  2.694 MAX  3.937 | Flutter SF min:  2.781 | Root: 0.322, Tip: 0.089, Span: 0.15
+1958 | Stab MIN  2.699 MAX  3.936 | Flutter SF min:  2.814 | Root: 0.322, Tip: 0.094, Span: 0.15
+1959 | Stab MIN  2.704 MAX  3.935 | Flutter SF min:  2.847 | Root: 0.322, Tip: 0.1, Span: 0.15
+1960 | Stab MIN  2.512 MAX  3.792 | Flutter SF min:  2.473 | Root: 0.367, Tip: 0.05, Span: 0.15
+1961 | Stab MIN  2.523 MAX  3.796 | Flutter SF min:  2.502 | Root: 0.367, Tip: 0.056, Span: 0.15
+1962 | Stab MIN  2.533 MAX  3.799 | Flutter SF min:  2.531 | Root: 0.367, Tip: 0.061, Span: 0.15
+1963 | Stab MIN  2.542 MAX  3.801 | Flutter SF min:  2.559 | Root: 0.367, Tip: 0.067, Span: 0.15
+1964 | Stab MIN  2.551 MAX  3.803 | Flutter SF min:  2.588 | Root: 0.367, Tip: 0.072, Span: 0.15
+1965 | Stab MIN  2.558 MAX  3.804 | Flutter SF min:  2.616 | Root: 0.367, Tip: 0.078, Span: 0.15
+1966 | Stab MIN  2.565 MAX  3.804 | Flutter SF min:  2.645 | Root: 0.367, Tip: 0.083, Span: 0.15
+1967 | Stab MIN  2.571 MAX  3.804 | Flutter SF min:  2.673 | Root: 0.367, Tip: 0.089, Span: 0.15
+1968 | Stab MIN  2.576 MAX  3.803 | Flutter SF min:  2.702 | Root: 0.367, Tip: 0.094, Span: 0.15
+1969 | Stab MIN  2.580 MAX  3.802 | Flutter SF min:  2.730 | Root: 0.367, Tip: 0.1, Span: 0.15
+1970 | Stab MIN  2.387 MAX  3.656 | Flutter SF min:  2.410 | Root: 0.411, Tip: 0.05, Span: 0.15
+1971 | Stab MIN  2.397 MAX  3.660 | Flutter SF min:  2.435 | Root: 0.411, Tip: 0.056, Span: 0.15
+1972 | Stab MIN  2.406 MAX  3.662 | Flutter SF min:  2.461 | Root: 0.411, Tip: 0.061, Span: 0.15
+1973 | Stab MIN  2.414 MAX  3.664 | Flutter SF min:  2.486 | Root: 0.411, Tip: 0.067, Span: 0.15
+1974 | Stab MIN  2.422 MAX  3.666 | Flutter SF min:  2.511 | Root: 0.411, Tip: 0.072, Span: 0.15
+1975 | Stab MIN  2.429 MAX  3.667 | Flutter SF min:  2.537 | Root: 0.411, Tip: 0.078, Span: 0.15
+1976 | Stab MIN  2.435 MAX  3.667 | Flutter SF min:  2.563 | Root: 0.411, Tip: 0.083, Span: 0.15
+1977 | Stab MIN  2.440 MAX  3.667 | Flutter SF min:  2.588 | Root: 0.411, Tip: 0.089, Span: 0.15
+1978 | Stab MIN  2.445 MAX  3.666 | Flutter SF min:  2.613 | Root: 0.411, Tip: 0.094, Span: 0.15
+1979 | Stab MIN  2.449 MAX  3.665 | Flutter SF min:  2.639 | Root: 0.411, Tip: 0.1, Span: 0.15
+1980 | Stab MIN  2.256 MAX  3.517 | Flutter SF min:  2.359 | Root: 0.456, Tip: 0.05, Span: 0.15
+1981 | Stab MIN  2.265 MAX  3.520 | Flutter SF min:  2.381 | Root: 0.456, Tip: 0.056, Span: 0.15
+1982 | Stab MIN  2.273 MAX  3.522 | Flutter SF min:  2.405 | Root: 0.456, Tip: 0.061, Span: 0.15
+1983 | Stab MIN  2.281 MAX  3.524 | Flutter SF min:  2.427 | Root: 0.456, Tip: 0.067, Span: 0.15
+1984 | Stab MIN  2.288 MAX  3.525 | Flutter SF min:  2.450 | Root: 0.456, Tip: 0.072, Span: 0.15
+1985 | Stab MIN  2.294 MAX  3.526 | Flutter SF min:  2.473 | Root: 0.456, Tip: 0.078, Span: 0.15
+1986 | Stab MIN  2.299 MAX  3.526 | Flutter SF min:  2.496 | Root: 0.456, Tip: 0.083, Span: 0.15
+1987 | Stab MIN  2.304 MAX  3.526 | Flutter SF min:  2.519 | Root: 0.456, Tip: 0.089, Span: 0.15
+1988 | Stab MIN  2.308 MAX  3.525 | Flutter SF min:  2.542 | Root: 0.456, Tip: 0.094, Span: 0.15
+1989 | Stab MIN  2.312 MAX  3.524 | Flutter SF min:  2.565 | Root: 0.456, Tip: 0.1, Span: 0.15
+1990 | Stab MIN  2.121 MAX  3.376 | Flutter SF min:  2.316 | Root: 0.5, Tip: 0.05, Span: 0.15
+1991 | Stab MIN  2.129 MAX  3.378 | Flutter SF min:  2.337 | Root: 0.5, Tip: 0.056, Span: 0.15
+1992 | Stab MIN  2.137 MAX  3.380 | Flutter SF min:  2.358 | Root: 0.5, Tip: 0.061, Span: 0.15
+1993 | Stab MIN  2.143 MAX  3.382 | Flutter SF min:  2.379 | Root: 0.5, Tip: 0.067, Span: 0.15
+1994 | Stab MIN  2.150 MAX  3.383 | Flutter SF min:  2.399 | Root: 0.5, Tip: 0.072, Span: 0.15
+1995 | Stab MIN  2.155 MAX  3.384 | Flutter SF min:  2.420 | Root: 0.5, Tip: 0.078, Span: 0.15
+1996 | Stab MIN  2.160 MAX  3.384 | Flutter SF min:  2.441 | Root: 0.5, Tip: 0.083, Span: 0.15
+1997 | Stab MIN  2.165 MAX  3.384 | Flutter SF min:  2.461 | Root: 0.5, Tip: 0.089, Span: 0.15
+1998 | Stab MIN  2.169 MAX  3.383 | Flutter SF min:  2.483 | Root: 0.5, Tip: 0.094, Span: 0.15
+1999 | Stab MIN  2.172 MAX  3.382 | Flutter SF min:  2.504 | Root: 0.5, Tip: 0.1, Span: 0.15

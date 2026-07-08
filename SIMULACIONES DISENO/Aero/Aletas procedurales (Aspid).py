@@ -36,29 +36,13 @@ def _flutter_safety_factor_fixed(flight, flutter_mach):
 _rpu._flutter_safety_factor = _flutter_safety_factor_fixed
 # ============================================================
 
-chamber_height = 0.988
+chamber_height = 0.923
 RADIO_ASPID = 0.065
 LONGITUD_ASPID = 2.7
 
 
 env = Environment()
 
-"""
-env.set_atmospheric_model(
-    type="custom_atmosphere",
-    pressure=None,
-    temperature=300,
-    wind_u=[
-        (0, 5), # 5 m/s at 0 m
-        (1000, 10) # 10 m/s at 1000 m
-    ],
-    wind_v=[
-        (0, -2), # -2 m/s at 0 m
-        (500, 3), # 3 m/s at 500 m
-        (1600, 2), # 2 m/s at 1000 m
-    ],
-)
-"""
 
 root_chords = np.linspace(0.1, 0.5, num=10)
 tip_chords  = np.linspace(0.05, 0.1, num=10)
@@ -74,7 +58,7 @@ for span in spans:
             aspid_engine = SolidMotor(
                 thrust_source=r"RECURSOS\ASPIDTHRUST.csv",
                 dry_mass=7.268,
-                dry_inertia=(1.206, 1.205, 0.023),
+                dry_inertia=(5.168, 5.168, 0.017),
                 nozzle_radius=0.065,
                 grain_number=4,
                 grain_density=1730,
@@ -91,29 +75,30 @@ for span in spans:
             
             ASPID = Rocket(
                 radius=RADIO_ASPID,
-                mass=11.7,
-                inertia=(3.613, 3.613, 0.041),
+                mass=15.32,
+                inertia=(6.175, 6.175, 0.05),
                 power_off_drag=r"RECURSOS\CD_OFF_ASPID.csv",
                 power_on_drag=r"RECURSOS\CD_ON_ASPID.csv",
-                center_of_mass_without_motor=1.1575,
+                center_of_mass_without_motor=1.396,
                 coordinate_system_orientation="nose_to_tail"
             )
             ASPID.add_motor(aspid_engine, position=LONGITUD_ASPID - chamber_height)
-            ASPID.add_nose(length=0.42, kind="ogive", position=0)
+            ASPID.add_nose(length=0.40, kind="ogive", position=0)
             ASPID.add_trapezoidal_fins(
                 n=4,
-                root_chord=0.144,
-                tip_chord=0.072,
-                span=0.103,
-                position=LONGITUD_ASPID - 0.144 - 0.15
+                root_chord=root_chord,
+                tip_chord=tip_chord,
+                span=span,
+                position=LONGITUD_ASPID - root_chord - 0.03
             )
-            ASPID.draw()
+
 
             test_flight = Flight(
                 environment=env,
                 rocket=ASPID,
-                rail_length=6,
-                inclination=84.0
+                rail_length=12,
+                inclination=84.0,
+                terminate_on_apogee=True
             )
 
             # test_flight.mach_number()
@@ -148,55 +133,57 @@ for span in spans:
 
 
             
-            # ============================================================
-            # GRÁFICO: CoM y CoP del cohete vs tiempo
-            # ============================================================
-            t_end    = test_flight.apogee_time
-            t_vals   = np.linspace(0, t_end, 300)
-            t_burnout = aspid_engine.burn_out_time
+            # # ============================================================
+            # # GRÁFICO: CoM y CoP del cohete vs tiempo
+            # # ============================================================
+            # t_end    = test_flight.apogee_time
+            # t_vals   = np.linspace(0, t_end, 300)
+            # t_burnout = aspid_engine.burn_out_time
 
-            # Centro de masas — función del cohete evaluada en cada t
-            cm_vals = np.array([ASPID.center_of_mass(t) for t in t_vals])
+            # # Centro de masas — función del cohete evaluada en cada t
+            # cm_vals = np.array([ASPID.center_of_mass(t) for t in t_vals])
 
-            # Centro de presiones — cp_position(mach) se evalúa con el Mach en cada instante
-            cp_vals = np.array([
-                ASPID.cp_position(test_flight.mach_number(t))
-                for t in t_vals
-            ])
+            # # Centro de presiones — cp_position(mach) se evalúa con el Mach en cada instante
+            # cp_vals = np.array([
+            #     ASPID.cp_position(test_flight.mach_number(t))
+            #     for t in t_vals
+            # ])
 
-            fig, ax = plt.subplots(figsize=(10, 4))
+            # fig, ax = plt.subplots(figsize=(10, 4))
 
-            ax.plot(t_vals, cm_vals, color="#E84545", linewidth=2,
-                    label="Centro de masas (CoM)")
-            ax.plot(t_vals, cp_vals, color="#4A90D9", linewidth=2,
-                    linestyle="-.", label="Centro de presiones (CoP)")
+            # ax.plot(t_vals, cm_vals, color="#E84545", linewidth=2,
+            #         label="Centro de masas (CoM)")
+            # ax.plot(t_vals, cp_vals, color="#4A90D9", linewidth=2,
+            #         linestyle="-.", label="Centro de presiones (CoP)")
 
-            # Relleno entre CoM y CoP — verde si estable (CoP > CoM en nose_to_tail), rojo si no
-            ax.fill_between(
-                t_vals, cm_vals, cp_vals,
-                where=(cp_vals > cm_vals),   # CoP más hacia la cola → estable
-                alpha=0.15, color="green", label="Margen estable"
-            )
-            ax.fill_between(
-                t_vals, cm_vals, cp_vals,
-                where=(cp_vals <= cm_vals),  # CoP delante del CoM → inestable
-                alpha=0.15, color="red", label="Margen inestable"
-            )
+            # # Relleno entre CoM y CoP — verde si estable (CoP > CoM en nose_to_tail), rojo si no
+            # ax.fill_between(
+            #     t_vals, cm_vals, cp_vals,
+            #     where=(cp_vals > cm_vals),   # CoP más hacia la cola → estable
+            #     alpha=0.15, color="green", label="Margen estable"
+            # )
+            # ax.fill_between(
+            #     t_vals, cm_vals, cp_vals,
+            #     where=(cp_vals <= cm_vals),  # CoP delante del CoM → inestable
+            #     alpha=0.15, color="red", label="Margen inestable"
+            # )
 
-            # MECO
-            if t_burnout <= t_end:
-                ax.axvline(t_burnout, color="#FFD700", linewidth=1.5,
-                           linestyle="--", label=f"MECO  t={t_burnout:.2f} s")
+            # # MECO
+            # if t_burnout <= t_end:
+            #     ax.axvline(t_burnout, color="#FFD700", linewidth=1.5,
+            #                linestyle="--", label=f"MECO  t={t_burnout:.2f} s")
 
-            ax.set_xlabel("Tiempo (s)", fontsize=11)
-            ax.set_ylabel("Posición desde la nariz (m)", fontsize=11)
-            ax.set_title(
-                f"CoM y CoP — Root={round(root_chord,3)} m | "
-                f"Tip={round(tip_chord,3)} m | Span={round(span,3)} m",
-                fontsize=11
-            )
-            ax.legend(fontsize=9)
-            ax.grid(True, alpha=0.3)
-            fig.tight_layout()
-            plt.show()
-            # ============================================================
+            # ax.set_xlabel("Tiempo (s)", fontsize=11)
+            # ax.set_ylabel("Posición desde la nariz (m)", fontsize=11)
+            # ax.set_title(
+            #     f"CoM y CoP — Root={round(root_chord,3)} m | "
+            #     f"Tip={round(tip_chord,3)} m | Span={round(span,3)} m",
+            #     fontsize=11
+            # )
+            # ax.legend(fontsize=9)
+            # ax.grid(True, alpha=0.3)
+            # fig.tight_layout()
+            # plt.show()
+            # # ============================================================
+
+            # test_flight.stability_margin()
