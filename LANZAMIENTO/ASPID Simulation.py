@@ -10,7 +10,7 @@ enable_weather = True
 
 if enable_weather:
     env = Environment(date=(2026,10,17,15)) #Date:(2026,10,17,16)
-    env.set_location(latitude=39.44580338814086, longitude=-8.29626628763609)
+    env.set_location(latitude=39.44580338814086, longitude=-8.29626628763608)
     env.set_elevation("Open-Elevation")
     env.set_atmospheric_model(type="Windy", file="GFS")
 
