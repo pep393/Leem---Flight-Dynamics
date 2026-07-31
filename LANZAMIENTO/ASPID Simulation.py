@@ -5,8 +5,8 @@ chamber_height = 0.923
 RADIO_ASPID = 0.065
 LONGITUD_ASPID = 2.825
 
-enable_airbrakes = True
-enable_weather = True 
+enable_airbrakes = True 
+enable_weather = False
 
 if enable_weather:
     env = Environment(date=(2026,10,17,15)) #Date:(2026,10,17,16)
@@ -25,35 +25,36 @@ airbrakes_deployment_history = []
 apogee_prediction_history = []
 cd_monitor_diagnostics = {}  # last_apogee_est, last_t_go, last_cd_cmd 
 
-aspid_engine = SolidMotor(
-    thrust_source=r"RECURSOS\ASPIDTHRUST.csv",
+TIMANFAYA = SolidMotor(
+    thrust_source=r"RESOURCES\ASPIDTHRUSTlargo.csv",
     dry_mass=7.268,
-    dry_inertia=(1.206, 1.205, 0.023),
-    nozzle_radius=0.05,
+    dry_inertia=(5.168, 5.168, 0.017),
+    nozzle_radius=60 / 2000,    
     grain_number=4,
-    grain_density=1730,
-    grain_outer_radius=49 / 1000,
-    grain_initial_inner_radius=32.5 / 2000,
-    grain_initial_height=170 / 1000,
-    grain_separation=15 / 1000,
-    grains_center_of_mass_position=0.433,
-    center_of_dry_mass_position=0.481,
+    grain_density=1793,
+    grain_outer_radius=45.5 / 1000, 
+    grain_initial_inner_radius=18 / 1000, 
+    grain_initial_height=200 / 1000, 
+    grain_separation=7 / 1000,  
+    grains_center_of_mass_position=0.433, 
+    center_of_dry_mass_position=0.481, 
     nozzle_position=chamber_height,
-    throat_radius=12.5 / 1000,
+    throat_radius=28.546 / 2000, 
     coordinate_system_orientation="combustion_chamber_to_nozzle",
 )
 
+
 ASPID = Rocket(
     radius=RADIO_ASPID,
-    mass=15.32,
-    inertia=(3.613, 3.613, 0.041),
-    power_off_drag=r"RECURSOS\CD_OFF_ASPID.csv",
-    power_on_drag=r"RECURSOS\CD_ON_ASPID.csv",
+    mass=14.2,
+    inertia=(6.175, 6.175, 0.05),
+    power_off_drag=r"RESOURCES\CD_OFF_ASPID.csv",
+    power_on_drag=r"RESOURCES\CD_ON_ASPID.csv",
     center_of_mass_without_motor=1.396,
     coordinate_system_orientation="nose_to_tail"
 )
 
-ASPID.add_motor(aspid_engine, position=LONGITUD_ASPID - chamber_height)
+ASPID.add_motor(TIMANFAYA, position=LONGITUD_ASPID - chamber_height)
 ASPID.add_nose(length=0.40, kind="ogive", position=0)
 ASPID.add_trapezoidal_fins(
     n=4,
@@ -78,6 +79,7 @@ ASPID.add_parachute(
     radius=1.8027,
     lag=1,
 )
+
 
 # Apogee predictor values. 
 DT_PREDICT = 0.05   
@@ -167,7 +169,7 @@ def controller_function(time, sampling_rate, state, state_history, observed_vari
         return close_and_log()
     
     # Don't deploy airbrakes during the burn phase. 
-    if time < aspid_engine.burn_out_time:
+    if time < TIMANFAYA.burn_out_time:
         return close_and_log()
 
     altitude_ASL = state[2]
@@ -183,7 +185,7 @@ def controller_function(time, sampling_rate, state, state_history, observed_vari
         return close_and_log()
 
     # Don't deploy airbrakes below the minimum safety altitude
-    if altitude_ASL < 1500:
+    if altitude_ASL < 1500 + env.elevation:
         return close_and_log()
 
     deployment_level = cd_monitor_strategy(altitude_ASL, vz, mach_number, env, ASPID, TARGET_APOGEE)
@@ -197,7 +199,7 @@ def controller_function(time, sampling_rate, state, state_history, observed_vari
 
 
 aerofreno = ASPID.add_air_brakes(
-    drag_coefficient_curve="airbrakes.csv",
+    drag_coefficient_curve=r"RESOURCES\airbrakes.csv",
     override_rocket_drag=True,
     controller_function=controller_function,
     sampling_rate=100,  # 100 Hz
@@ -207,10 +209,13 @@ aerofreno = ASPID.add_air_brakes(
 test_flight = Flight(
     environment=env,
     rocket=ASPID,
-    rail_length=10,
+    rail_length=12,
     inclination=84.0,
     # terminate_on_apogee=True,
 )
 
+env.density()
+test_flight.altitude()
+test_flight.vz_body_frame()
+test_flight.mach_number()
 
-test_flight.drag_power()
