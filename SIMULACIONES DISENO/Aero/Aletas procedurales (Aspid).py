@@ -36,14 +36,6 @@ def _flutter_safety_factor_fixed(flight, flutter_mach):
 _rpu._flutter_safety_factor = _flutter_safety_factor_fixed
 # ============================================================
 
-chamber_height = 0.923
-RADIO_ASPID = 0.065
-LONGITUD_ASPID = 2.7
-
-
-env = Environment()
-
-
 root_chords = np.linspace(0.1, 0.5, num=10)
 tip_chords  = np.linspace(0.05, 0.1, num=10)
 spans       = np.linspace(0.1, 0.15, num=20)
@@ -55,34 +47,60 @@ for span in spans:
     for root_chord in root_chords:
         for tip_chord in tip_chords:
 
-            aspid_engine = SolidMotor(
-                thrust_source=r"RECURSOS\ASPIDTHRUST.csv",
+            chamber_height = 0.923
+            RADIO_ASPID = 0.065
+            LONGITUD_ASPID = 2.896
+
+            enable_airbrakes = False
+            enable_weather = False
+
+            if enable_weather:
+                env = Environment(date=(2026,10,17,15)) #Date:(2026,10,17,16)
+                env.set_location(latitude=39.44580338814086, longitude=-8.29626628763608)
+                env.set_elevation("Open-Elevation")
+                env.set_atmospheric_model(type="Windy", file="GFS")
+
+            elif not enable_weather:
+                env = Environment()
+
+            TARGET_APOGEE = 3000  + env.elevation  # Target apogee in meters above sea level
+
+
+
+            airbrakes_deployment_history = []
+            apogee_prediction_history = []
+            cd_monitor_diagnostics = {}  # last_apogee_est, last_t_go, last_cd_cmd 
+
+            TIMANFAYA = SolidMotor(
+                thrust_source=r"RESOURCES\ASPIDTHRUST.csv",
                 dry_mass=7.268,
                 dry_inertia=(5.168, 5.168, 0.017),
-                nozzle_radius=0.065,
+                nozzle_radius=60 / 2000,    
                 grain_number=4,
-                grain_density=1730,
-                grain_outer_radius=49 / 1000,
-                grain_initial_inner_radius=32.5 / 2000,
-                grain_initial_height=170 / 1000,
-                grain_separation=15 / 1000,
-                grains_center_of_mass_position=0.433,
-                center_of_dry_mass_position=0.481,
+                grain_density=1793,
+                grain_outer_radius=45.5 / 1000, 
+                grain_initial_inner_radius=18 / 1000, 
+                grain_initial_height=200 / 1000, 
+                grain_separation=7 / 1000,  
+                grains_center_of_mass_position=0.433, 
+                center_of_dry_mass_position=0.481, 
                 nozzle_position=chamber_height,
-                throat_radius=12.5 / 1000,
+                throat_radius=28.546 / 2000, 
                 coordinate_system_orientation="combustion_chamber_to_nozzle",
             )
-            
+
+
             ASPID = Rocket(
                 radius=RADIO_ASPID,
-                mass=15.32,
+                mass=14.2,
                 inertia=(6.175, 6.175, 0.05),
-                power_off_drag=r"RECURSOS\CD_OFF_ASPID.csv",
-                power_on_drag=r"RECURSOS\CD_ON_ASPID.csv",
-                center_of_mass_without_motor=1.396,
+                power_off_drag=r"RESOURCES\CD_OFF_ASPID.csv",
+                power_on_drag=r"RESOURCES\CD_ON_ASPID.csv",
+                center_of_mass_without_motor=1.4607,
                 coordinate_system_orientation="nose_to_tail"
             )
-            ASPID.add_motor(aspid_engine, position=LONGITUD_ASPID - chamber_height)
+
+            ASPID.add_motor(TIMANFAYA, position=LONGITUD_ASPID - chamber_height)
             ASPID.add_nose(length=0.40, kind="ogive", position=0)
             ASPID.add_trapezoidal_fins(
                 n=4,
@@ -92,13 +110,36 @@ for span in spans:
                 position=LONGITUD_ASPID - root_chord - 0.03
             )
 
+            ASPID.add_parachute(
+                "drogue",
+                cd_s=0.51586,
+                trigger="apogee",
+                radius=0.523,
+                lag=1,
+            )
 
+            ASPID.add_parachute(
+                "main",
+                cd_s=6.126,
+                trigger=300,
+                radius=1.8027,
+                lag=1,
+            )
+
+
+            # Apogee predictor values. 
+            DT_PREDICT = 0.05   
+            N_MAX = 20000        
+            TGO_DIVISOR = 2.0    
+
+
+            # Flight Simulation
             test_flight = Flight(
                 environment=env,
                 rocket=ASPID,
                 rail_length=12,
                 inclination=84.0,
-                terminate_on_apogee=True
+                # terminate_on_apogee=True,
             )
 
             # test_flight.mach_number()

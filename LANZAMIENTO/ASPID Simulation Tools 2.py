@@ -1,5 +1,8 @@
+# Código para exportar datos de velocidad, tiempo, altura y presión estática a un archivo CSV y generar gráficos individuales para cada variable.
+
 from rocketpy import Environment, SolidMotor, Rocket, Flight, AirBrakes
 import numpy as np
+import pandas as pd
 import matplotlib.pyplot as plt
 from rocketpy.utilities import fin_flutter_analysis
 
@@ -79,7 +82,7 @@ ASPID.add_parachute(
 ASPID.add_parachute(
     "main",
     cd_s=6.126,
-    trigger=300,
+    trigger=450,
     radius=1.8027,
     lag=1,
 )
@@ -215,9 +218,38 @@ test_flight = Flight(
     rocket=ASPID,
     rail_length=12,
     inclination=84.0,
-    terminate_on_apogee=True,
+    terminate_on_apogee=False,
 )
 
 
 test_flight.z()
 test_flight.mach_number()
+
+from rocketpy.simulation import FlightDataExporter
+
+# --- Exportar CSV con tiempo, altura, velocidad, aceleración y presión ---
+exporter = FlightDataExporter(test_flight)
+exporter.export_data(
+    "aspid_flight_data.csv",
+    "altitude",             # altura (AGL)
+    "speed",         # velocidad (magnitud)
+    "acceleration",  # aceleración (magnitud)
+    "pressure",      # presión estática
+)
+
+# Fallback si tu versión de rocketpy es < 1.13.0:
+# test_flight.export_data(
+#     "aspid_flight_data.csv",
+#     "z", "speed", "acceleration", "pressure",
+# )
+
+# --- Plots individuales de cada variable ---
+test_flight.altitude.plot()
+test_flight.speed.plot()
+test_flight.acceleration.plot()
+test_flight.pressure.plot()
+
+test_flight.altitude.plot(filename="altura.png")
+test_flight.speed.plot(filename="velocidad.png")
+test_flight.acceleration.plot(filename="aceleracion.png")
+test_flight.pressure.plot(filename="presion.png")

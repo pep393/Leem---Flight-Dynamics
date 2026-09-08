@@ -14,7 +14,7 @@ import re
 import math
 
 # ─── CONFIGURACIÓN ───────────────────────────────────────────────────────────
-INPUT_FILE = "fins copia.txt"   # <- Cambia aquí el nombre de tu archivo
+INPUT_FILE = "fins.txt"   # <- Cambia aquí el nombre de tu archivo
 # ─────────────────────────────────────────────────────────────────────────────
 
 
@@ -59,9 +59,9 @@ def filter_and_sort(fins):
     filtered = []
     for fin in fins:
         # Criterio 1: estabilidad mínima > 2
-        if fin["min"] <= 1.5:
+        if fin["min"] <= 1.8:
             continue
-        if fin["max"] >= 3:
+        if fin["max"] >= 3.5:
             continue
         # Criterio 2: root >= span  y  span >= tip
         if not (fin["root"] >= fin["span"] >= fin["tip"]):
