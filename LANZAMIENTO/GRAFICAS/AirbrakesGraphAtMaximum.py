@@ -52,8 +52,8 @@ ASPID = Rocket(
     radius=RADIO_ASPID,
     mass=14.2,
     inertia=(6.175, 6.175, 0.05),
-    power_off_drag=r"RESOURCES\CD_OFF_ASPID.csv",
-    power_on_drag=r"RESOURCES\CD_ON_ASPID.csv",
+    power_off_drag=r"RESOURCES\mach_cd_prot_cono_cola.csv",
+    power_on_drag=r"RESOURCES\mach_cd_prot_cono_cola_power_on.csv",
     center_of_mass_without_motor=1.4607,
     coordinate_system_orientation="nose_to_tail",
 )
@@ -172,58 +172,49 @@ def cd_monitor_strategy(altitude, vz, mach_number, env, rocket, target_apogee):
 def controller_function(
     time, sampling_rate, state, state_history, observed_variables, aerofreno
 ):
-  def close_and_log():
-    aerofreno.deployment_level = 0
-    airbrakes_deployment_history.append((time, aerofreno.deployment_level))
-    airbrakes_force_history.append((time, 0.0))  # Fuerza 0 si está cerrado
-    return aerofreno.deployment_level
+    def set_and_log(level, force):
+        aerofreno.deployment_level = level
+        airbrakes_deployment_history.append((time, level))
+        airbrakes_force_history.append((time, force))
+        return level
 
-  if enable_airbrakes is False:
-    return close_and_log()
+    if not enable_airbrakes:
+        return set_and_log(0.0, 0.0)
 
-  if time < TIMANFAYA.burn_out_time:
-    return close_and_log()
+    # El motor debe haber completado su tiempo de quemado
+    if time < TIMANFAYA.burn_out_time:
+        return set_and_log(0.0, 0.0)
 
-  altitude_ASL = state[2]
-  vx, vy, vz = state[3], state[4], state[5]
+    altitude_ASL = state[2]
+    vx, vy, vz = state[3], state[4], state[5]
 
-  wind_x = env.wind_velocity_x(altitude_ASL)
-  wind_y = env.wind_velocity_y(altitude_ASL)
-  free_stream_speed = (
-      (wind_x - vx) ** 2 + (wind_y - vy) ** 2 + vz**2
-  ) ** 0.5
-  mach_number = free_stream_speed / env.speed_of_sound(altitude_ASL)
+    # Condición de desactivación: velocidad descendente (vz < 0)
+    # o altitud por debajo de 1500 m AGL (1500 m + elevación del terreno)
+    if vz <= 0 or altitude_ASL < (1500 + env.elevation):
+        return set_and_log(0.0, 0.0)
 
-  if vz < 0 or altitude_ASL < 1500 + env.elevation:
-    return close_and_log()
+    # --- FORZAR DESPLIEGUE AL 100% ---
+    deployment_level = 1.0
 
-  deployment_level = cd_monitor_strategy(
-      altitude_ASL, vz, mach_number, env, ASPID, TARGET_APOGEE
-  )
-  deployment_level = float(np.clip(deployment_level, 0.0, 1.0))
+    # Cálculo de la velocidad del flujo libre (Free stream speed) con viento
+    wind_x = env.wind_velocity_x(altitude_ASL)
+    wind_y = env.wind_velocity_y(altitude_ASL)
+    free_stream_speed = (
+        (wind_x - vx) ** 2 + (wind_y - vy) ** 2 + vz**2
+    ) ** 0.5
+    mach_number = free_stream_speed / env.speed_of_sound(altitude_ASL)
 
-  # --- CÁLCULO DE LA FUERZA DEL AEROFRENO ---
-  rho = env.density(altitude_ASL)
-  ref_area = np.pi * ASPID.radius**2
+    # Cálculo de la fuerza generada al 100% de despliegue
+    rho = env.density(altitude_ASL)
+    ref_area = np.pi * ASPID.radius**2
 
-  # Obtenemos Cd actual desplegado y Cd cerrado (0%)
-  cd_current = aerofreno.drag_coefficient(deployment_level, mach_number)
-  cd_closed = aerofreno.drag_coefficient(0.0, mach_number)
+    cd_open = aerofreno.drag_coefficient(1.0, mach_number)
+    cd_closed = aerofreno.drag_coefficient(0.0, mach_number)
+    cd_delta = cd_open - cd_closed
 
-  # La fuerza extra debida exclusivamente al aerofreno (Delta Cd)
-  cd_delta = cd_current - cd_closed
-  fuerza_aerofreno = 0.5 * rho * (free_stream_speed**2) * ref_area * cd_delta
+    fuerza_aerofreno = 0.5 * rho * (free_stream_speed**2) * ref_area * cd_delta
 
-  # Guardar registros
-  aerofreno.deployment_level = deployment_level
-  airbrakes_deployment_history.append((time, deployment_level))
-  airbrakes_force_history.append((time, fuerza_aerofreno))
-  apogee_prediction_history.append(
-      (time, cd_monitor_diagnostics.get("last_apogee_est", altitude_ASL))
-  )
-
-  return deployment_level
-
+    return set_and_log(deployment_level, fuerza_aerofreno)
 
 aerofreno = ASPID.add_air_brakes(
     drag_coefficient_curve=r"RESOURCES\airbrakes.csv",
@@ -245,14 +236,14 @@ test_flight = Flight(
 times_f, forces = zip(*airbrakes_force_history)
 fuerza_maxima = max(forces)
 
-print(f"Fuerza máxima ejercida por los aerofrenos: {fuerza_maxima:.2f} N")
+print(f"Maximum force exerted by the airbrakes: {fuerza_maxima:.2f} N")
 
-# Gráfica de la fuerza ejercida por los aerofrenos
+# Graph of the force exerted by the airbrakes
 plt.figure(figsize=(10, 5))
-plt.plot(times_f, forces, label="Fuerza del Aerofreno (N)", color="red")
-plt.xlabel("Tiempo (s)")
-plt.ylabel("Fuerza (N)")
-plt.title("Fuerza Aerodinámica Producida por los Aerofrenos")
+plt.plot(times_f, forces, label="Airbrakes force (N)", color="red")
+plt.xlabel("Time (s)")
+plt.ylabel("Force (N)")
+plt.title("Aerodynamic Force on Air Brakes by Time")
 plt.grid(True)
 plt.legend()
 plt.show()
