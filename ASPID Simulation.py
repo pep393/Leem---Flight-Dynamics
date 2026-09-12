@@ -1,7 +1,7 @@
 import os
 
 from rocketpy import Environment, SolidMotor, Rocket, Flight
-
+from rocketpy.utilities import fin_flutter_analysis
 from airbrakes_control import AirbrakesController, plot_airbrakes
 
 os.chdir(os.path.dirname(os.path.abspath(__file__)))  # RESOURCES paths work from any working directory
@@ -26,6 +26,7 @@ if enable_weather:
     env.set_atmospheric_model(type="Windy", file="GFS")
 else:
     env = Environment()
+
 
 TARGET_APOGEE = 3000  + env.elevation  # Target apogee in meters above sea level
 
@@ -82,14 +83,11 @@ ASPID.add_parachute(
 ASPID.add_parachute(
     "main",
     cd_s=6.126,
-    trigger=300,
+    trigger=450,
     radius=1.8027,
     lag=1,
 )
 
-
-flight_settings = dict(environment=env, rocket=ASPID, rail_length=12, inclination=84.0, terminate_on_apogee=True)
-baseline_flight = Flight(**flight_settings)  # Reference flight, run before adding the airbrakes
 
 controller = AirbrakesController(ASPID, env, TARGET_APOGEE, KP, KI, SAMPLING_RATE)
 
@@ -108,11 +106,12 @@ aerofreno = ASPID.add_air_brakes(
     sampling_rate=SAMPLING_RATE,
 )
 
-test_flight = Flight(**flight_settings)
+test_flight = Flight(
+    environment=env,
+    rocket=ASPID,
+    rail_length=12, 
+    inclination=84.0,
+    terminate_on_apogee=False)
 
 
-print(f"Apogee without airbrakes: {baseline_flight.apogee - env.elevation:.1f} m AGL")
-print(f"Apogee with airbrakes:    {test_flight.apogee - env.elevation:.1f} m AGL")
-print(f"Error vs target:          {test_flight.apogee - TARGET_APOGEE:+.1f} m")
 
-plot_airbrakes(test_flight, baseline_flight, TARGET_APOGEE, ACTIVATION_ALTITUDE)

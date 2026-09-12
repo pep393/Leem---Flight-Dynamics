@@ -1,0 +1,126 @@
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Vector de tiempo para la simulación
+t_span = np.linspace(0, test_flight.t_final, 1000)
+
+# Extracción de trayectorias (Altitud AGL y Mach)
+altitude_agl = np.array([test_flight.z(t) - env.elevation for t in t_span])
+mach_number = np.array([test_flight.mach_number(t) for t in t_span])
+
+# Identificación de tiempos de eventos
+ascent_mask = np.array([test_flight.vz(t) for t in t_span]) > 0
+airbrakes_idx = np.where((altitude_agl >= ACTIVATION_ALTITUDE) & ascent_mask)[0]
+t_airbrakes = t_span[airbrakes_idx[0]] if len(airbrakes_idx) > 0 else None
+
+descent_mask = t_span > test_flight.apogee_time
+main_chute_idx = np.where((altitude_agl <= 300) & descent_mask)[0]
+t_main = t_span[main_chute_idx[0]] if len(main_chute_idx) > 0 else None
+
+# Configuración de eventos: nombre, tiempo, color y estilo de línea
+events_config = [
+    {"name": "Liftoff", "time": 0.0, "color": "#2ca02c", "style": "-."},
+    {
+        "name": "Motor Burnout",
+        "time": test_flight.rocket.motor.burn_out_time,
+        "color": "#d62728",
+        "style": ":",
+    },
+    (
+        {
+            "name": "Airbrakes Active",
+            "time": t_airbrakes,
+            "color": "#ff7f0e",
+            "style": "-.",
+        }
+        if t_airbrakes
+        else None
+    ),
+    {
+        "name": "Apogee & Drogue",
+        "time": test_flight.apogee_time,
+        "color": "#9467bd",
+        "style": "--",
+    },
+    (
+        {"name": "Main Parachute", "time": t_main, "color": "#8c564b", "style": ":"}
+        if t_main
+        else None
+    ),
+    {
+        "name": "Impact",
+        "time": test_flight.t_final,
+        "color": "#7f7f7f",
+        "style": "-",
+    },
+]
+events_config = [e for e in events_config if e is not None]
+
+# Creación de subplots
+fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(12, 8), sharex=True)
+
+# Curva de Altitud
+ax1.plot(
+    t_span,
+    altitude_agl,
+    color="#003366",
+    linewidth=2.5,
+    label="Altitude [m AGL]",
+)
+ax1.set_ylabel("Altitude [m AGL]", fontsize=11, fontweight="bold")
+ax1.set_title(
+    "ASPID Rocket Flight Profile & Key Events", fontsize=14, fontweight="bold"
+)
+ax1.grid(True, linestyle="--", alpha=0.5)
+
+# Curva de Mach
+ax2.plot(t_span, mach_number, color="#cc0000", linewidth=2.5, label="Mach")
+ax2.set_xlabel("Time [s]", fontsize=11, fontweight="bold")
+ax2.set_ylabel("Mach Number", fontsize=11, fontweight="bold")
+ax2.grid(True, linestyle="--", alpha=0.5)
+
+# Trazado de líneas verticales y adición a ambas leyendas
+for event in events_config:
+    t_ev = event["time"]
+    if t_ev <= test_flight.t_final:
+        label_text = f"{event['name']} ({t_ev:.1f} s)"
+
+        ax1.axvline(
+            x=t_ev,
+            color=event["color"],
+            linestyle=event["style"],
+            linewidth=1.5,
+            alpha=0.85,
+            label=label_text,
+        )
+        ax2.axvline(
+            x=t_ev,
+            color=event["color"],
+            linestyle=event["style"],
+            linewidth=1.5,
+            alpha=0.85,
+            label=label_text,
+        )
+
+# Leyendas configuradas a la derecha de cada subgráfico
+ax1.legend(
+    title="Altitude Events",
+    bbox_to_anchor=(1.02, 1),
+    loc="upper left",
+    borderaxespad=0,
+    frameon=True,
+)
+ax2.legend(
+    title="Mach Events",
+    bbox_to_anchor=(1.02, 1),
+    loc="upper left",
+    borderaxespad=0,
+    frameon=True,
+)
+
+# Ajuste manual del margen derecho para dejar espacio a ambas leyendas externas
+plt.tight_layout()
+fig.subplots_adjust(right=0.78)
+
+plt.show()

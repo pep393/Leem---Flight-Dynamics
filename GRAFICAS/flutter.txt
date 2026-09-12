@@ -1,0 +1,16 @@
+# =============================================================================
+# ANÁLISIS DE FLUTTER DE ALETA
+# =============================================================================
+
+# Propiedades del material de la aleta (ejemplo: fibra de vidrio / aluminio / compuesto)
+FIN_THICKNESS = 0.004   # Espesor de la aleta en metros (p. ej., 4 mm)
+SHEAR_MODULUS = 24.21e9   # Módulo de cortante G en Pascualis (p. ej., ~3 GPa para composite/epoxi)
+
+# 1. Ejecución del análisis mediante la utilidad interna de RocketPy
+flutter_mach_func, safety_factor_func = fin_flutter_analysis(
+    fin_thickness=FIN_THICKNESS,
+    shear_modulus=SHEAR_MODULUS,
+    flight=test_flight,
+    see_prints=True ,
+    see_graphs=True 
+)
