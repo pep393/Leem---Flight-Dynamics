@@ -1,5 +1,6 @@
-import os
+# ROCKETPY SIMULATION 
 
+import os
 from rocketpy import Environment, SolidMotor, Rocket, Flight
 from rocketpy.utilities import fin_flutter_analysis
 from airbrakes_control import AirbrakesController, plot_airbrakes
@@ -14,16 +15,18 @@ enable_airbrakes = True
 enable_weather = False
 
 # Airbrakes controller
-ACTIVATION_ALTITUDE = 1500  # m AGL, airbrakes only act above it and while ascending
-SAMPLING_RATE = 100  # Hz
-KP = 0.005  # (m/s^2) of commanded deceleration per m of apogee error (>= 0.02 chatters)
+ACTIVATION_ALTITUDE = 1500 
+SAMPLING_RATE = 20  # Hz
+KP = 0.005  # (m/s^2) of commanded deceleration per m of apogee error
 KI = 0.1  # (m/s^2) per m*s of apogee error
 
 if enable_weather:
-    env = Environment(date=(2026,10,17,15)) #Date:(2026,10,17,16)
-    env.set_location(latitude=39.44580338814086, longitude=-8.29626628763608)
+    env = Environment(date=(2026,10, 17,15)) 
+    env.set_location(latitude=39.392377, longitude=-8.290826)
     env.set_elevation("Open-Elevation")
-    env.set_atmospheric_model(type="Windy", file="GFS")
+    env.set_atmospheric_model(type="forecast", file="GFS")
+
+    
 else:
     env = Environment()
 
@@ -32,12 +35,12 @@ TARGET_APOGEE = 3000  + env.elevation  # Target apogee in meters above sea level
 
 
 TIMANFAYA = SolidMotor(
-    thrust_source=r"RESOURCES\ASPIDTHRUST.csv",
-    dry_mass=7.1,
+    thrust_source=r"RESOURCES\ASPIDTHRUST.csv", 
+    dry_mass=6.98,     
     dry_inertia=(5.168, 5.168, 0.017),
     nozzle_radius=60 / 2000,
     grain_number=4,
-    grain_density=1793,
+    grain_density=1842, 
     grain_outer_radius=45.5 / 1000,
     grain_initial_inner_radius=18 / 1000,
     grain_initial_height=200 / 1000,
@@ -48,6 +51,7 @@ TIMANFAYA = SolidMotor(
     throat_radius=28.546 / 2000,
     coordinate_system_orientation="combustion_chamber_to_nozzle",
 )
+
 
 
 ASPID = Rocket(
@@ -69,7 +73,6 @@ ASPID.add_trapezoidal_fins(
     span=0.12,
     position=LONGITUD_ASPID - 0.2 - 0.03
 )
-
 
 
 ASPID.add_parachute(
@@ -111,7 +114,7 @@ test_flight = Flight(
     rocket=ASPID,
     rail_length=12, 
     inclination=84.0,
-    terminate_on_apogee=False)
+    terminate_on_apogee=False)       
 
 
-
+test_flight.all_info()

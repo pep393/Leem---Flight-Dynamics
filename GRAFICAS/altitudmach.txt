@@ -15,7 +15,7 @@ airbrakes_idx = np.where((altitude_agl >= ACTIVATION_ALTITUDE) & ascent_mask)[0]
 t_airbrakes = t_span[airbrakes_idx[0]] if len(airbrakes_idx) > 0 else None
 
 descent_mask = t_span > test_flight.apogee_time
-main_chute_idx = np.where((altitude_agl <= 300) & descent_mask)[0]
+main_chute_idx = np.where((altitude_agl <= 450) & descent_mask)[0]
 t_main = t_span[main_chute_idx[0]] if len(main_chute_idx) > 0 else None
 
 # Configuración de eventos: nombre, tiempo, color y estilo de línea

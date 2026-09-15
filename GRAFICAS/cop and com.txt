@@ -1,0 +1,25 @@
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Vector de tiempo del vuelo (hasta apogeo, o todo el vuelo si quieres)
+t = np.linspace(test_flight.out_of_rail_time, test_flight.apogee_time, 300)
+
+# Centro de masas del cohete (varía porque el motor quema propelente)
+cm = [ASPID.center_of_mass(ti) for ti in t]
+
+# Centro de presiones: depende del Mach, así que lo evaluamos con el Mach de cada instante
+mach = [test_flight.mach_number(ti) for ti in t]
+cp = [ASPID.cp_position(m) for m in mach]
+
+fig, ax = plt.subplots(figsize=(9, 5))
+ax.plot(t, cm, label="Center of mass (CM)", color="tab:blue")
+ax.plot(t, cp, label="Center of pressure (CP)", color="tab:red")
+ax.set_xlabel("Time (s)")
+ax.set_ylabel("Position from rocket nose (m)")
+ax.set_title("CP and CM Evolution During Flight")
+ax.legend()
+ax.grid(True, alpha=0.3)
+plt.tight_layout()
+plt.savefig("cp_cm_vs_time.png", dpi=150)
+plt.show()
