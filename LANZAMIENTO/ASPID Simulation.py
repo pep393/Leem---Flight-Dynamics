@@ -1,42 +1,53 @@
+# ROCKETPY SIMULATION 
+
 import os
-
 from rocketpy import Environment, SolidMotor, Rocket, Flight
-
-from airbrakes_control import AirbrakesController, plot_airbrakes
+from rocketpy.utilities import fin_flutter_analysis
+from LANZAMIENTO.airbrakes_control import AirbrakesController, plot_airbrakes
 
 os.chdir(os.path.dirname(os.path.abspath(__file__)))  # RESOURCES paths work from any working directory
 
 chamber_height = 0.923
 RADIO_ASPID = 0.065
-LONGITUD_ASPID = 2.896
+LONGITUD_ASPID = 2.916
 
 enable_airbrakes = True 
 enable_weather = False
 
 # Airbrakes controller
-ACTIVATION_ALTITUDE = 1500  # m AGL, airbrakes only act above it and while ascending
-SAMPLING_RATE = 100  # Hz
-KP = 0.005  # (m/s^2) of commanded deceleration per m of apogee error (>= 0.02 chatters)
+ACTIVATION_ALTITUDE = 1500 
+SAMPLING_RATE = 20  # Hz
+KP = 0.005  # (m/s^2) of commanded deceleration per m of apogee error
 KI = 0.1  # (m/s^2) per m*s of apogee error
 
 if enable_weather:
-    env = Environment(date=(2026,10,17,15)) #Date:(2026,10,17,16)
-    env.set_location(latitude=39.44580338814086, longitude=-8.29626628763608)
+    env = Environment(date=(2026,10, 17,15)) 
+    env.set_location(latitude=39.392377, longitude=-8.290826)
     env.set_elevation("Open-Elevation")
-    env.set_atmospheric_model(type="Windy", file="GFS")
+    env.set_atmospheric_model(type="forecast", file="GFS")
+    
+
+    
 else:
     env = Environment()
+        # Viento constante de 8 m/s (puedes ajustar la dirección con wind_v si quieres componente en otro eje)
+    env.set_atmospheric_model(
+        type="custom_atmosphere",
+        wind_u=0,   # componente del viento en el eje Este-Oeste (m/s)
+        wind_v=8,   # componente del viento en el eje Norte-Sur (m/s)
+    )
+
 
 TARGET_APOGEE = 3000  + env.elevation  # Target apogee in meters above sea level
 
 
 TIMANFAYA = SolidMotor(
-    thrust_source=r"RESOURCES\ASPIDTHRUST.csv",
-    dry_mass=7.1,
+    thrust_source=r"RESOURCES\ASPIDTHRUST.csv", 
+    dry_mass=6.98,     
     dry_inertia=(5.168, 5.168, 0.017),
     nozzle_radius=60 / 2000,
     grain_number=4,
-    grain_density=1793,
+    grain_density=1842, 
     grain_outer_radius=45.5 / 1000,
     grain_initial_inner_radius=18 / 1000,
     grain_initial_height=200 / 1000,
@@ -47,6 +58,7 @@ TIMANFAYA = SolidMotor(
     throat_radius=28.546 / 2000,
     coordinate_system_orientation="combustion_chamber_to_nozzle",
 )
+
 
 
 ASPID = Rocket(
@@ -70,7 +82,6 @@ ASPID.add_trapezoidal_fins(
 )
 
 
-
 ASPID.add_parachute(
     "drogue",
     cd_s=0.51586,
@@ -82,14 +93,11 @@ ASPID.add_parachute(
 ASPID.add_parachute(
     "main",
     cd_s=6.126,
-    trigger=300,
+    trigger=450,
     radius=1.8027,
     lag=1,
 )
 
-
-flight_settings = dict(environment=env, rocket=ASPID, rail_length=12, inclination=84.0, terminate_on_apogee=True)
-baseline_flight = Flight(**flight_settings)  # Reference flight, run before adding the airbrakes
 
 controller = AirbrakesController(ASPID, env, TARGET_APOGEE, KP, KI, SAMPLING_RATE)
 
@@ -108,11 +116,17 @@ aerofreno = ASPID.add_air_brakes(
     sampling_rate=SAMPLING_RATE,
 )
 
-test_flight = Flight(**flight_settings)
+test_flight = Flight(
+    environment=env,
+    rocket=ASPID,
+    rail_length=12, 
+    inclination=84.0,
+    terminate_on_apogee=True)       
 
 
-print(f"Apogee without airbrakes: {baseline_flight.apogee - env.elevation:.1f} m AGL")
-print(f"Apogee with airbrakes:    {test_flight.apogee - env.elevation:.1f} m AGL")
-print(f"Error vs target:          {test_flight.apogee - TARGET_APOGEE:+.1f} m")
 
-plot_airbrakes(test_flight, baseline_flight, TARGET_APOGEE, ACTIVATION_ALTITUDE)
+test_flight.stability_margin()
+
+test_flight.angle_of_attack()
+
+test_flight.lateral_attitude_angle()
