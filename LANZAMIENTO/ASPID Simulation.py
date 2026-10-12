@@ -9,9 +9,9 @@ os.chdir(os.path.dirname(os.path.abspath(__file__)))  # RESOURCES paths work fro
 
 chamber_height = 0.923
 RADIO_ASPID = 0.065
-LONGITUD_ASPID = 2.916
+LONGITUD_ASPID = 2.943
 
-enable_airbrakes = True 
+enable_airbrakes = False
 enable_weather = False
 
 # Airbrakes controller
@@ -30,11 +30,10 @@ if enable_weather:
     
 else:
     env = Environment()
-        # Viento constante de 8 m/s (puedes ajustar la dirección con wind_v si quieres componente en otro eje)
     env.set_atmospheric_model(
         type="custom_atmosphere",
-        wind_u=0,   # componente del viento en el eje Este-Oeste (m/s)
-        wind_v=8,   # componente del viento en el eje Norte-Sur (m/s)
+        wind_u=-8,   # componente del viento en el eje Este-Oeste (m/s)
+        wind_v=0,   # componente del viento en el eje Norte-Sur (m/s)
     )
 
 
@@ -124,9 +123,19 @@ test_flight = Flight(
     terminate_on_apogee=True)       
 
 
+# =============================================================================
+# ANÁLISIS DE FLUTTER DE ALETA
+# =============================================================================
 
-test_flight.stability_margin()
+# Propiedades del material de la aleta (ejemplo: fibra de vidrio / aluminio / compuesto)
+FIN_THICKNESS = 0.004   # Espesor de la aleta en metros (p. ej., 4 mm)
+SHEAR_MODULUS = 24.21e9   # Módulo de cortante G en Pascualis (p. ej., ~3 GPa para composite/epoxi)
 
-test_flight.angle_of_attack()
-
-test_flight.lateral_attitude_angle()
+# 1. Ejecución del análisis mediante la utilidad interna de RocketPy
+flutter_mach_func, safety_factor_func = fin_flutter_analysis(
+    fin_thickness=FIN_THICKNESS,
+    shear_modulus=SHEAR_MODULUS,
+    flight=test_flight,
+    see_prints=True ,
+    see_graphs=True 
+)
