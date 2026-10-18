@@ -1,21 +1,16 @@
 import pandas as pd
 
-# 1. Configuración de parámetros
-archivo_entrada = "interpolacion_mach_cd_no_prot.csv"
-archivo_salida = "mach_cd_prot_sin_cono_cola.csv"
-columna_a_modificar = "CD_Linear"  # Cambiar o especificar la columna deseada
-cantidad_a_sumar = 0.26            # Modifica este valor según lo requieras
+# Configuración
+archivo_entrada = 'mach_cd_sin_chaflan_preciso.csv'
+archivo_salida = 'mach_cd_sin_chaflan_preciso_power_on.csv'
+col_idx = 1      # 0 = primera columna, 1 = segunda columna
+offset = 0.025     # Valor a sumar (usar negativo para restar)
 
-# 2. Cargar el archivo CSV
-df = pd.read_csv(archivo_entrada)
+# Cargar indicando que no hay cabecera
+df = pd.read_csv(archivo_entrada, header=None)
 
-# 3. Sumar la cantidad a la columna especificada
-df[columna_a_modificar] = df[columna_a_modificar] + cantidad_a_sumar
+# Modificar la columna por su posición entera
+df[col_idx] = df[col_idx] - offset
 
-# O bien, para sumar la cantidad a TODAS las columnas numéricas:
-# df = df + cantidad_a_sumar
-
-# 4. Exportar el resultado a un nuevo archivo CSV
-df.to_csv(archivo_salida, index=False)
-
-print(f"Proceso completado. Archivo guardado como '{archivo_salida}'.")
+# Guardar manteniendo el formato original (sin cabeceras ni índice de filas)
+df.to_csv(archivo_salida, header=False, index=False)

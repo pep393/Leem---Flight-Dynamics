@@ -1,7 +1,7 @@
 # ROCKETPY SIMULATION 
 
 import os
-from rocketpy import Environment, SolidMotor, Rocket, Flight
+from rocketpy import Environment, SolidMotor, Rocket, Flight, RailButtons
 from rocketpy.utilities import fin_flutter_analysis
 from LANZAMIENTO.airbrakes_control import AirbrakesController, plot_airbrakes
 
@@ -9,9 +9,9 @@ os.chdir(os.path.dirname(os.path.abspath(__file__)))  # RESOURCES paths work fro
 
 chamber_height = 0.923
 RADIO_ASPID = 0.065
-LONGITUD_ASPID = 2.916
+LONGITUD_ASPID = 2.95
 
-enable_airbrakes = True 
+enable_airbrakes = True
 enable_weather = False
 
 # Airbrakes controller
@@ -21,20 +21,23 @@ KP = 0.005  # (m/s^2) of commanded deceleration per m of apogee error
 KI = 0.1  # (m/s^2) per m*s of apogee error
 
 if enable_weather:
-    env = Environment(date=(2026,10, 17,15)) 
-    env.set_location(latitude=39.392377, longitude=-8.290826)
-    env.set_elevation("Open-Elevation")
+    env = Environment(
+        date=(2026, 10, 19, 9),    
+        latitude=39.392547, 
+        longitude=-8.289517,
+    )
     env.set_atmospheric_model(type="forecast", file="GFS")
-    
+    env.set_elevation(160)
 
-    
+
+
 else:
     env = Environment()
         # Viento constante de 8 m/s (puedes ajustar la dirección con wind_v si quieres componente en otro eje)
     env.set_atmospheric_model(
         type="custom_atmosphere",
-        wind_u=0,   # componente del viento en el eje Este-Oeste (m/s)
-        wind_v=8,   # componente del viento en el eje Norte-Sur (m/s)
+        wind_u=8,   # componente del viento en el eje Este-Oeste (m/s)
+        wind_v=0,   # componente del viento en el eje Norte-Sur (m/s)
     )
 
 
@@ -43,7 +46,7 @@ TARGET_APOGEE = 3000  + env.elevation  # Target apogee in meters above sea level
 
 TIMANFAYA = SolidMotor(
     thrust_source=r"RESOURCES\ASPIDTHRUST.csv", 
-    dry_mass=6.98,     
+    dry_mass=6.342,     
     dry_inertia=(5.168, 5.168, 0.017),
     nozzle_radius=60 / 2000,
     grain_number=4,
@@ -63,13 +66,15 @@ TIMANFAYA = SolidMotor(
 
 ASPID = Rocket(
     radius=RADIO_ASPID,
-    mass=14,
+    mass=14.6,      #14.6 normal
     inertia=(6.175, 6.175, 0.05),
-    power_off_drag=r"RESOURCES\mach_cd_prot_cono_cola.csv",
-    power_on_drag=r"RESOURCES\mach_cd_prot_cono_cola_power_on.csv",
-    center_of_mass_without_motor=1.4607,
+    power_off_drag=r"RESOURCES\mach_cd_sin_chaflan_preciso.csv",
+    power_on_drag=r"RESOURCES\mach_cd_sin_chaflan_preciso_power_on.csv",
+    center_of_mass_without_motor=1.438,
     coordinate_system_orientation="nose_to_tail"
 )
+
+
 
 ASPID.add_motor(TIMANFAYA, position=LONGITUD_ASPID - chamber_height)
 ASPID.add_nose(length=0.40, kind="ogive", position=0)
@@ -121,12 +126,20 @@ test_flight = Flight(
     rocket=ASPID,
     rail_length=12, 
     inclination=84.0,
-    terminate_on_apogee=True)       
+    # heading=145,    #145  90->Este 0->Norte
+    heading = 90, 
+    terminate_on_apogee=False)       
+
+
+test_flight.plots.attitude_data()
+test_flight.plots.trajectory_3d()
+test_flight.plots.aerodynamic_angles()
+# plot_airbrakes(test_flight, test_flight, ACTIVATION_ALTITUDE, TARGET_APOGEE)
+print(test_flight.altitude(test_flight.apogee_time))
+print(test_flight.out_of_rail_velocity)
+# test_flight.stability_margin()
+# test_flight.angle_of_attack()
+# test_flight.plots.animate_rotate()
 
 
 
-test_flight.stability_margin()
-
-test_flight.angle_of_attack()
-
-test_flight.lateral_attitude_angle()

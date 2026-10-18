@@ -25,10 +25,10 @@ G0 = 9.80665  # m/s^2, para pasar de aceleracion a "g's"
 
 chamber_height = 0.923
 RADIO_ASPID = 0.065
-LONGITUD_ASPID = 2.896
+LONGITUD_ASPID = 2.95
 
-enable_airbrakes = False
-enable_weather = False
+enable_airbrakes = True
+enable_weather = True 
 
 # Airbrakes controller
 ACTIVATION_ALTITUDE = 1500  # m AGL, airbrakes only act above it and while ascending
@@ -37,18 +37,18 @@ KP = 0.005  # (m/s^2) of commanded deceleration per m of apogee error (>= 0.02 c
 KI = 0.1  # (m/s^2) per m*s of apogee error
 
 if enable_weather:
-    env = Environment(date=(2026, 9, 13, 15)) 
-    env.set_location(latitude=39.44580338814086, longitude=-8.29626628763608)
-    env.set_elevation("Open-Elevation")
-    env.set_atmospheric_model(type="Windy", file="GFS")
-
-    env.all_info()
+    env = Environment(
+        date=(2026, 10, 19, 15),    
+        latitude=39.392547, 
+        longitude=-8.289517,
+    )
+    env.set_atmospheric_model(type="forecast", file="GFS")
+    env.set_elevation(160)
 
     stochastic_env = StochasticEnvironment(
     environment=env,
-    elevation=(env.elevation, 5),                 # +/- 5 m de incertidumbre de elevación
-    wind_velocity_x_factor=(1, 0.10),               # +/- 10% sobre el perfil de viento u
-    wind_velocity_y_factor=(1, 0.10),               # +/- 10% sobre el perfil de viento v
+    wind_velocity_x_factor=(1, 0.50),               # +/- 10% sobre el perfil de viento u
+    wind_velocity_y_factor=(1, 0.50),               # +/- 10% sobre el perfil de viento v
     )
 else:
     env = Environment()
@@ -67,13 +67,14 @@ TARGET_APOGEE = 3000 + env.elevation  # Target apogee in meters above sea level
 
 
 
+
 TIMANFAYA = SolidMotor(
-    thrust_source=r"RESOURCES\ASPIDTHRUST.csv",
-    dry_mass=7.1,
+    thrust_source=r"RESOURCES\ASPIDTHRUST.csv", 
+    dry_mass=6.342,     
     dry_inertia=(5.168, 5.168, 0.017),
     nozzle_radius=60 / 2000,
     grain_number=4,
-    grain_density=1793,
+    grain_density=1842, 
     grain_outer_radius=45.5 / 1000,
     grain_initial_inner_radius=18 / 1000,
     grain_initial_height=200 / 1000,
@@ -86,20 +87,18 @@ TIMANFAYA = SolidMotor(
 )
 
 stochastic_motor = StochasticSolidMotor(
-    solid_motor=TIMANFAYA,
-    total_impulse=(TIMANFAYA.total_impulse, 0.03 * TIMANFAYA.total_impulse),  # +/- 2%
-    burn_out_time=(TIMANFAYA.burn_out_time, 0.03 * TIMANFAYA.burn_out_time),   # +/- 2%
-    grain_density=(1793, 15),
+    solid_motor=TIMANFAYA
 )
+
 
 ASPID = Rocket(
     radius=RADIO_ASPID,
-    mass=14,
+    mass=14.6,      #14.6 normal
     inertia=(6.175, 6.175, 0.05),
-    power_off_drag=r"RESOURCES\mach_cd_prot_cono_cola.csv",
-    power_on_drag=r"RESOURCES\mach_cd_prot_cono_cola_power_on.csv",
-    center_of_mass_without_motor=1.4607,
-    coordinate_system_orientation="nose_to_tail",
+    power_off_drag=r"RESOURCES\mach_cd_sin_chaflan_preciso.csv",
+    power_on_drag=r"RESOURCES\mach_cd_sin_chaflan_preciso_power_on.csv",
+    center_of_mass_without_motor=1.438,
+    coordinate_system_orientation="nose_to_tail"
 )
 
 ASPID.add_motor(TIMANFAYA, position=LONGITUD_ASPID - chamber_height)
@@ -131,10 +130,7 @@ main = ASPID.add_parachute(
 )
 
 stochastic_rocket = StochasticRocket(
-    rocket=ASPID,
-    center_of_mass_without_motor=(1.4607, 0.01),
-    power_off_drag_factor=(1, 0.05),    # +/- 5% sobre la curva de Cd
-    power_on_drag_factor=(1, 0.05),
+    rocket=ASPID
 )
 
 stochastic_nosecone = StochasticNoseCone(nosecone=nose_cone)
@@ -190,10 +186,10 @@ stochastic_rocket.add_air_brakes(aerofreno, aerofreno_controller)
 test_flight = Flight(
     environment=env,
     rocket=ASPID,
-    rail_length=12,
+    rail_length=12, 
     inclination=84.0,
-    terminate_on_apogee=False,
-)
+    heading = 145, 
+    terminate_on_apogee=False)  
 
 stochastic_flight = StochasticFlight(
     flight=test_flight,

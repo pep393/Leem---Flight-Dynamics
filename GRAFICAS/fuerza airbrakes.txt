@@ -1,0 +1,41 @@
+# ---------------------------------------------------------------
+# FUERZA DEL AEROFRENO
+# ---------------------------------------------------------------
+import numpy as np
+import matplotlib.pyplot as plt
+
+obs = test_flight.get_controller_observed_variables()
+log = {key: np.array([step[key] for step in obs]) for key in obs[0]}
+
+t = log["t"]
+cd_ab = log["cd_ab"]                 # Cd real del aerofreno (0 si deployment = 0)
+deployment = log["deployment"]
+
+z = np.array([test_flight.z(ti) for ti in t])              # altitud ASL (m)
+v = np.array([test_flight.speed(ti) for ti in t])          # velocidad (m/s)
+rho = np.array([env.density(zi) for zi in z])              # densidad (kg/m^3)
+mass = np.array([ASPID.total_mass(ti) for ti in t])        # masa (kg)
+
+q = 0.5 * rho * v**2                                       # presión dinámica (Pa)
+F_airbrakes = q * ASPID.area * cd_ab                       # fuerza de arrastre del aerofreno (N)
+a_airbrakes = F_airbrakes / mass                           # deceleración (m/s^2)
+
+# Resultados
+i_max = np.argmax(F_airbrakes)
+print(f"Fuerza máxima del aerofreno: {F_airbrakes[i_max]:.1f} N")
+print(f"  en t = {t[i_max]:.2f} s, v = {v[i_max]:.1f} m/s, "
+      f"altitud AGL = {z[i_max] - env.elevation:.0f} m, deployment = {deployment[i_max]:.2f}")
+print(f"Deceleración máxima: {a_airbrakes.max():.2f} m/s² ({a_airbrakes.max()/9.81:.2f} g)")
+
+# Gráfica
+fig, ax = plt.subplots(2, 1, figsize=(10, 8), sharex=True)
+ax[0].plot(t, F_airbrakes, label="Fuerza del aerofreno")
+ax[0].set(ylabel="Fuerza (N)", title="Fuerza del aerofreno")
+ax[0].grid(True); ax[0].legend()
+
+ax[1].plot(t, deployment, label="Deployment")
+ax[1].plot(t, cd_ab, label="Cd aerofreno")
+ax[1].set(xlabel="Tiempo (s)", ylabel="(-)")
+ax[1].grid(True); ax[1].legend()
+plt.tight_layout()
+plt.show()

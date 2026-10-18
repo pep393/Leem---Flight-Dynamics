@@ -1,0 +1,4 @@
+ASPID.add_rail_buttons(
+    upper_button_position=LONGITUD_ASPID - 1.73,
+    lower_button_position=LONGITUD_ASPID - 0.09,
+)
